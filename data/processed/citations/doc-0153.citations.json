@@ -1,0 +1,264 @@
+{
+  "doc_id": "doc-0153",
+  "offset_basis": "Zero-based character offsets in cleaned text; end is exclusive.",
+  "summary": {
+    "total_mentions": 27,
+    "by_type": {
+      "statute": 18,
+      "case": 5,
+      "rule": 4
+    }
+  },
+  "citations": [
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100",
+      "start": 348,
+      "end": 360,
+      "section": "18.66.100",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(b)",
+      "start": 2933,
+      "end": 2948,
+      "section": "18.66.100",
+      "subsection": "(b)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.925",
+      "start": 3289,
+      "end": 3301,
+      "section": "18.66.925",
+      "subsection": ""
+    },
+    {
+      "type": "case",
+      "raw_text": "Wee v. Eggener, 225 P.3d 1120 (Alaska 2010)",
+      "start": 3515,
+      "end": 3558,
+      "case_name": "Wee v. Eggener",
+      "volume": "225",
+      "reporter": "P.3d",
+      "page": "1120",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2010,
+      "reporter_cite": "225 P.3d 1120"
+    },
+    {
+      "type": "case",
+      "raw_text": "Whalen v. Whalen, 425 P.3d 150 (Alaska 2018)",
+      "start": 3681,
+      "end": 3725,
+      "case_name": "Whalen v. Whalen",
+      "volume": "425",
+      "reporter": "P.3d",
+      "page": "150",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2018,
+      "reporter_cite": "425 P.3d 150"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(1)",
+      "start": 3776,
+      "end": 3794,
+      "section": "18.66.100",
+      "subsection": "(c)(1)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(2)",
+      "start": 3952,
+      "end": 3970,
+      "section": "18.66.100",
+      "subsection": "(c)(2)"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 3(h)",
+      "start": 4089,
+      "end": 4104,
+      "number": "3",
+      "subsection": "(h)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 65.1",
+      "start": 4459,
+      "end": 4474,
+      "number": "65.1",
+      "subsection": "",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(b)",
+      "start": 4852,
+      "end": 4867,
+      "section": "18.66.100",
+      "subsection": "(b)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Stephan P. v. Cecilia A., 464 P.3d 266 (Alaska 2020)",
+      "start": 5809,
+      "end": 5861,
+      "case_name": "Stephan P. v. Cecilia A.",
+      "volume": "464",
+      "reporter": "P.3d",
+      "page": "266",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2020,
+      "reporter_cite": "464 P.3d 266"
+    },
+    {
+      "type": "case",
+      "raw_text": "Sarah D. v. John D., 352 P.3d 419 (Alaska 2015)",
+      "start": 6270,
+      "end": 6317,
+      "case_name": "Sarah D. v. John D.",
+      "volume": "352",
+      "reporter": "P.3d",
+      "page": "419",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2015,
+      "reporter_cite": "352 P.3d 419"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.961",
+      "start": 6605,
+      "end": 6617,
+      "section": "18.66.961",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)",
+      "start": 7102,
+      "end": 7117,
+      "section": "18.66.100",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(1)",
+      "start": 7290,
+      "end": 7308,
+      "section": "18.66.100",
+      "subsection": "(c)(1)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(3)",
+      "start": 7604,
+      "end": 7622,
+      "section": "18.66.100",
+      "subsection": "(c)(3)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(4)",
+      "start": 8055,
+      "end": 8073,
+      "section": "18.66.100",
+      "subsection": "(c)(4)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.130(a)",
+      "start": 8457,
+      "end": 8472,
+      "section": "18.66.130",
+      "subsection": "(a)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(16)",
+      "start": 8915,
+      "end": 8934,
+      "section": "18.66.100",
+      "subsection": "(c)(16)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Thomas v. Thomas, 171 P.3d 98 (Alaska 2007)",
+      "start": 9511,
+      "end": 9554,
+      "case_name": "Thomas v. Thomas",
+      "volume": "171",
+      "reporter": "P.3d",
+      "page": "98",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2007,
+      "reporter_cite": "171 P.3d 98"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.130(e)",
+      "start": 9878,
+      "end": 9893,
+      "section": "18.66.130",
+      "subsection": "(e)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.130(c)",
+      "start": 10319,
+      "end": 10334,
+      "section": "18.66.130",
+      "subsection": "(c)"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Alaska R. Evid. 907(a)",
+      "start": 10994,
+      "end": 11016,
+      "number": "907",
+      "subsection": "(a)",
+      "rule_family": "evidence"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100",
+      "start": 11737,
+      "end": 11749,
+      "section": "18.66.100",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(b)(1)",
+      "start": 12023,
+      "end": 12041,
+      "section": "18.66.100",
+      "subsection": "(b)(1)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(16)",
+      "start": 12502,
+      "end": 12521,
+      "section": "18.66.100",
+      "subsection": "(c)(16)"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 65.1",
+      "start": 12685,
+      "end": 12700,
+      "number": "65.1",
+      "subsection": "",
+      "rule_family": "civil"
+    }
+  ]
+}

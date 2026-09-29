@@ -1,0 +1,353 @@
+{
+  "doc_id": "doc-0052",
+  "offset_basis": "Zero-based character offsets in cleaned text; end is exclusive.",
+  "summary": {
+    "total_mentions": 37,
+    "by_type": {
+      "statute": 24,
+      "case": 6,
+      "rule": 7
+    }
+  },
+  "citations": [
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.060",
+      "start": 1014,
+      "end": 1026,
+      "section": "25.20.060",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 3904,
+      "end": 3919,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.060",
+      "start": 4033,
+      "end": 4045,
+      "section": "25.20.060",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.30.310",
+      "start": 4436,
+      "end": 4448,
+      "section": "25.30.310",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 4650,
+      "end": 4665,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(d)",
+      "start": 5777,
+      "end": 5792,
+      "section": "25.24.150",
+      "subsection": "(d)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.070",
+      "start": 5977,
+      "end": 5989,
+      "section": "25.20.070",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.060",
+      "start": 6254,
+      "end": 6266,
+      "section": "25.20.060",
+      "subsection": ""
+    },
+    {
+      "type": "case",
+      "raw_text": "McQuade v. McQuade, 901 P.2d 421 (Alaska 1995)",
+      "start": 6559,
+      "end": 6605,
+      "case_name": "McQuade v. McQuade",
+      "volume": "901",
+      "reporter": "P.2d",
+      "page": "421",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1995,
+      "reporter_cite": "901 P.2d 421"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.060(a)",
+      "start": 7398,
+      "end": 7413,
+      "section": "25.20.060",
+      "subsection": "(a)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Jacob G. v. Savanah F., 545 P.3d 885 (Alaska 2024)",
+      "start": 7966,
+      "end": 8016,
+      "case_name": "Jacob G. v. Savanah F.",
+      "volume": "545",
+      "reporter": "P.3d",
+      "page": "885",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2024,
+      "reporter_cite": "545 P.3d 885"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 8383,
+      "end": 8398,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(1)",
+      "start": 8824,
+      "end": 8842,
+      "section": "25.24.150",
+      "subsection": "(c)(1)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(5)",
+      "start": 9331,
+      "end": 9349,
+      "section": "25.24.150",
+      "subsection": "(c)(5)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(2)",
+      "start": 9871,
+      "end": 9889,
+      "section": "25.24.150",
+      "subsection": "(c)(2)"
+    },
+    {
+      "type": "case",
+      "raw_text": "McQuade v. McQuade, 901 P.2d 421 (Alaska 1995)",
+      "start": 10536,
+      "end": 10582,
+      "case_name": "McQuade v. McQuade",
+      "volume": "901",
+      "reporter": "P.2d",
+      "page": "421",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1995,
+      "reporter_cite": "901 P.2d 421"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(4)",
+      "start": 10804,
+      "end": 10822,
+      "section": "25.24.150",
+      "subsection": "(c)(4)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(6)",
+      "start": 11504,
+      "end": 11522,
+      "section": "25.24.150",
+      "subsection": "(c)(6)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Rego v. Rego, 259 P.3d 447 (Alaska 2011)",
+      "start": 12063,
+      "end": 12103,
+      "case_name": "Rego v. Rego",
+      "volume": "259",
+      "reporter": "P.3d",
+      "page": "447",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2011,
+      "reporter_cite": "259 P.3d 447"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(9)",
+      "start": 13171,
+      "end": 13189,
+      "section": "25.24.150",
+      "subsection": "(c)(9)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Brett M. v. Amanda M., 445 P.3d 1005 (Alaska 2019)",
+      "start": 13717,
+      "end": 13767,
+      "case_name": "Brett M. v. Amanda M.",
+      "volume": "445",
+      "reporter": "P.3d",
+      "page": "1005",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2019,
+      "reporter_cite": "445 P.3d 1005"
+    },
+    {
+      "type": "case",
+      "raw_text": "Rego v. Rego, 259 P.3d 447 (Alaska 2011)",
+      "start": 13769,
+      "end": 13809,
+      "case_name": "Rego v. Rego",
+      "volume": "259",
+      "reporter": "P.3d",
+      "page": "447",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2011,
+      "reporter_cite": "259 P.3d 447"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.070",
+      "start": 14415,
+      "end": 14427,
+      "section": "25.20.070",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.060",
+      "start": 15172,
+      "end": 15184,
+      "section": "25.20.060",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.070",
+      "start": 15205,
+      "end": 15217,
+      "section": "25.20.070",
+      "subsection": ""
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.7(a)",
+      "start": 15360,
+      "end": 15378,
+      "number": "90.7",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.7(e)",
+      "start": 16079,
+      "end": 16097,
+      "number": "90.7",
+      "subsection": "(e)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(b)",
+      "start": 16765,
+      "end": 16783,
+      "number": "90.3",
+      "subsection": "(b)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(b)(1)",
+      "start": 16980,
+      "end": 17001,
+      "number": "90.3",
+      "subsection": "(b)(1)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.060",
+      "start": 17444,
+      "end": 17456,
+      "section": "25.20.060",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.30.310",
+      "start": 17461,
+      "end": 17473,
+      "section": "25.30.310",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.070",
+      "start": 17727,
+      "end": 17739,
+      "section": "25.20.070",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 17930,
+      "end": 17945,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.7(a)",
+      "start": 18058,
+      "end": 18076,
+      "number": "90.7",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.7(e)",
+      "start": 18081,
+      "end": 18099,
+      "number": "90.7",
+      "subsection": "(e)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150",
+      "start": 18488,
+      "end": 18500,
+      "section": "25.24.150",
+      "subsection": ""
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(b)",
+      "start": 18550,
+      "end": 18568,
+      "number": "90.3",
+      "subsection": "(b)",
+      "rule_family": "civil"
+    }
+  ]
+}

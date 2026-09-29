@@ -1,0 +1,267 @@
+{
+  "doc_id": "doc-0116",
+  "offset_basis": "Zero-based character offsets in cleaned text; end is exclusive.",
+  "summary": {
+    "total_mentions": 26,
+    "by_type": {
+      "statute": 16,
+      "case": 7,
+      "rule": 3
+    }
+  },
+  "citations": [
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.110(a)",
+      "start": 3143,
+      "end": 3158,
+      "section": "25.20.110",
+      "subsection": "(a)"
+    },
+    {
+      "type": "case",
+      "raw_text": "McLane v. Paul, 189 P.3d 1039 (Alaska 2008)",
+      "start": 3625,
+      "end": 3668,
+      "case_name": "McLane v. Paul",
+      "volume": "189",
+      "reporter": "P.3d",
+      "page": "1039",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2008,
+      "reporter_cite": "189 P.3d 1039"
+    },
+    {
+      "type": "case",
+      "raw_text": "Nelson v. Nelson, 263 P.3d 49 (Alaska 2011)",
+      "start": 3818,
+      "end": 3861,
+      "case_name": "Nelson v. Nelson",
+      "volume": "263",
+      "reporter": "P.3d",
+      "page": "49",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2011,
+      "reporter_cite": "263 P.3d 49"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 4005,
+      "end": 4020,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.090",
+      "start": 4810,
+      "end": 4822,
+      "section": "25.20.090",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.070",
+      "start": 5319,
+      "end": 5331,
+      "section": "25.20.070",
+      "subsection": ""
+    },
+    {
+      "type": "case",
+      "raw_text": "Barrett v. Alguire, 35 P.3d 1 (Alaska 2001)",
+      "start": 6108,
+      "end": 6151,
+      "case_name": "Barrett v. Alguire",
+      "volume": "35",
+      "reporter": "P.3d",
+      "page": "1",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2001,
+      "reporter_cite": "35 P.3d 1"
+    },
+    {
+      "type": "case",
+      "raw_text": "Nelson v. Nelson, 263 P.3d 49 (Alaska 2011)",
+      "start": 6562,
+      "end": 6605,
+      "case_name": "Nelson v. Nelson",
+      "volume": "263",
+      "reporter": "P.3d",
+      "page": "49",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2011,
+      "reporter_cite": "263 P.3d 49"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 8285,
+      "end": 8300,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(5)",
+      "start": 8833,
+      "end": 8851,
+      "section": "25.24.150",
+      "subsection": "(c)(5)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Hayes v. Hayes, 922 P.2d 896 (Alaska 1996)",
+      "start": 9318,
+      "end": 9360,
+      "case_name": "Hayes v. Hayes",
+      "volume": "922",
+      "reporter": "P.2d",
+      "page": "896",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1996,
+      "reporter_cite": "922 P.2d 896"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.090",
+      "start": 9951,
+      "end": 9963,
+      "section": "25.20.090",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(1)",
+      "start": 10719,
+      "end": 10737,
+      "section": "25.24.150",
+      "subsection": "(c)(1)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(2)",
+      "start": 11531,
+      "end": 11549,
+      "section": "25.24.150",
+      "subsection": "(c)(2)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(6)",
+      "start": 12444,
+      "end": 12462,
+      "section": "25.24.150",
+      "subsection": "(c)(6)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Tompkins v. Tompkins, 961 P.2d 419 (Alaska 1998)",
+      "start": 13032,
+      "end": 13080,
+      "case_name": "Tompkins v. Tompkins",
+      "volume": "961",
+      "reporter": "P.2d",
+      "page": "419",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1998,
+      "reporter_cite": "961 P.2d 419"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.070",
+      "start": 13340,
+      "end": 13352,
+      "section": "25.20.070",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(3)",
+      "start": 13941,
+      "end": 13959,
+      "section": "25.24.150",
+      "subsection": "(c)(3)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.090(1)",
+      "start": 13964,
+      "end": 13979,
+      "section": "25.20.090",
+      "subsection": "(1)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Barrett v. Alguire, 35 P.3d 1 (Alaska 2001)",
+      "start": 14624,
+      "end": 14667,
+      "case_name": "Barrett v. Alguire",
+      "volume": "35",
+      "reporter": "P.3d",
+      "page": "1",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2001,
+      "reporter_cite": "35 P.3d 1"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(b)",
+      "start": 15574,
+      "end": 15592,
+      "number": "90.3",
+      "subsection": "(b)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(b)",
+      "start": 16074,
+      "end": 16092,
+      "number": "90.3",
+      "subsection": "(b)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.110(a)",
+      "start": 16342,
+      "end": 16357,
+      "section": "25.20.110",
+      "subsection": "(a)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 16464,
+      "end": 16479,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.090",
+      "start": 16484,
+      "end": 16496,
+      "section": "25.20.090",
+      "subsection": ""
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(b)",
+      "start": 16768,
+      "end": 16786,
+      "number": "90.3",
+      "subsection": "(b)",
+      "rule_family": "civil"
+    }
+  ]
+}

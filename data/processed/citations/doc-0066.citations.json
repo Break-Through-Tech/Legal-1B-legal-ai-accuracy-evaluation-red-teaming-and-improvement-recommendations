@@ -1,0 +1,363 @@
+{
+  "doc_id": "doc-0066",
+  "offset_basis": "Zero-based character offsets in cleaned text; end is exclusive.",
+  "summary": {
+    "total_mentions": 36,
+    "by_type": {
+      "statute": 20,
+      "case": 9,
+      "rule": 7
+    }
+  },
+  "citations": [
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.060",
+      "start": 1232,
+      "end": 1244,
+      "section": "25.20.060",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.060",
+      "start": 3823,
+      "end": 3835,
+      "section": "25.20.060",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.30.310",
+      "start": 4321,
+      "end": 4333,
+      "section": "25.30.310",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.060(a)",
+      "start": 4736,
+      "end": 4751,
+      "section": "25.20.060",
+      "subsection": "(a)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 4829,
+      "end": 4844,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 5646,
+      "end": 5661,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(d)",
+      "start": 5774,
+      "end": 5789,
+      "section": "25.24.150",
+      "subsection": "(d)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.090",
+      "start": 5931,
+      "end": 5943,
+      "section": "25.20.090",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.090",
+      "start": 6389,
+      "end": 6401,
+      "section": "25.20.090",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.060(c)",
+      "start": 6642,
+      "end": 6657,
+      "section": "25.20.060",
+      "subsection": "(c)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Bruce H. v. Jennifer L., 407 P.3d 432 (Alaska 2017)",
+      "start": 6941,
+      "end": 6992,
+      "case_name": "Bruce H. v. Jennifer L.",
+      "volume": "407",
+      "reporter": "P.3d",
+      "page": "432",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2017,
+      "reporter_cite": "407 P.3d 432"
+    },
+    {
+      "type": "case",
+      "raw_text": "James R. v. Kylie R., 320 P.3d 273 (Alaska 2014)",
+      "start": 7237,
+      "end": 7285,
+      "case_name": "James R. v. Kylie R.",
+      "volume": "320",
+      "reporter": "P.3d",
+      "page": "273",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2014,
+      "reporter_cite": "320 P.3d 273"
+    },
+    {
+      "type": "case",
+      "raw_text": "Pingree v. Cossette, 424 P.3d 371 (Alaska 2018)",
+      "start": 7546,
+      "end": 7593,
+      "case_name": "Pingree v. Cossette",
+      "volume": "424",
+      "reporter": "P.3d",
+      "page": "371",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2018,
+      "reporter_cite": "424 P.3d 371"
+    },
+    {
+      "type": "case",
+      "raw_text": "Van Sickle v. McGraw, 134 P.3d 338 (Alaska 2006)",
+      "start": 7796,
+      "end": 7844,
+      "case_name": "Van Sickle v. McGraw",
+      "volume": "134",
+      "reporter": "P.3d",
+      "page": "338",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2006,
+      "reporter_cite": "134 P.3d 338"
+    },
+    {
+      "type": "case",
+      "raw_text": "Mendel-Gleason v. Harris, 261 P.3d 397 (Alaska 2011)",
+      "start": 8008,
+      "end": 8060,
+      "case_name": "Mendel-Gleason v. Harris",
+      "volume": "261",
+      "reporter": "P.3d",
+      "page": "397",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2011,
+      "reporter_cite": "261 P.3d 397"
+    },
+    {
+      "type": "case",
+      "raw_text": "Rooney v. Rooney, 914 P.2d 212 (Alaska 1996)",
+      "start": 8307,
+      "end": 8351,
+      "case_name": "Rooney v. Rooney",
+      "volume": "914",
+      "reporter": "P.2d",
+      "page": "212",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1996,
+      "reporter_cite": "914 P.2d 212"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.060",
+      "start": 8624,
+      "end": 8636,
+      "section": "25.20.060",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(5)",
+      "start": 9362,
+      "end": 9380,
+      "section": "25.24.150",
+      "subsection": "(c)(5)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(4)",
+      "start": 9972,
+      "end": 9990,
+      "section": "25.24.150",
+      "subsection": "(c)(4)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.060(c)",
+      "start": 10389,
+      "end": 10404,
+      "section": "25.20.060",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.090",
+      "start": 10682,
+      "end": 10694,
+      "section": "25.20.090",
+      "subsection": ""
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(b)",
+      "start": 11746,
+      "end": 11764,
+      "number": "90.3",
+      "subsection": "(b)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(6)",
+      "start": 12726,
+      "end": 12744,
+      "section": "25.24.150",
+      "subsection": "(c)(6)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Rooney v. Rooney, 914 P.2d 212 (Alaska 1996)",
+      "start": 12991,
+      "end": 13035,
+      "case_name": "Rooney v. Rooney",
+      "volume": "914",
+      "reporter": "P.2d",
+      "page": "212",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1996,
+      "reporter_cite": "914 P.2d 212"
+    },
+    {
+      "type": "case",
+      "raw_text": "James R. v. Kylie R., 320 P.3d 273 (Alaska 2014)",
+      "start": 13786,
+      "end": 13834,
+      "case_name": "James R. v. Kylie R.",
+      "volume": "320",
+      "reporter": "P.3d",
+      "page": "273",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2014,
+      "reporter_cite": "320 P.3d 273"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.090(5)",
+      "start": 14228,
+      "end": 14243,
+      "section": "25.20.090",
+      "subsection": "(5)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(3)",
+      "start": 14940,
+      "end": 14958,
+      "section": "25.24.150",
+      "subsection": "(c)(3)"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Alaska R. Evid. 706(a)",
+      "start": 15291,
+      "end": 15313,
+      "number": "706",
+      "subsection": "(a)",
+      "rule_family": "evidence"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Alaska R. Evid. 706(a)",
+      "start": 15519,
+      "end": 15541,
+      "number": "706",
+      "subsection": "(a)",
+      "rule_family": "evidence"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 16397,
+      "end": 16415,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(b)",
+      "start": 16419,
+      "end": 16437,
+      "number": "90.3",
+      "subsection": "(b)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "case",
+      "raw_text": "Bruce H. v. Jennifer L., 407 P.3d 432 (Alaska 2017)",
+      "start": 17061,
+      "end": 17112,
+      "case_name": "Bruce H. v. Jennifer L.",
+      "volume": "407",
+      "reporter": "P.3d",
+      "page": "432",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2017,
+      "reporter_cite": "407 P.3d 432"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150",
+      "start": 17815,
+      "end": 17827,
+      "section": "25.24.150",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.060",
+      "start": 17832,
+      "end": 17844,
+      "section": "25.20.060",
+      "subsection": ""
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 18656,
+      "end": 18674,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(b)",
+      "start": 18678,
+      "end": 18696,
+      "number": "90.3",
+      "subsection": "(b)",
+      "rule_family": "civil"
+    }
+  ]
+}

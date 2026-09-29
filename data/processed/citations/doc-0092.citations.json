@@ -1,0 +1,391 @@
+{
+  "doc_id": "doc-0092",
+  "offset_basis": "Zero-based character offsets in cleaned text; end is exclusive.",
+  "summary": {
+    "total_mentions": 39,
+    "by_type": {
+      "statute": 28,
+      "case": 11
+    }
+  },
+  "citations": [
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.110",
+      "start": 929,
+      "end": 941,
+      "section": "25.20.110",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 1008,
+      "end": 1023,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.090",
+      "start": 1028,
+      "end": 1040,
+      "section": "25.20.090",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.110(a)",
+      "start": 2897,
+      "end": 2912,
+      "section": "25.20.110",
+      "subsection": "(a)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.110(a)",
+      "start": 3212,
+      "end": 3227,
+      "section": "25.20.110",
+      "subsection": "(a)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 3326,
+      "end": 3341,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 4087,
+      "end": 4102,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.090",
+      "start": 4217,
+      "end": 4229,
+      "section": "25.20.090",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.090",
+      "start": 4643,
+      "end": 4655,
+      "section": "25.20.090",
+      "subsection": ""
+    },
+    {
+      "type": "case",
+      "raw_text": "Chesser-Witmer v. Chesser, 575 P.3d 332 (Alaska 2005)",
+      "start": 4826,
+      "end": 4879,
+      "case_name": "Chesser-Witmer v. Chesser",
+      "volume": "575",
+      "reporter": "P.3d",
+      "page": "332",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2005,
+      "reporter_cite": "575 P.3d 332"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.110(a)",
+      "start": 5054,
+      "end": 5069,
+      "section": "25.20.110",
+      "subsection": "(a)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Yvonne S. v. Wesley H., 245 P.3d 430 (Alaska 2011)",
+      "start": 5071,
+      "end": 5121,
+      "case_name": "Yvonne S. v. Wesley H.",
+      "volume": "245",
+      "reporter": "P.3d",
+      "page": "430",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2011,
+      "reporter_cite": "245 P.3d 430"
+    },
+    {
+      "type": "case",
+      "raw_text": "Pingree v. Cossette, 424 P.3d 371 (Alaska 2018)",
+      "start": 5263,
+      "end": 5310,
+      "case_name": "Pingree v. Cossette",
+      "volume": "424",
+      "reporter": "P.3d",
+      "page": "371",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2018,
+      "reporter_cite": "424 P.3d 371"
+    },
+    {
+      "type": "case",
+      "raw_text": "Tompkins v. Tompkins, 961 P.2d 419 (Alaska 1998)",
+      "start": 5452,
+      "end": 5500,
+      "case_name": "Tompkins v. Tompkins",
+      "volume": "961",
+      "reporter": "P.2d",
+      "page": "419",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1998,
+      "reporter_cite": "961 P.2d 419"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.110",
+      "start": 5622,
+      "end": 5634,
+      "section": "25.20.110",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.110(a)",
+      "start": 5663,
+      "end": 5678,
+      "section": "25.20.110",
+      "subsection": "(a)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Chesser-Witmer v. Chesser, 117 P.3d 711 (Alaska 2005)",
+      "start": 6334,
+      "end": 6387,
+      "case_name": "Chesser-Witmer v. Chesser",
+      "volume": "117",
+      "reporter": "P.3d",
+      "page": "711",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2005,
+      "reporter_cite": "117 P.3d 711"
+    },
+    {
+      "type": "case",
+      "raw_text": "Yvonne S. v. Wesley H., 245 P.3d 430 (Alaska 2011)",
+      "start": 7335,
+      "end": 7385,
+      "case_name": "Yvonne S. v. Wesley H.",
+      "volume": "245",
+      "reporter": "P.3d",
+      "page": "430",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2011,
+      "reporter_cite": "245 P.3d 430"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.110(a)",
+      "start": 7716,
+      "end": 7731,
+      "section": "25.20.110",
+      "subsection": "(a)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.110(a)",
+      "start": 8233,
+      "end": 8248,
+      "section": "25.20.110",
+      "subsection": "(a)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 8276,
+      "end": 8291,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.090",
+      "start": 8296,
+      "end": 8308,
+      "section": "25.20.090",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(5)",
+      "start": 8679,
+      "end": 8697,
+      "section": "25.24.150",
+      "subsection": "(c)(5)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Pingree v. Cossette, 424 P.3d 371 (Alaska 2018)",
+      "start": 9058,
+      "end": 9105,
+      "case_name": "Pingree v. Cossette",
+      "volume": "424",
+      "reporter": "P.3d",
+      "page": "371",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2018,
+      "reporter_cite": "424 P.3d 371"
+    },
+    {
+      "type": "case",
+      "raw_text": "Tompkins v. Tompkins, 961 P.2d 419 (Alaska 1998)",
+      "start": 9565,
+      "end": 9613,
+      "case_name": "Tompkins v. Tompkins",
+      "volume": "961",
+      "reporter": "P.2d",
+      "page": "419",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1998,
+      "reporter_cite": "961 P.2d 419"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.090(5)",
+      "start": 10009,
+      "end": 10024,
+      "section": "25.20.090",
+      "subsection": "(5)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.090(5)",
+      "start": 10950,
+      "end": 10965,
+      "section": "25.20.090",
+      "subsection": "(5)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(6)",
+      "start": 11133,
+      "end": 11151,
+      "section": "25.24.150",
+      "subsection": "(c)(6)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.971(E)",
+      "start": 11156,
+      "end": 11171,
+      "section": "25.20.971",
+      "subsection": "(E)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Harris v. Governale, 311 P.3d 1052 (Alaska 2013)",
+      "start": 12104,
+      "end": 12152,
+      "case_name": "Harris v. Governale",
+      "volume": "311",
+      "reporter": "P.3d",
+      "page": "1052",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2013,
+      "reporter_cite": "311 P.3d 1052"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(1)",
+      "start": 12429,
+      "end": 12447,
+      "section": "25.24.150",
+      "subsection": "(c)(1)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Yvonne S. v. Wesley H., 245 P.3d 430 (Alaska 2011)",
+      "start": 13198,
+      "end": 13248,
+      "case_name": "Yvonne S. v. Wesley H.",
+      "volume": "245",
+      "reporter": "P.3d",
+      "page": "430",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2011,
+      "reporter_cite": "245 P.3d 430"
+    },
+    {
+      "type": "case",
+      "raw_text": "Tompkins v. Tompkins, 961 P.2d 419 (Alaska 1998)",
+      "start": 14081,
+      "end": 14129,
+      "case_name": "Tompkins v. Tompkins",
+      "volume": "961",
+      "reporter": "P.2d",
+      "page": "419",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1998,
+      "reporter_cite": "961 P.2d 419"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.070",
+      "start": 14376,
+      "end": 14388,
+      "section": "25.20.070",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(g)",
+      "start": 14498,
+      "end": 14513,
+      "section": "25.24.150",
+      "subsection": "(g)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.30.310(a)",
+      "start": 15008,
+      "end": 15023,
+      "section": "25.30.310",
+      "subsection": "(a)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.110(a)",
+      "start": 15662,
+      "end": 15677,
+      "section": "25.20.110",
+      "subsection": "(a)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 15726,
+      "end": 15741,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.090",
+      "start": 15746,
+      "end": 15758,
+      "section": "25.20.090",
+      "subsection": ""
+    }
+  ]
+}

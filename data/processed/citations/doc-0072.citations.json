@@ -1,0 +1,394 @@
+{
+  "doc_id": "doc-0072",
+  "offset_basis": "Zero-based character offsets in cleaned text; end is exclusive.",
+  "summary": {
+    "total_mentions": 41,
+    "by_type": {
+      "statute": 24,
+      "case": 7,
+      "rule": 10
+    }
+  },
+  "citations": [
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.060",
+      "start": 297,
+      "end": 309,
+      "section": "25.20.060",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.060",
+      "start": 3920,
+      "end": 3932,
+      "section": "25.20.060",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 4207,
+      "end": 4222,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(g)",
+      "start": 4258,
+      "end": 4273,
+      "section": "25.24.150",
+      "subsection": "(g)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.060(a)",
+      "start": 4275,
+      "end": 4290,
+      "section": "25.20.060",
+      "subsection": "(a)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.060(b)",
+      "start": 4361,
+      "end": 4376,
+      "section": "25.20.060",
+      "subsection": "(b)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 4426,
+      "end": 4441,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(d)",
+      "start": 5427,
+      "end": 5442,
+      "section": "25.24.150",
+      "subsection": "(d)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.060(c)",
+      "start": 5849,
+      "end": 5864,
+      "section": "25.20.060",
+      "subsection": "(c)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Pingree v. Cossette, 424 P.3d 371 (Alaska 2018)",
+      "start": 6116,
+      "end": 6163,
+      "case_name": "Pingree v. Cossette",
+      "volume": "424",
+      "reporter": "P.3d",
+      "page": "371",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2018,
+      "reporter_cite": "424 P.3d 371"
+    },
+    {
+      "type": "case",
+      "raw_text": "Brian Ott v. Haley Runa, 463 P.3d 180 (Alaska 2020)",
+      "start": 6165,
+      "end": 6216,
+      "case_name": "Brian Ott v. Haley Runa",
+      "volume": "463",
+      "reporter": "P.3d",
+      "page": "180",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2020,
+      "reporter_cite": "463 P.3d 180"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.7(e)",
+      "start": 6356,
+      "end": 6374,
+      "number": "90.7",
+      "subsection": "(e)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.110(a)",
+      "start": 6745,
+      "end": 6760,
+      "section": "25.20.110",
+      "subsection": "(a)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.060",
+      "start": 6951,
+      "end": 6963,
+      "section": "25.20.060",
+      "subsection": ""
+    },
+    {
+      "type": "case",
+      "raw_text": "Pingree v. Cossette, 424 P.3d 371 (Alaska 2018)",
+      "start": 8195,
+      "end": 8242,
+      "case_name": "Pingree v. Cossette",
+      "volume": "424",
+      "reporter": "P.3d",
+      "page": "371",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2018,
+      "reporter_cite": "424 P.3d 371"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(5)",
+      "start": 8392,
+      "end": 8410,
+      "section": "25.24.150",
+      "subsection": "(c)(5)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 8844,
+      "end": 8859,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 9534,
+      "end": 9549,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 9738,
+      "end": 9753,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 10207,
+      "end": 10222,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 10871,
+      "end": 10886,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Brian Ott v. Haley Runa, 463 P.3d 180 (Alaska 2020)",
+      "start": 11641,
+      "end": 11692,
+      "case_name": "Brian Ott v. Haley Runa",
+      "volume": "463",
+      "reporter": "P.3d",
+      "page": "180",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2020,
+      "reporter_cite": "463 P.3d 180"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.060",
+      "start": 11741,
+      "end": 11753,
+      "section": "25.20.060",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 12014,
+      "end": 12029,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Van Sickle v. McGraw, 134 P.3d 338 (Alaska 2006)",
+      "start": 12394,
+      "end": 12442,
+      "case_name": "Van Sickle v. McGraw",
+      "volume": "134",
+      "reporter": "P.3d",
+      "page": "338",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2006,
+      "reporter_cite": "134 P.3d 338"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.060(c)",
+      "start": 12893,
+      "end": 12908,
+      "section": "25.20.060",
+      "subsection": "(c)"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(f)(1)",
+      "start": 14053,
+      "end": 14074,
+      "number": "90.3",
+      "subsection": "(f)(1)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(b)",
+      "start": 14241,
+      "end": 14259,
+      "number": "90.3",
+      "subsection": "(b)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 14441,
+      "end": 14459,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(b)",
+      "start": 14464,
+      "end": 14482,
+      "number": "90.3",
+      "subsection": "(b)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.7(e)",
+      "start": 14779,
+      "end": 14797,
+      "number": "90.7",
+      "subsection": "(e)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.7(e)",
+      "start": 15429,
+      "end": 15447,
+      "number": "90.7",
+      "subsection": "(e)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(5)",
+      "start": 16077,
+      "end": 16095,
+      "section": "25.24.150",
+      "subsection": "(c)(5)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Jayda Roman v. Cleveland Karren, 461 P.3d 1252 (Alaska 2020)",
+      "start": 16583,
+      "end": 16643,
+      "case_name": "Jayda Roman v. Cleveland Karren",
+      "volume": "461",
+      "reporter": "P.3d",
+      "page": "1252",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2020,
+      "reporter_cite": "461 P.3d 1252"
+    },
+    {
+      "type": "case",
+      "raw_text": "Mendel-Gleason v. Harris, 261 P.3d 397 (Alaska 2011)",
+      "start": 16645,
+      "end": 16697,
+      "case_name": "Mendel-Gleason v. Harris",
+      "volume": "261",
+      "reporter": "P.3d",
+      "page": "397",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2011,
+      "reporter_cite": "261 P.3d 397"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.060",
+      "start": 17204,
+      "end": 17216,
+      "section": "25.20.060",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150",
+      "start": 17221,
+      "end": 17233,
+      "section": "25.24.150",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 18030,
+      "end": 18045,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.7(e)",
+      "start": 18099,
+      "end": 18117,
+      "number": "90.7",
+      "subsection": "(e)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 18256,
+      "end": 18274,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(b)",
+      "start": 18279,
+      "end": 18297,
+      "number": "90.3",
+      "subsection": "(b)",
+      "rule_family": "civil"
+    }
+  ]
+}

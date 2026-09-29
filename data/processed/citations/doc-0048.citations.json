@@ -1,0 +1,285 @@
+{
+  "doc_id": "doc-0048",
+  "offset_basis": "Zero-based character offsets in cleaned text; end is exclusive.",
+  "summary": {
+    "total_mentions": 29,
+    "by_type": {
+      "statute": 20,
+      "case": 6,
+      "rule": 3
+    }
+  },
+  "citations": [
+    {
+      "type": "statute",
+      "raw_text": "AS 25.30.300",
+      "start": 2698,
+      "end": 2710,
+      "section": "25.30.300",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.30.300(a)(1)",
+      "start": 2910,
+      "end": 2928,
+      "section": "25.30.300",
+      "subsection": "(a)(1)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.30.300(a)",
+      "start": 2983,
+      "end": 2998,
+      "section": "25.30.300",
+      "subsection": "(a)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.30.300(b)",
+      "start": 3107,
+      "end": 3122,
+      "section": "25.30.300",
+      "subsection": "(b)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.30.300(c)",
+      "start": 3244,
+      "end": 3259,
+      "section": "25.30.300",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 3434,
+      "end": 3449,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(1)-(9)",
+      "start": 4168,
+      "end": 4190,
+      "section": "25.24.150",
+      "subsection": "(c)(1)-(9)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Melendrez v. Melendrez, 143 P.3d 957 (Alaska 2006)",
+      "start": 4391,
+      "end": 4441,
+      "case_name": "Melendrez v. Melendrez",
+      "volume": "143",
+      "reporter": "P.3d",
+      "page": "957",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2006,
+      "reporter_cite": "143 P.3d 957"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.30.300(a)(1)",
+      "start": 4925,
+      "end": 4943,
+      "section": "25.30.300",
+      "subsection": "(a)(1)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.30.310",
+      "start": 5171,
+      "end": 5183,
+      "section": "25.30.310",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.30.300",
+      "start": 5373,
+      "end": 5385,
+      "section": "25.30.300",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(5)",
+      "start": 5900,
+      "end": 5918,
+      "section": "25.24.150",
+      "subsection": "(c)(5)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Lee v. Cox, 790 P.2d 1359 (Alaska 1990)",
+      "start": 6139,
+      "end": 6178,
+      "case_name": "Lee v. Cox",
+      "volume": "790",
+      "reporter": "P.2d",
+      "page": "1359",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1990,
+      "reporter_cite": "790 P.2d 1359"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(8)",
+      "start": 6855,
+      "end": 6873,
+      "section": "25.24.150",
+      "subsection": "(c)(8)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(2)",
+      "start": 6994,
+      "end": 7012,
+      "section": "25.24.150",
+      "subsection": "(c)(2)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Michael W. v. Brown, 433 P.3d 1105 (Alaska 2018)",
+      "start": 7500,
+      "end": 7548,
+      "case_name": "Michael W. v. Brown",
+      "volume": "433",
+      "reporter": "P.3d",
+      "page": "1105",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2018,
+      "reporter_cite": "433 P.3d 1105"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(6)",
+      "start": 8184,
+      "end": 8202,
+      "section": "25.24.150",
+      "subsection": "(c)(6)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Jacob G. v. Savanah F., 545 P.3d 885 (Alaska 2024)",
+      "start": 8207,
+      "end": 8257,
+      "case_name": "Jacob G. v. Savanah F.",
+      "volume": "545",
+      "reporter": "P.3d",
+      "page": "885",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2024,
+      "reporter_cite": "545 P.3d 885"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(5)",
+      "start": 8948,
+      "end": 8966,
+      "section": "25.24.150",
+      "subsection": "(c)(5)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Sheffield v. Sheffield, 265 P.3d 332 (Alaska 2011)",
+      "start": 9011,
+      "end": 9061,
+      "case_name": "Sheffield v. Sheffield",
+      "volume": "265",
+      "reporter": "P.3d",
+      "page": "332",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2011,
+      "reporter_cite": "265 P.3d 332"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 65(e)",
+      "start": 9666,
+      "end": 9682,
+      "number": "65",
+      "subsection": "(e)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 65(e)(1)",
+      "start": 9919,
+      "end": 9938,
+      "number": "65",
+      "subsection": "(e)(1)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.30.300",
+      "start": 10162,
+      "end": 10174,
+      "section": "25.30.300",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.30.460",
+      "start": 10350,
+      "end": 10362,
+      "section": "25.30.460",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(4)",
+      "start": 10994,
+      "end": 11012,
+      "section": "25.24.150",
+      "subsection": "(c)(4)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150",
+      "start": 11427,
+      "end": 11439,
+      "section": "25.24.150",
+      "subsection": ""
+    },
+    {
+      "type": "case",
+      "raw_text": "Melendrez v. Melendrez, 143 P.3d 957 (Alaska 2006)",
+      "start": 11766,
+      "end": 11816,
+      "case_name": "Melendrez v. Melendrez",
+      "volume": "143",
+      "reporter": "P.3d",
+      "page": "957",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2006,
+      "reporter_cite": "143 P.3d 957"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150",
+      "start": 12170,
+      "end": 12182,
+      "section": "25.24.150",
+      "subsection": ""
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 65(e)(1)",
+      "start": 13990,
+      "end": 14009,
+      "number": "65",
+      "subsection": "(e)(1)",
+      "rule_family": "civil"
+    }
+  ]
+}

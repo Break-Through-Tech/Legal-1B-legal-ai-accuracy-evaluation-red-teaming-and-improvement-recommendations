@@ -1,0 +1,240 @@
+{
+  "doc_id": "doc-0009",
+  "offset_basis": "Zero-based character offsets in cleaned text; end is exclusive.",
+  "summary": {
+    "total_mentions": 20,
+    "by_type": {
+      "statute": 4,
+      "rule": 6,
+      "case": 10
+    }
+  },
+  "citations": [
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.110(a)",
+      "start": 3049,
+      "end": 3064,
+      "section": "25.20.110",
+      "subsection": "(a)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.170(a)",
+      "start": 3255,
+      "end": 3270,
+      "section": "25.24.170",
+      "subsection": "(a)"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 977(c)(1)",
+      "start": 3478,
+      "end": 3498,
+      "number": "977",
+      "subsection": "(c)(1)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "case",
+      "raw_text": "Berkbigler v. Berkbigler, 921 P.2d 628 (Alaska 1996)",
+      "start": 4186,
+      "end": 4238,
+      "case_name": "Berkbigler v. Berkbigler",
+      "volume": "921",
+      "reporter": "P.2d",
+      "page": "628",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1996,
+      "reporter_cite": "921 P.2d 628"
+    },
+    {
+      "type": "case",
+      "raw_text": "Holmes v. Holmes, 414 P.3d 662 (Alaska 2018)",
+      "start": 4502,
+      "end": 4546,
+      "case_name": "Holmes v. Holmes",
+      "volume": "414",
+      "reporter": "P.3d",
+      "page": "662",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2018,
+      "reporter_cite": "414 P.3d 662"
+    },
+    {
+      "type": "case",
+      "raw_text": "Headlough v. Headlough, 534 P.2d 633 (Alaska 1982)",
+      "start": 4760,
+      "end": 4810,
+      "case_name": "Headlough v. Headlough",
+      "volume": "534",
+      "reporter": "P.2d",
+      "page": "633",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1982,
+      "reporter_cite": "534 P.2d 633"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.110(a)",
+      "start": 4999,
+      "end": 5014,
+      "section": "25.20.110",
+      "subsection": "(a)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Berkbigler v. Berkbigler, 921 P.2d 628 (Alaska 1996)",
+      "start": 5370,
+      "end": 5422,
+      "case_name": "Berkbigler v. Berkbigler",
+      "volume": "921",
+      "reporter": "P.2d",
+      "page": "628",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1996,
+      "reporter_cite": "921 P.2d 628"
+    },
+    {
+      "type": "case",
+      "raw_text": "Headlough v. Headlough, 639 P.2d 1010 (Alaska 1982)",
+      "start": 5427,
+      "end": 5478,
+      "case_name": "Headlough v. Headlough",
+      "volume": "639",
+      "reporter": "P.2d",
+      "page": "1010",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1982,
+      "reporter_cite": "639 P.2d 1010"
+    },
+    {
+      "type": "case",
+      "raw_text": "Mitchell v. Mitchell, 370 P.3d 1070 (Alaska 2016)",
+      "start": 6349,
+      "end": 6398,
+      "case_name": "Mitchell v. Mitchell",
+      "volume": "370",
+      "reporter": "P.3d",
+      "page": "1070",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2016,
+      "reporter_cite": "370 P.3d 1070"
+    },
+    {
+      "type": "case",
+      "raw_text": "Holmes v. Holmes, 414 P.3d 662 (Alaska 2018)",
+      "start": 6861,
+      "end": 6905,
+      "case_name": "Holmes v. Holmes",
+      "volume": "414",
+      "reporter": "P.3d",
+      "page": "662",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2018,
+      "reporter_cite": "414 P.3d 662"
+    },
+    {
+      "type": "case",
+      "raw_text": "Peter Chapman v. Julia Chapman, 725 P.3d 476 (Alaska 2025)",
+      "start": 6921,
+      "end": 6979,
+      "case_name": "Peter Chapman v. Julia Chapman",
+      "volume": "725",
+      "reporter": "P.3d",
+      "page": "476",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2025,
+      "reporter_cite": "725 P.3d 476"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(c)(1)",
+      "start": 7661,
+      "end": 7682,
+      "number": "90.3",
+      "subsection": "(c)(1)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "case",
+      "raw_text": "Headlough v. Headlough, 639 P.2d 1010 (Alaska 1982)",
+      "start": 8080,
+      "end": 8131,
+      "case_name": "Headlough v. Headlough",
+      "volume": "639",
+      "reporter": "P.2d",
+      "page": "1010",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1982,
+      "reporter_cite": "639 P.2d 1010"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Rule 90.3",
+      "start": 8411,
+      "end": 8420,
+      "number": "90.3",
+      "subsection": "",
+      "rule_family": null
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(c)(1)",
+      "start": 8498,
+      "end": 8519,
+      "number": "90.3",
+      "subsection": "(c)(1)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.27.060(a)",
+      "start": 9909,
+      "end": 9924,
+      "section": "25.27.060",
+      "subsection": "(a)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Holmes v. Holmes, 414 P.3d 662 (Alaska 2018)",
+      "start": 10913,
+      "end": 10957,
+      "case_name": "Holmes v. Holmes",
+      "volume": "414",
+      "reporter": "P.3d",
+      "page": "662",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2018,
+      "reporter_cite": "414 P.3d 662"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Rule 90.3",
+      "start": 10982,
+      "end": 10991,
+      "number": "90.3",
+      "subsection": "",
+      "rule_family": null
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(c)(1)",
+      "start": 12002,
+      "end": 12023,
+      "number": "90.3",
+      "subsection": "(c)(1)",
+      "rule_family": "civil"
+    }
+  ]
+}

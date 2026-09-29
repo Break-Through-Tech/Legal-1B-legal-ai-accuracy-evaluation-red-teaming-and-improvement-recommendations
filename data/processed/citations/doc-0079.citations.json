@@ -1,0 +1,452 @@
+{
+  "doc_id": "doc-0079",
+  "offset_basis": "Zero-based character offsets in cleaned text; end is exclusive.",
+  "summary": {
+    "total_mentions": 44,
+    "by_type": {
+      "statute": 23,
+      "case": 13,
+      "rule": 8
+    }
+  },
+  "citations": [
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.060",
+      "start": 3042,
+      "end": 3054,
+      "section": "25.20.060",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 3355,
+      "end": 3370,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(g)",
+      "start": 3407,
+      "end": 3422,
+      "section": "25.24.150",
+      "subsection": "(g)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.060",
+      "start": 3424,
+      "end": 3436,
+      "section": "25.20.060",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 3683,
+      "end": 3698,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Sheffield v. Sheffield, 265 P.3d 332 (Alaska 2011)",
+      "start": 4568,
+      "end": 4618,
+      "case_name": "Sheffield v. Sheffield",
+      "volume": "265",
+      "reporter": "P.3d",
+      "page": "332",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2011,
+      "reporter_cite": "265 P.3d 332"
+    },
+    {
+      "type": "case",
+      "raw_text": "Rego v. Rego, 259 P.3d 447 (Alaska 2011)",
+      "start": 4620,
+      "end": 4660,
+      "case_name": "Rego v. Rego",
+      "volume": "259",
+      "reporter": "P.3d",
+      "page": "447",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2011,
+      "reporter_cite": "259 P.3d 447"
+    },
+    {
+      "type": "case",
+      "raw_text": "Harris v. Governale, 311 P.3d 1052 (Alaska 2013)",
+      "start": 4790,
+      "end": 4838,
+      "case_name": "Harris v. Governale",
+      "volume": "311",
+      "reporter": "P.3d",
+      "page": "1052",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2013,
+      "reporter_cite": "311 P.3d 1052"
+    },
+    {
+      "type": "case",
+      "raw_text": "Mendel-Gleason v. Harris, 261 P.3d 397 (Alaska 2011)",
+      "start": 5171,
+      "end": 5223,
+      "case_name": "Mendel-Gleason v. Harris",
+      "volume": "261",
+      "reporter": "P.3d",
+      "page": "397",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2011,
+      "reporter_cite": "261 P.3d 397"
+    },
+    {
+      "type": "case",
+      "raw_text": "Chesser-Witmer v. Chesser, 117 P.3d 711 (Alaska 2005)",
+      "start": 5225,
+      "end": 5278,
+      "case_name": "Chesser-Witmer v. Chesser",
+      "volume": "117",
+      "reporter": "P.3d",
+      "page": "711",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2005,
+      "reporter_cite": "117 P.3d 711"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(6)",
+      "start": 5441,
+      "end": 5459,
+      "section": "25.24.150",
+      "subsection": "(c)(6)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Blanton v. Yourkowski, 180 P.3d 948 (Alaska 2008)",
+      "start": 5630,
+      "end": 5679,
+      "case_name": "Blanton v. Yourkowski",
+      "volume": "180",
+      "reporter": "P.3d",
+      "page": "948",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2008,
+      "reporter_cite": "180 P.3d 948"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.060",
+      "start": 5879,
+      "end": 5891,
+      "section": "25.20.060",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.30.310",
+      "start": 6096,
+      "end": 6108,
+      "section": "25.30.310",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 7423,
+      "end": 7438,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(5)",
+      "start": 7567,
+      "end": 7585,
+      "section": "25.24.150",
+      "subsection": "(c)(5)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Mendel-Gleason v. Harris, 261 P.3d 397 (Alaska 2011)",
+      "start": 8073,
+      "end": 8125,
+      "case_name": "Mendel-Gleason v. Harris",
+      "volume": "261",
+      "reporter": "P.3d",
+      "page": "397",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2011,
+      "reporter_cite": "261 P.3d 397"
+    },
+    {
+      "type": "case",
+      "raw_text": "Chesser-Witmer v. Chesser, 117 P.3d 711 (Alaska 2005)",
+      "start": 8127,
+      "end": 8180,
+      "case_name": "Chesser-Witmer v. Chesser",
+      "volume": "117",
+      "reporter": "P.3d",
+      "page": "711",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2005,
+      "reporter_cite": "117 P.3d 711"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(2)",
+      "start": 8842,
+      "end": 8860,
+      "section": "25.24.150",
+      "subsection": "(c)(2)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(1)",
+      "start": 9379,
+      "end": 9397,
+      "section": "25.24.150",
+      "subsection": "(c)(1)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(2)",
+      "start": 9926,
+      "end": 9944,
+      "section": "25.24.150",
+      "subsection": "(c)(2)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.060",
+      "start": 10525,
+      "end": 10537,
+      "section": "25.20.060",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(6)",
+      "start": 11175,
+      "end": 11193,
+      "section": "25.24.150",
+      "subsection": "(c)(6)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Blanton v. Yourkowski, 180 P.3d 948 (Alaska 2008)",
+      "start": 11425,
+      "end": 11474,
+      "case_name": "Blanton v. Yourkowski",
+      "volume": "180",
+      "reporter": "P.3d",
+      "page": "948",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2008,
+      "reporter_cite": "180 P.3d 948"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150",
+      "start": 12053,
+      "end": 12065,
+      "section": "25.24.150",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.060",
+      "start": 12070,
+      "end": 12082,
+      "section": "25.20.060",
+      "subsection": ""
+    },
+    {
+      "type": "case",
+      "raw_text": "Sheffield v. Sheffield, 265 P.3d 332 (Alaska 2011)",
+      "start": 13195,
+      "end": 13245,
+      "case_name": "Sheffield v. Sheffield",
+      "volume": "265",
+      "reporter": "P.3d",
+      "page": "332",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2011,
+      "reporter_cite": "265 P.3d 332"
+    },
+    {
+      "type": "case",
+      "raw_text": "Rego v. Rego, 259 P.3d 447 (Alaska 2011)",
+      "start": 13247,
+      "end": 13287,
+      "case_name": "Rego v. Rego",
+      "volume": "259",
+      "reporter": "P.3d",
+      "page": "447",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2011,
+      "reporter_cite": "259 P.3d 447"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.060",
+      "start": 13571,
+      "end": 13583,
+      "section": "25.20.060",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150",
+      "start": 14121,
+      "end": 14133,
+      "section": "25.24.150",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.060",
+      "start": 14138,
+      "end": 14150,
+      "section": "25.20.060",
+      "subsection": ""
+    },
+    {
+      "type": "case",
+      "raw_text": "Harris v. Governale, 311 P.3d 1052 (Alaska 2013)",
+      "start": 14450,
+      "end": 14498,
+      "case_name": "Harris v. Governale",
+      "volume": "311",
+      "reporter": "P.3d",
+      "page": "1052",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2013,
+      "reporter_cite": "311 P.3d 1052"
+    },
+    {
+      "type": "case",
+      "raw_text": "Chesser-Witmer v. Chesser, 117 P.3d 711 (Alaska 2005)",
+      "start": 14500,
+      "end": 14553,
+      "case_name": "Chesser-Witmer v. Chesser",
+      "volume": "117",
+      "reporter": "P.3d",
+      "page": "711",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2005,
+      "reporter_cite": "117 P.3d 711"
+    },
+    {
+      "type": "rule",
+      "raw_text": "CIVIL RULE 90.3",
+      "start": 15285,
+      "end": 15300,
+      "number": "90.3",
+      "subsection": "",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 15396,
+      "end": 15414,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)(2)(A)",
+      "start": 15626,
+      "end": 15650,
+      "number": "90.3",
+      "subsection": "(a)(2)(A)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)(1)",
+      "start": 15800,
+      "end": 15821,
+      "number": "90.3",
+      "subsection": "(a)(1)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(c)(5)",
+      "start": 16073,
+      "end": 16094,
+      "number": "90.3",
+      "subsection": "(c)(5)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(c)(1)",
+      "start": 16272,
+      "end": 16293,
+      "number": "90.3",
+      "subsection": "(c)(1)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 16630,
+      "end": 16648,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.060",
+      "start": 16885,
+      "end": 16897,
+      "section": "25.20.060",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.30.310",
+      "start": 16902,
+      "end": 16914,
+      "section": "25.30.310",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 17272,
+      "end": 17287,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 17680,
+      "end": 17698,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    }
+  ]
+}

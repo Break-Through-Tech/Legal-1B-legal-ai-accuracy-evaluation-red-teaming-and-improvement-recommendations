@@ -1,0 +1,431 @@
+{
+  "doc_id": "doc-0191",
+  "offset_basis": "Zero-based character offsets in cleaned text; end is exclusive.",
+  "summary": {
+    "total_mentions": 41,
+    "by_type": {
+      "rule": 17,
+      "statute": 12,
+      "case": 12
+    }
+  },
+  "citations": [
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 1146,
+      "end": 1164,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 2069,
+      "end": 2087,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.170(a)",
+      "start": 3347,
+      "end": 3362,
+      "section": "25.24.170",
+      "subsection": "(a)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.27.190(e)",
+      "start": 3625,
+      "end": 3640,
+      "section": "25.27.190",
+      "subsection": "(e)"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3",
+      "start": 3832,
+      "end": 3847,
+      "number": "90.3",
+      "subsection": "",
+      "rule_family": "civil"
+    },
+    {
+      "type": "case",
+      "raw_text": "Bunn v. House, 934 P.2d 753 (Alaska 1997)",
+      "start": 4024,
+      "end": 4065,
+      "case_name": "Bunn v. House",
+      "volume": "934",
+      "reporter": "P.2d",
+      "page": "753",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1997,
+      "reporter_cite": "934 P.2d 753"
+    },
+    {
+      "type": "case",
+      "raw_text": "Holmes v. Holmes, 414 P.3d 662 (Alaska 2018)",
+      "start": 4298,
+      "end": 4342,
+      "case_name": "Holmes v. Holmes",
+      "volume": "414",
+      "reporter": "P.3d",
+      "page": "662",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2018,
+      "reporter_cite": "414 P.3d 662"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 4527,
+      "end": 4545,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)(4)",
+      "start": 4992,
+      "end": 5013,
+      "number": "90.3",
+      "subsection": "(a)(4)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "case",
+      "raw_text": "Flannery v. Flannery, 950 P.2d 126 (Alaska 1997)",
+      "start": 5175,
+      "end": 5223,
+      "case_name": "Flannery v. Flannery",
+      "volume": "950",
+      "reporter": "P.2d",
+      "page": "126",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1997,
+      "reporter_cite": "950 P.2d 126"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 5305,
+      "end": 5320,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Child Support Enforcement Division v. Bromley, 987 P.2d 183 (Alaska 1999)",
+      "start": 5520,
+      "end": 5593,
+      "case_name": "Child Support Enforcement Division v. Bromley",
+      "volume": "987",
+      "reporter": "P.2d",
+      "page": "183",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1999,
+      "reporter_cite": "987 P.2d 183"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.170(b)",
+      "start": 5860,
+      "end": 5875,
+      "section": "25.24.170",
+      "subsection": "(b)"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 6327,
+      "end": 6345,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "case",
+      "raw_text": "Bunn v. House, 934 P.2d 753 (Alaska 1997)",
+      "start": 6598,
+      "end": 6639,
+      "case_name": "Bunn v. House",
+      "volume": "934",
+      "reporter": "P.2d",
+      "page": "753",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1997,
+      "reporter_cite": "934 P.2d 753"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 6660,
+      "end": 6678,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "case",
+      "raw_text": "Headlough v. Headlough, 639 P.2d 1010 (Alaska 1982)",
+      "start": 7452,
+      "end": 7503,
+      "case_name": "Headlough v. Headlough",
+      "volume": "639",
+      "reporter": "P.2d",
+      "page": "1010",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1982,
+      "reporter_cite": "639 P.2d 1010"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 7710,
+      "end": 7728,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 7842,
+      "end": 7860,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)(2)(B)",
+      "start": 8115,
+      "end": 8139,
+      "number": "90.3",
+      "subsection": "(a)(2)(B)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)(1)",
+      "start": 8170,
+      "end": 8191,
+      "number": "90.3",
+      "subsection": "(a)(1)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 9006,
+      "end": 9024,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "case",
+      "raw_text": "Wilhour v. Wilhour, 308 P.3d 884 (Alaska 2013)",
+      "start": 9226,
+      "end": 9272,
+      "case_name": "Wilhour v. Wilhour",
+      "volume": "308",
+      "reporter": "P.3d",
+      "page": "884",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2013,
+      "reporter_cite": "308 P.3d 884"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)(4)",
+      "start": 9547,
+      "end": 9568,
+      "number": "90.3",
+      "subsection": "(a)(4)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "case",
+      "raw_text": "Flannery v. Flannery, 950 P.2d 126 (Alaska 1997)",
+      "start": 10083,
+      "end": 10131,
+      "case_name": "Flannery v. Flannery",
+      "volume": "950",
+      "reporter": "P.2d",
+      "page": "126",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1997,
+      "reporter_cite": "950 P.2d 126"
+    },
+    {
+      "type": "case",
+      "raw_text": "Flannery v. Flannery, 950 P.2d 126 (Alaska 1997)",
+      "start": 10884,
+      "end": 10932,
+      "case_name": "Flannery v. Flannery",
+      "volume": "950",
+      "reporter": "P.2d",
+      "page": "126",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1997,
+      "reporter_cite": "950 P.2d 126"
+    },
+    {
+      "type": "case",
+      "raw_text": "Wilhour v. Wilhour, 308 P.3d 884 (Alaska 2013)",
+      "start": 11282,
+      "end": 11328,
+      "case_name": "Wilhour v. Wilhour",
+      "volume": "308",
+      "reporter": "P.3d",
+      "page": "884",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2013,
+      "reporter_cite": "308 P.3d 884"
+    },
+    {
+      "type": "case",
+      "raw_text": "Peter Chapman v. Julia Chapman, 563 P.3d 1155 (Alaska 2025)",
+      "start": 11494,
+      "end": 11553,
+      "case_name": "Peter Chapman v. Julia Chapman",
+      "volume": "563",
+      "reporter": "P.3d",
+      "page": "1155",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2025,
+      "reporter_cite": "563 P.3d 1155"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.27.060(c)",
+      "start": 11922,
+      "end": 11937,
+      "section": "25.27.060",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.27.060(c)",
+      "start": 12608,
+      "end": 12623,
+      "section": "25.27.060",
+      "subsection": "(c)"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 13031,
+      "end": 13049,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(c)(1)",
+      "start": 13168,
+      "end": 13189,
+      "number": "90.3",
+      "subsection": "(c)(1)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "case",
+      "raw_text": "Child Support Enforcement Division v. Bromley, 987 P.2d 183 (Alaska 1999)",
+      "start": 13797,
+      "end": 13870,
+      "case_name": "Child Support Enforcement Division v. Bromley",
+      "volume": "987",
+      "reporter": "P.2d",
+      "page": "183",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1999,
+      "reporter_cite": "987 P.2d 183"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.27.060",
+      "start": 14119,
+      "end": 14131,
+      "section": "25.27.060",
+      "subsection": ""
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 14136,
+      "end": 14154,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.27.062",
+      "start": 14301,
+      "end": 14313,
+      "section": "25.27.062",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.27.062(a)",
+      "start": 14552,
+      "end": 14567,
+      "section": "25.27.062",
+      "subsection": "(a)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.110(b)",
+      "start": 14727,
+      "end": 14742,
+      "section": "25.20.110",
+      "subsection": "(b)"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 15640,
+      "end": 15658,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.27.060(c)",
+      "start": 16170,
+      "end": 16185,
+      "section": "25.27.060",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.27.062",
+      "start": 16277,
+      "end": 16289,
+      "section": "25.27.062",
+      "subsection": ""
+    }
+  ]
+}

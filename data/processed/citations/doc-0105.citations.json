@@ -1,0 +1,372 @@
+{
+  "doc_id": "doc-0105",
+  "offset_basis": "Zero-based character offsets in cleaned text; end is exclusive.",
+  "summary": {
+    "total_mentions": 38,
+    "by_type": {
+      "statute": 24,
+      "case": 8,
+      "rule": 6
+    }
+  },
+  "citations": [
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.110(a)",
+      "start": 3511,
+      "end": 3526,
+      "section": "25.20.110",
+      "subsection": "(a)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Nelson v. Nelson, 263 P.3d 49 (Alaska 2011)",
+      "start": 3676,
+      "end": 3719,
+      "case_name": "Nelson v. Nelson",
+      "volume": "263",
+      "reporter": "P.3d",
+      "page": "49",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2011,
+      "reporter_cite": "263 P.3d 49"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 3873,
+      "end": 3888,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 4511,
+      "end": 4526,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.070",
+      "start": 4542,
+      "end": 4554,
+      "section": "25.20.070",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(g)",
+      "start": 4682,
+      "end": 4697,
+      "section": "25.24.150",
+      "subsection": "(g)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.090",
+      "start": 4955,
+      "end": 4967,
+      "section": "25.20.090",
+      "subsection": ""
+    },
+    {
+      "type": "case",
+      "raw_text": "Weathers v. Weathers, 425 P.3d 131 (Alaska 2018)",
+      "start": 5483,
+      "end": 5531,
+      "case_name": "Weathers v. Weathers",
+      "volume": "425",
+      "reporter": "P.3d",
+      "page": "131",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2018,
+      "reporter_cite": "425 P.3d 131"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(d)",
+      "start": 5624,
+      "end": 5639,
+      "section": "25.24.150",
+      "subsection": "(d)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.110(a)",
+      "start": 5876,
+      "end": 5891,
+      "section": "25.20.110",
+      "subsection": "(a)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.110(a)",
+      "start": 6066,
+      "end": 6081,
+      "section": "25.20.110",
+      "subsection": "(a)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Nelson v. Nelson, 263 P.3d 49 (Alaska 2011)",
+      "start": 6312,
+      "end": 6355,
+      "case_name": "Nelson v. Nelson",
+      "volume": "263",
+      "reporter": "P.3d",
+      "page": "49",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2011,
+      "reporter_cite": "263 P.3d 49"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.110(a)",
+      "start": 6479,
+      "end": 6494,
+      "section": "25.20.110",
+      "subsection": "(a)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Barrett v. Alguire, 35 P.3d 1 (Alaska 2001)",
+      "start": 7069,
+      "end": 7112,
+      "case_name": "Barrett v. Alguire",
+      "volume": "35",
+      "reporter": "P.3d",
+      "page": "1",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2001,
+      "reporter_cite": "35 P.3d 1"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 7848,
+      "end": 7863,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 8034,
+      "end": 8049,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(5)",
+      "start": 8429,
+      "end": 8447,
+      "section": "25.24.150",
+      "subsection": "(c)(5)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Tompkins v. Tompkins, 961 P.2d 419 (Alaska 1998)",
+      "start": 9301,
+      "end": 9349,
+      "case_name": "Tompkins v. Tompkins",
+      "volume": "961",
+      "reporter": "P.2d",
+      "page": "419",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1998,
+      "reporter_cite": "961 P.2d 419"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(6)",
+      "start": 9745,
+      "end": 9763,
+      "section": "25.24.150",
+      "subsection": "(c)(6)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.090(6)(E)",
+      "start": 10415,
+      "end": 10433,
+      "section": "25.20.090",
+      "subsection": "(6)(E)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.070",
+      "start": 10963,
+      "end": 10975,
+      "section": "25.20.070",
+      "subsection": ""
+    },
+    {
+      "type": "case",
+      "raw_text": "Tompkins v. Tompkins, 961 P.2d 419 (Alaska 1998)",
+      "start": 11715,
+      "end": 11763,
+      "case_name": "Tompkins v. Tompkins",
+      "volume": "961",
+      "reporter": "P.2d",
+      "page": "419",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1998,
+      "reporter_cite": "961 P.2d 419"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(1)",
+      "start": 12128,
+      "end": 12146,
+      "section": "25.24.150",
+      "subsection": "(c)(1)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(2)",
+      "start": 12258,
+      "end": 12276,
+      "section": "25.24.150",
+      "subsection": "(c)(2)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.090(6)(B)",
+      "start": 13324,
+      "end": 13342,
+      "section": "25.20.090",
+      "subsection": "(6)(B)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Brett M. v. Amanda M., 445 P.3d 1005 (Alaska 2019)",
+      "start": 14340,
+      "end": 14390,
+      "case_name": "Brett M. v. Amanda M.",
+      "volume": "445",
+      "reporter": "P.3d",
+      "page": "1005",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2019,
+      "reporter_cite": "445 P.3d 1005"
+    },
+    {
+      "type": "case",
+      "raw_text": "Weathers v. Weathers, 425 P.3d 131 (Alaska 2018)",
+      "start": 14881,
+      "end": 14929,
+      "case_name": "Weathers v. Weathers",
+      "volume": "425",
+      "reporter": "P.3d",
+      "page": "131",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2018,
+      "reporter_cite": "425 P.3d 131"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 15333,
+      "end": 15348,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.090",
+      "start": 15352,
+      "end": 15364,
+      "section": "25.20.090",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(d)",
+      "start": 15407,
+      "end": 15422,
+      "section": "25.24.150",
+      "subsection": "(d)"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 16028,
+      "end": 16046,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(b)",
+      "start": 16263,
+      "end": 16281,
+      "number": "90.3",
+      "subsection": "(b)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 16752,
+      "end": 16770,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(b)",
+      "start": 16774,
+      "end": 16792,
+      "number": "90.3",
+      "subsection": "(b)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.110(a)",
+      "start": 17184,
+      "end": 17199,
+      "section": "25.20.110",
+      "subsection": "(a)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 17241,
+      "end": 17256,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 17716,
+      "end": 17734,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(b)",
+      "start": 17738,
+      "end": 17756,
+      "number": "90.3",
+      "subsection": "(b)",
+      "rule_family": "civil"
+    }
+  ]
+}

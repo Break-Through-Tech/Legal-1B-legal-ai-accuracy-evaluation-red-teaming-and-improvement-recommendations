@@ -1,0 +1,459 @@
+{
+  "doc_id": "doc-0131",
+  "offset_basis": "Zero-based character offsets in cleaned text; end is exclusive.",
+  "summary": {
+    "total_mentions": 49,
+    "by_type": {
+      "statute": 31,
+      "rule": 11,
+      "case": 7
+    }
+  },
+  "citations": [
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100",
+      "start": 2596,
+      "end": 2608,
+      "section": "18.66.100",
+      "subsection": ""
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 65.1",
+      "start": 3058,
+      "end": 3073,
+      "number": "65.1",
+      "subsection": "",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(b)",
+      "start": 3158,
+      "end": 3173,
+      "section": "18.66.100",
+      "subsection": "(b)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)",
+      "start": 3593,
+      "end": 3608,
+      "section": "18.66.100",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.110(a)",
+      "start": 3647,
+      "end": 3662,
+      "section": "18.66.110",
+      "subsection": "(a)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)",
+      "start": 4413,
+      "end": 4428,
+      "section": "18.66.100",
+      "subsection": "(c)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Wee v. Eggener, 225 P.3d 1120 (Alaska 2010)",
+      "start": 4574,
+      "end": 4617,
+      "case_name": "Wee v. Eggener",
+      "volume": "225",
+      "reporter": "P.3d",
+      "page": "1120",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2010,
+      "reporter_cite": "225 P.3d 1120"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(1)",
+      "start": 4691,
+      "end": 4709,
+      "section": "18.66.100",
+      "subsection": "(c)(1)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(2)",
+      "start": 4874,
+      "end": 4892,
+      "section": "18.66.100",
+      "subsection": "(c)(2)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Whalen v. Whalen, 425 P.3d 150 (Alaska 2018)",
+      "start": 4958,
+      "end": 5002,
+      "case_name": "Whalen v. Whalen",
+      "volume": "425",
+      "reporter": "P.3d",
+      "page": "150",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2018,
+      "reporter_cite": "425 P.3d 150"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.130(a)",
+      "start": 5016,
+      "end": 5031,
+      "section": "18.66.130",
+      "subsection": "(a)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.130(e)",
+      "start": 5209,
+      "end": 5224,
+      "section": "18.66.130",
+      "subsection": "(e)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(e)(1)",
+      "start": 5645,
+      "end": 5663,
+      "section": "18.66.100",
+      "subsection": "(e)(1)"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 3(h)",
+      "start": 5671,
+      "end": 5686,
+      "number": "3",
+      "subsection": "(h)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100",
+      "start": 6434,
+      "end": 6446,
+      "section": "18.66.100",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(a)",
+      "start": 6561,
+      "end": 6576,
+      "section": "18.66.100",
+      "subsection": "(a)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Veronica Louise Hudson v. Daniel Lee Hudson, 532 P.3d 272 (Alaska 2023)",
+      "start": 6888,
+      "end": 6959,
+      "case_name": "Veronica Louise Hudson v. Daniel Lee Hudson",
+      "volume": "532",
+      "reporter": "P.3d",
+      "page": "272",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2023,
+      "reporter_cite": "532 P.3d 272"
+    },
+    {
+      "type": "case",
+      "raw_text": "Williams v. Barbee, 243 P.3d 995 (Alaska 2010)",
+      "start": 7730,
+      "end": 7776,
+      "case_name": "Williams v. Barbee",
+      "volume": "243",
+      "reporter": "P.3d",
+      "page": "995",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2010,
+      "reporter_cite": "243 P.3d 995"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(e)(1)",
+      "start": 7929,
+      "end": 7947,
+      "section": "18.66.100",
+      "subsection": "(e)(1)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)",
+      "start": 8269,
+      "end": 8284,
+      "section": "18.66.100",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)",
+      "start": 8382,
+      "end": 8397,
+      "section": "18.66.100",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(2)",
+      "start": 8549,
+      "end": 8567,
+      "section": "18.66.100",
+      "subsection": "(c)(2)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(4)",
+      "start": 9098,
+      "end": 9116,
+      "section": "18.66.100",
+      "subsection": "(c)(4)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Yelena R. v. George R., 326 P.3d 989 (Alaska 2014)",
+      "start": 9672,
+      "end": 9722,
+      "case_name": "Yelena R. v. George R.",
+      "volume": "326",
+      "reporter": "P.3d",
+      "page": "989",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2014,
+      "reporter_cite": "326 P.3d 989"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(3)",
+      "start": 10037,
+      "end": 10055,
+      "section": "18.66.100",
+      "subsection": "(c)(3)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.130(a)",
+      "start": 10692,
+      "end": 10707,
+      "section": "18.66.130",
+      "subsection": "(a)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.130(b)",
+      "start": 10866,
+      "end": 10881,
+      "section": "18.66.130",
+      "subsection": "(b)"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 65.1",
+      "start": 11215,
+      "end": 11230,
+      "number": "65.1",
+      "subsection": "",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100",
+      "start": 11343,
+      "end": 11355,
+      "section": "18.66.100",
+      "subsection": ""
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 65.1",
+      "start": 11539,
+      "end": 11554,
+      "number": "65.1",
+      "subsection": "",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Alaska R. Evid. 505(a)(2)(A)",
+      "start": 12169,
+      "end": 12197,
+      "number": "505",
+      "subsection": "(a)(2)(A)",
+      "rule_family": "evidence"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Alaska R. Evid. 505(a)(2)(D)(v)",
+      "start": 12352,
+      "end": 12383,
+      "number": "505",
+      "subsection": "(a)(2)(D)(v)",
+      "rule_family": "evidence"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.990",
+      "start": 12522,
+      "end": 12534,
+      "section": "18.66.990",
+      "subsection": ""
+    },
+    {
+      "type": "rule",
+      "raw_text": "Alaska R. Evid. 505(b)(2)(B)",
+      "start": 12653,
+      "end": 12681,
+      "number": "505",
+      "subsection": "(b)(2)(B)",
+      "rule_family": "evidence"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 65(e)",
+      "start": 13134,
+      "end": 13150,
+      "number": "65",
+      "subsection": "(e)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 65(e)(3)",
+      "start": 13409,
+      "end": 13428,
+      "number": "65",
+      "subsection": "(e)(3)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 65(e)",
+      "start": 13763,
+      "end": 13779,
+      "number": "65",
+      "subsection": "(e)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(16)",
+      "start": 13851,
+      "end": 13870,
+      "section": "18.66.100",
+      "subsection": "(c)(16)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Wee v. Eggener, 225 P.3d 1120 (Alaska 2010)",
+      "start": 14330,
+      "end": 14373,
+      "case_name": "Wee v. Eggener",
+      "volume": "225",
+      "reporter": "P.3d",
+      "page": "1120",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2010,
+      "reporter_cite": "225 P.3d 1120"
+    },
+    {
+      "type": "case",
+      "raw_text": "Sarah D. v. John D., 352 P.3d 419 (Alaska 2015)",
+      "start": 14375,
+      "end": 14422,
+      "case_name": "Sarah D. v. John D.",
+      "volume": "352",
+      "reporter": "P.3d",
+      "page": "419",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2015,
+      "reporter_cite": "352 P.3d 419"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100",
+      "start": 14795,
+      "end": 14807,
+      "section": "18.66.100",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(1)",
+      "start": 14961,
+      "end": 14979,
+      "section": "18.66.100",
+      "subsection": "(c)(1)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(2)",
+      "start": 15165,
+      "end": 15183,
+      "section": "18.66.100",
+      "subsection": "(c)(2)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(3)",
+      "start": 15329,
+      "end": 15347,
+      "section": "18.66.100",
+      "subsection": "(c)(3)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(4)",
+      "start": 15522,
+      "end": 15540,
+      "section": "18.66.100",
+      "subsection": "(c)(4)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(16)",
+      "start": 15644,
+      "end": 15663,
+      "section": "18.66.100",
+      "subsection": "(c)(16)"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 65.1",
+      "start": 15778,
+      "end": 15793,
+      "number": "65.1",
+      "subsection": "",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.110",
+      "start": 15798,
+      "end": 15810,
+      "section": "18.66.110",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.110(a)",
+      "start": 15876,
+      "end": 15891,
+      "section": "18.66.110",
+      "subsection": "(a)"
+    }
+  ]
+}

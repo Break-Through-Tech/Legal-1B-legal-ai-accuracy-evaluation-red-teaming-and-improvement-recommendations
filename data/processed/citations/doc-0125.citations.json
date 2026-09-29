@@ -1,0 +1,270 @@
+{
+  "doc_id": "doc-0125",
+  "offset_basis": "Zero-based character offsets in cleaned text; end is exclusive.",
+  "summary": {
+    "total_mentions": 30,
+    "by_type": {
+      "statute": 24,
+      "case": 2,
+      "rule": 4
+    }
+  },
+  "citations": [
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(b)",
+      "start": 2437,
+      "end": 2452,
+      "section": "18.66.100",
+      "subsection": "(b)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)",
+      "start": 2787,
+      "end": 2802,
+      "section": "18.66.100",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(e)(1)",
+      "start": 3034,
+      "end": 3052,
+      "section": "18.66.100",
+      "subsection": "(e)(1)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Whalen v. Whalen, 425 P.3d 150 (Alaska 2018)",
+      "start": 3270,
+      "end": 3314,
+      "case_name": "Whalen v. Whalen",
+      "volume": "425",
+      "reporter": "P.3d",
+      "page": "150",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2018,
+      "reporter_cite": "425 P.3d 150"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.998(a)",
+      "start": 3637,
+      "end": 3652,
+      "section": "18.66.998",
+      "subsection": "(a)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100",
+      "start": 3754,
+      "end": 3766,
+      "section": "18.66.100",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.110",
+      "start": 3770,
+      "end": 3782,
+      "section": "18.66.110",
+      "subsection": ""
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 65.1",
+      "start": 3924,
+      "end": 3939,
+      "number": "65.1",
+      "subsection": "",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 931(h)",
+      "start": 4103,
+      "end": 4120,
+      "number": "931",
+      "subsection": "(h)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(b)",
+      "start": 4315,
+      "end": 4330,
+      "section": "18.66.100",
+      "subsection": "(b)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Sarah D. v. John D., 352 P.3d 419 (Alaska 2015)",
+      "start": 5939,
+      "end": 5986,
+      "case_name": "Sarah D. v. John D.",
+      "volume": "352",
+      "reporter": "P.3d",
+      "page": "419",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2015,
+      "reporter_cite": "352 P.3d 419"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(b)",
+      "start": 6316,
+      "end": 6331,
+      "section": "18.66.100",
+      "subsection": "(b)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(1)",
+      "start": 6440,
+      "end": 6458,
+      "section": "18.66.100",
+      "subsection": "(c)(1)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(2)",
+      "start": 6592,
+      "end": 6610,
+      "section": "18.66.100",
+      "subsection": "(c)(2)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.130(a)",
+      "start": 7406,
+      "end": 7421,
+      "section": "18.66.130",
+      "subsection": "(a)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(3)",
+      "start": 7802,
+      "end": 7820,
+      "section": "18.66.100",
+      "subsection": "(c)(3)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(4)",
+      "start": 7959,
+      "end": 7977,
+      "section": "18.66.100",
+      "subsection": "(c)(4)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.140(b)(3)",
+      "start": 8872,
+      "end": 8890,
+      "section": "25.24.140",
+      "subsection": "(b)(3)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(8)",
+      "start": 9251,
+      "end": 9269,
+      "section": "18.66.100",
+      "subsection": "(c)(8)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.65.520(a)",
+      "start": 10092,
+      "end": 10107,
+      "section": "18.65.520",
+      "subsection": "(a)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(8)",
+      "start": 10326,
+      "end": 10344,
+      "section": "18.66.100",
+      "subsection": "(c)(8)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)",
+      "start": 10714,
+      "end": 10729,
+      "section": "18.66.100",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(16)",
+      "start": 10841,
+      "end": 10860,
+      "section": "18.66.100",
+      "subsection": "(c)(16)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(2)",
+      "start": 11203,
+      "end": 11221,
+      "section": "18.66.100",
+      "subsection": "(c)(2)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(b)(2)",
+      "start": 11305,
+      "end": 11323,
+      "section": "18.66.100",
+      "subsection": "(b)(2)"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 65(e)",
+      "start": 11498,
+      "end": 11514,
+      "number": "65",
+      "subsection": "(e)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 100(a)",
+      "start": 11774,
+      "end": 11791,
+      "number": "100",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100",
+      "start": 11883,
+      "end": 11895,
+      "section": "18.66.100",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.130(c)",
+      "start": 11915,
+      "end": 11930,
+      "section": "18.66.130",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)",
+      "start": 12747,
+      "end": 12762,
+      "section": "18.66.100",
+      "subsection": "(c)"
+    }
+  ]
+}

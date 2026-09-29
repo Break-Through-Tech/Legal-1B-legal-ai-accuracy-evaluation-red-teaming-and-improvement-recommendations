@@ -1,0 +1,401 @@
+{
+  "doc_id": "doc-0003",
+  "offset_basis": "Zero-based character offsets in cleaned text; end is exclusive.",
+  "summary": {
+    "total_mentions": 40,
+    "by_type": {
+      "statute": 23,
+      "case": 10,
+      "rule": 7
+    }
+  },
+  "citations": [
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.060",
+      "start": 1469,
+      "end": 1481,
+      "section": "25.20.060",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.060",
+      "start": 3708,
+      "end": 3720,
+      "section": "25.20.060",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 4020,
+      "end": 4035,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.060(b)",
+      "start": 4113,
+      "end": 4128,
+      "section": "25.20.060",
+      "subsection": "(b)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 4145,
+      "end": 4160,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.070",
+      "start": 5023,
+      "end": 5035,
+      "section": "25.20.070",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(g)",
+      "start": 5237,
+      "end": 5252,
+      "section": "25.24.150",
+      "subsection": "(g)"
+    },
+    {
+      "type": "case",
+      "raw_text": "West v. Lawson, 951 P.2d 1200 (Alaska 1998)",
+      "start": 5427,
+      "end": 5470,
+      "case_name": "West v. Lawson",
+      "volume": "951",
+      "reporter": "P.2d",
+      "page": "1200",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1998,
+      "reporter_cite": "951 P.2d 1200"
+    },
+    {
+      "type": "case",
+      "raw_text": "Havel v. Havel, 216 P.3d 1148 (Alaska 2009)",
+      "start": 5615,
+      "end": 5658,
+      "case_name": "Havel v. Havel",
+      "volume": "216",
+      "reporter": "P.3d",
+      "page": "1148",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2009,
+      "reporter_cite": "216 P.3d 1148"
+    },
+    {
+      "type": "case",
+      "raw_text": "Mendel-Gleason v. Harris, 261 P.3d 397 (Alaska 2011)",
+      "start": 6019,
+      "end": 6071,
+      "case_name": "Mendel-Gleason v. Harris",
+      "volume": "261",
+      "reporter": "P.3d",
+      "page": "397",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2011,
+      "reporter_cite": "261 P.3d 397"
+    },
+    {
+      "type": "case",
+      "raw_text": "Peterson v. Swarthout, 214 P.3d 332 (Alaska 2009)",
+      "start": 6238,
+      "end": 6287,
+      "case_name": "Peterson v. Swarthout",
+      "volume": "214",
+      "reporter": "P.3d",
+      "page": "332",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2009,
+      "reporter_cite": "214 P.3d 332"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.060",
+      "start": 6688,
+      "end": 6700,
+      "section": "25.20.060",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(5)",
+      "start": 7094,
+      "end": 7112,
+      "section": "25.24.150",
+      "subsection": "(c)(5)"
+    },
+    {
+      "type": "case",
+      "raw_text": "West v. Lawson, 951 P.2d 1200 (Alaska 1998)",
+      "start": 7520,
+      "end": 7563,
+      "case_name": "West v. Lawson",
+      "volume": "951",
+      "reporter": "P.2d",
+      "page": "1200",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1998,
+      "reporter_cite": "951 P.2d 1200"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 8322,
+      "end": 8337,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 8417,
+      "end": 8432,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(1)",
+      "start": 8620,
+      "end": 8638,
+      "section": "25.24.150",
+      "subsection": "(c)(1)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(2)",
+      "start": 9231,
+      "end": 9249,
+      "section": "25.24.150",
+      "subsection": "(c)(2)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(4)",
+      "start": 9979,
+      "end": 9997,
+      "section": "25.24.150",
+      "subsection": "(c)(4)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(5)",
+      "start": 10631,
+      "end": 10649,
+      "section": "25.24.150",
+      "subsection": "(c)(5)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Havel v. Havel, 216 P.3d 1148 (Alaska 2009)",
+      "start": 11046,
+      "end": 11089,
+      "case_name": "Havel v. Havel",
+      "volume": "216",
+      "reporter": "P.3d",
+      "page": "1148",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2009,
+      "reporter_cite": "216 P.3d 1148"
+    },
+    {
+      "type": "case",
+      "raw_text": "West v. Lawson, 951 P.2d 1200 (Alaska 1998)",
+      "start": 11191,
+      "end": 11234,
+      "case_name": "West v. Lawson",
+      "volume": "951",
+      "reporter": "P.2d",
+      "page": "1200",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1998,
+      "reporter_cite": "951 P.2d 1200"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(6)",
+      "start": 11416,
+      "end": 11434,
+      "section": "25.24.150",
+      "subsection": "(c)(6)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Andrea C. v. Marcus K., 355 P.3d 521 (Alaska 2015)",
+      "start": 12088,
+      "end": 12138,
+      "case_name": "Andrea C. v. Marcus K.",
+      "volume": "355",
+      "reporter": "P.3d",
+      "page": "521",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2015,
+      "reporter_cite": "355 P.3d 521"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(9)",
+      "start": 12414,
+      "end": 12432,
+      "section": "25.24.150",
+      "subsection": "(c)(9)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Peterson v. Swarthout, 214 P.3d 332 (Alaska 2009)",
+      "start": 13339,
+      "end": 13388,
+      "case_name": "Peterson v. Swarthout",
+      "volume": "214",
+      "reporter": "P.3d",
+      "page": "332",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2009,
+      "reporter_cite": "214 P.3d 332"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.060(b)",
+      "start": 14004,
+      "end": 14019,
+      "section": "25.20.060",
+      "subsection": "(b)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.060(c)",
+      "start": 14250,
+      "end": 14265,
+      "section": "25.20.060",
+      "subsection": "(c)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Rooney v. Rooney, 914 P.2d 212 (Alaska 1996)",
+      "start": 15023,
+      "end": 15067,
+      "case_name": "Rooney v. Rooney",
+      "volume": "914",
+      "reporter": "P.2d",
+      "page": "212",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1996,
+      "reporter_cite": "914 P.2d 212"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.070",
+      "start": 15302,
+      "end": 15314,
+      "section": "25.20.070",
+      "subsection": ""
+    },
+    {
+      "type": "rule",
+      "raw_text": "CIVIL RULE 90.3",
+      "start": 15820,
+      "end": 15835,
+      "number": "90.3",
+      "subsection": "",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 15957,
+      "end": 15975,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(b)",
+      "start": 16269,
+      "end": 16287,
+      "number": "90.3",
+      "subsection": "(b)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(f)(1)",
+      "start": 16418,
+      "end": 16439,
+      "number": "90.3",
+      "subsection": "(f)(1)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(f)(2)",
+      "start": 16651,
+      "end": 16672,
+      "number": "90.3",
+      "subsection": "(f)(2)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3",
+      "start": 16984,
+      "end": 16999,
+      "number": "90.3",
+      "subsection": "",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.060",
+      "start": 17744,
+      "end": 17756,
+      "section": "25.20.060",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 17761,
+      "end": 17776,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.060(c)",
+      "start": 18187,
+      "end": 18202,
+      "section": "25.20.060",
+      "subsection": "(c)"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 18263,
+      "end": 18281,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    }
+  ]
+}

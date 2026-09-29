@@ -1,0 +1,428 @@
+{
+  "doc_id": "doc-0172",
+  "offset_basis": "Zero-based character offsets in cleaned text; end is exclusive.",
+  "summary": {
+    "total_mentions": 40,
+    "by_type": {
+      "rule": 22,
+      "statute": 6,
+      "case": 12
+    }
+  },
+  "citations": [
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 936",
+      "start": 1020,
+      "end": 1034,
+      "number": "936",
+      "subsection": "",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Alaska Civil Rule 90.3",
+      "start": 2879,
+      "end": 2901,
+      "number": "90.3",
+      "subsection": "",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.170",
+      "start": 2929,
+      "end": 2941,
+      "section": "25.24.170",
+      "subsection": ""
+    },
+    {
+      "type": "case",
+      "raw_text": "Bunn v. House, 934 P.2d 753 (Alaska 1997)",
+      "start": 3389,
+      "end": 3430,
+      "case_name": "Bunn v. House",
+      "volume": "934",
+      "reporter": "P.2d",
+      "page": "753",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1997,
+      "reporter_cite": "934 P.2d 753"
+    },
+    {
+      "type": "case",
+      "raw_text": "Holmes v. Holmes, 573 P.3d 147 (Alaska 2018)",
+      "start": 3432,
+      "end": 3476,
+      "case_name": "Holmes v. Holmes",
+      "volume": "573",
+      "reporter": "P.3d",
+      "page": "147",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2018,
+      "reporter_cite": "573 P.3d 147"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3",
+      "start": 3590,
+      "end": 3605,
+      "number": "90.3",
+      "subsection": "",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(b)",
+      "start": 3731,
+      "end": 3749,
+      "number": "90.3",
+      "subsection": "(b)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 3823,
+      "end": 3841,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3",
+      "start": 4038,
+      "end": 4053,
+      "number": "90.3",
+      "subsection": "",
+      "rule_family": "civil"
+    },
+    {
+      "type": "case",
+      "raw_text": "Restol v. Manshen, 408 P.3d 791 (Alaska 2014)",
+      "start": 4059,
+      "end": 4104,
+      "case_name": "Restol v. Manshen",
+      "volume": "408",
+      "reporter": "P.3d",
+      "page": "791",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2014,
+      "reporter_cite": "408 P.3d 791"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(c)",
+      "start": 4106,
+      "end": 4124,
+      "number": "90.3",
+      "subsection": "(c)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Rule 90.3",
+      "start": 4277,
+      "end": 4286,
+      "number": "90.3",
+      "subsection": "",
+      "rule_family": null
+    },
+    {
+      "type": "case",
+      "raw_text": "Child Support Enforcement Division v. Bromley, 987 P.2d 183 (Alaska 1999)",
+      "start": 4341,
+      "end": 4414,
+      "case_name": "Child Support Enforcement Division v. Bromley",
+      "volume": "987",
+      "reporter": "P.2d",
+      "page": "183",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1999,
+      "reporter_cite": "987 P.2d 183"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.170",
+      "start": 4656,
+      "end": 4668,
+      "section": "25.24.170",
+      "subsection": ""
+    },
+    {
+      "type": "case",
+      "raw_text": "Child Support Enforcement Division v. Bromley, 987 P.2d 183 (Alaska 1999)",
+      "start": 5405,
+      "end": 5478,
+      "case_name": "Child Support Enforcement Division v. Bromley",
+      "volume": "987",
+      "reporter": "P.2d",
+      "page": "183",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1999,
+      "reporter_cite": "987 P.2d 183"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3",
+      "start": 5688,
+      "end": 5703,
+      "number": "90.3",
+      "subsection": "",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(b)",
+      "start": 6383,
+      "end": 6401,
+      "number": "90.3",
+      "subsection": "(b)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "case",
+      "raw_text": "Holmes v. Holmes, 414 P.3d 662 (Alaska 2018)",
+      "start": 6616,
+      "end": 6660,
+      "case_name": "Holmes v. Holmes",
+      "volume": "414",
+      "reporter": "P.3d",
+      "page": "662",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2018,
+      "reporter_cite": "414 P.3d 662"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(b)",
+      "start": 6952,
+      "end": 6970,
+      "number": "90.3",
+      "subsection": "(b)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 7569,
+      "end": 7587,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "case",
+      "raw_text": "Holmes v. Holmes, 414 P.3d 662 (Alaska 2018)",
+      "start": 7776,
+      "end": 7820,
+      "case_name": "Holmes v. Holmes",
+      "volume": "414",
+      "reporter": "P.3d",
+      "page": "662",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2018,
+      "reporter_cite": "414 P.3d 662"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3",
+      "start": 7920,
+      "end": 7935,
+      "number": "90.3",
+      "subsection": "",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 8310,
+      "end": 8328,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 8476,
+      "end": 8494,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "case",
+      "raw_text": "Marine v. Marine, 957 P.2d 314 (Alaska 1998)",
+      "start": 8730,
+      "end": 8774,
+      "case_name": "Marine v. Marine",
+      "volume": "957",
+      "reporter": "P.2d",
+      "page": "314",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1998,
+      "reporter_cite": "957 P.2d 314"
+    },
+    {
+      "type": "case",
+      "raw_text": "Mitchell v. Mitchell, 370 P.3d 1070 (Alaska 2016)",
+      "start": 8776,
+      "end": 8825,
+      "case_name": "Mitchell v. Mitchell",
+      "volume": "370",
+      "reporter": "P.3d",
+      "page": "1070",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2016,
+      "reporter_cite": "370 P.3d 1070"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 9005,
+      "end": 9023,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Rule 90.3",
+      "start": 9456,
+      "end": 9465,
+      "number": "90.3",
+      "subsection": "",
+      "rule_family": null
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3",
+      "start": 9626,
+      "end": 9641,
+      "number": "90.3",
+      "subsection": "",
+      "rule_family": "civil"
+    },
+    {
+      "type": "case",
+      "raw_text": "Mitchell v. Mitchell, 370 P.3d 1070 (Alaska 2016)",
+      "start": 9647,
+      "end": 9696,
+      "case_name": "Mitchell v. Mitchell",
+      "volume": "370",
+      "reporter": "P.3d",
+      "page": "1070",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2016,
+      "reporter_cite": "370 P.3d 1070"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(c)(1)",
+      "start": 9858,
+      "end": 9879,
+      "number": "90.3",
+      "subsection": "(c)(1)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(c)(2)",
+      "start": 10210,
+      "end": 10231,
+      "number": "90.3",
+      "subsection": "(c)(2)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "case",
+      "raw_text": "Child Support Enforcement Division v. Bromley, 987 P.2d 183 (Alaska 1999)",
+      "start": 10376,
+      "end": 10449,
+      "case_name": "Child Support Enforcement Division v. Bromley",
+      "volume": "987",
+      "reporter": "P.2d",
+      "page": "183",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1999,
+      "reporter_cite": "987 P.2d 183"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Rule 90.3",
+      "start": 10494,
+      "end": 10503,
+      "number": "90.3",
+      "subsection": "",
+      "rule_family": null
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.170",
+      "start": 10842,
+      "end": 10854,
+      "section": "25.24.170",
+      "subsection": ""
+    },
+    {
+      "type": "case",
+      "raw_text": "Swaney v. Granger, 297 P.3d 132 (Alaska 2013)",
+      "start": 11125,
+      "end": 11170,
+      "case_name": "Swaney v. Granger",
+      "volume": "297",
+      "reporter": "P.3d",
+      "page": "132",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2013,
+      "reporter_cite": "297 P.3d 132"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.27.060(c)",
+      "start": 11499,
+      "end": 11514,
+      "section": "25.27.060",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.27.060(c)",
+      "start": 11990,
+      "end": 12005,
+      "section": "25.27.060",
+      "subsection": "(c)"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Alaska Civil Rule 90.3(a)",
+      "start": 12968,
+      "end": 12993,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.27.060(c)",
+      "start": 13232,
+      "end": 13247,
+      "section": "25.27.060",
+      "subsection": "(c)"
+    }
+  ]
+}

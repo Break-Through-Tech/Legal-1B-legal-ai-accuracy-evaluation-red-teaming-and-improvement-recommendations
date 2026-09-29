@@ -1,0 +1,330 @@
+{
+  "doc_id": "doc-0064",
+  "offset_basis": "Zero-based character offsets in cleaned text; end is exclusive.",
+  "summary": {
+    "total_mentions": 32,
+    "by_type": {
+      "statute": 17,
+      "case": 9,
+      "rule": 6
+    }
+  },
+  "citations": [
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.060",
+      "start": 1027,
+      "end": 1039,
+      "section": "25.20.060",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.060",
+      "start": 3104,
+      "end": 3116,
+      "section": "25.20.060",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 3454,
+      "end": 3469,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.923",
+      "start": 3477,
+      "end": 3489,
+      "section": "25.20.923",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 3753,
+      "end": 3768,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(d)",
+      "start": 4529,
+      "end": 4544,
+      "section": "25.24.150",
+      "subsection": "(d)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Green v. Parks, 338 P.3d 312 (Alaska 2014)",
+      "start": 4964,
+      "end": 5006,
+      "case_name": "Green v. Parks",
+      "volume": "338",
+      "reporter": "P.3d",
+      "page": "312",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2014,
+      "reporter_cite": "338 P.3d 312"
+    },
+    {
+      "type": "case",
+      "raw_text": "Daves v. McKinley, 425 P.3d 92 (Alaska 2018)",
+      "start": 5234,
+      "end": 5278,
+      "case_name": "Daves v. McKinley",
+      "volume": "425",
+      "reporter": "P.3d",
+      "page": "92",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2018,
+      "reporter_cite": "425 P.3d 92"
+    },
+    {
+      "type": "case",
+      "raw_text": "Pingree v. Cossette, 424 P.3d 371 (Alaska 2018)",
+      "start": 5469,
+      "end": 5516,
+      "case_name": "Pingree v. Cossette",
+      "volume": "424",
+      "reporter": "P.3d",
+      "page": "371",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2018,
+      "reporter_cite": "424 P.3d 371"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.060",
+      "start": 5601,
+      "end": 5613,
+      "section": "25.20.060",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.060",
+      "start": 5614,
+      "end": 5626,
+      "section": "25.20.060",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 6308,
+      "end": 6323,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Mendel-Gleason v. Harris, 261 P.3d 397 (Alaska 2011)",
+      "start": 6325,
+      "end": 6377,
+      "case_name": "Mendel-Gleason v. Harris",
+      "volume": "261",
+      "reporter": "P.3d",
+      "page": "397",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2011,
+      "reporter_cite": "261 P.3d 397"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(5)",
+      "start": 6799,
+      "end": 6817,
+      "section": "25.24.150",
+      "subsection": "(c)(5)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Green v. Parks, 338 P.3d 312 (Alaska 2014)",
+      "start": 7285,
+      "end": 7327,
+      "case_name": "Green v. Parks",
+      "volume": "338",
+      "reporter": "P.3d",
+      "page": "312",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2014,
+      "reporter_cite": "338 P.3d 312"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(1)",
+      "start": 8145,
+      "end": 8163,
+      "section": "25.24.150",
+      "subsection": "(c)(1)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(d)",
+      "start": 9147,
+      "end": 9162,
+      "section": "25.24.150",
+      "subsection": "(d)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(6)",
+      "start": 9483,
+      "end": 9501,
+      "section": "25.24.150",
+      "subsection": "(c)(6)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Pingree v. Cossette, 424 P.3d 371 (Alaska 2018)",
+      "start": 10494,
+      "end": 10541,
+      "case_name": "Pingree v. Cossette",
+      "volume": "424",
+      "reporter": "P.3d",
+      "page": "371",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2018,
+      "reporter_cite": "424 P.3d 371"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(4)",
+      "start": 11204,
+      "end": 11222,
+      "section": "25.24.150",
+      "subsection": "(c)(4)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.060(c)",
+      "start": 12151,
+      "end": 12166,
+      "section": "25.20.060",
+      "subsection": "(c)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Jayda Roman v. Cleveland Karren, 461 P.3d 1252 (Alaska 2020)",
+      "start": 13148,
+      "end": 13208,
+      "case_name": "Jayda Roman v. Cleveland Karren",
+      "volume": "461",
+      "reporter": "P.3d",
+      "page": "1252",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2020,
+      "reporter_cite": "461 P.3d 1252"
+    },
+    {
+      "type": "case",
+      "raw_text": "James R. v. Kylie R., 320 P.3d 273 (Alaska 2014)",
+      "start": 13210,
+      "end": 13258,
+      "case_name": "James R. v. Kylie R.",
+      "volume": "320",
+      "reporter": "P.3d",
+      "page": "273",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2014,
+      "reporter_cite": "320 P.3d 273"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.992",
+      "start": 13698,
+      "end": 13710,
+      "section": "25.24.992",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150",
+      "start": 14713,
+      "end": 14725,
+      "section": "25.24.150",
+      "subsection": ""
+    },
+    {
+      "type": "case",
+      "raw_text": "Weathers v. Weathers, 425 P.3d 131 (Alaska 2018)",
+      "start": 14866,
+      "end": 14914,
+      "case_name": "Weathers v. Weathers",
+      "volume": "425",
+      "reporter": "P.3d",
+      "page": "131",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2018,
+      "reporter_cite": "425 P.3d 131"
+    },
+    {
+      "type": "rule",
+      "raw_text": "CIVIL RULE 90.3",
+      "start": 15100,
+      "end": 15115,
+      "number": "90.3",
+      "subsection": "",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 15227,
+      "end": 15245,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)(2)(A)",
+      "start": 15593,
+      "end": 15617,
+      "number": "90.3",
+      "subsection": "(a)(2)(A)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)(1)(A)",
+      "start": 15776,
+      "end": 15800,
+      "number": "90.3",
+      "subsection": "(a)(1)(A)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(b)",
+      "start": 16126,
+      "end": 16144,
+      "number": "90.3",
+      "subsection": "(b)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 16860,
+      "end": 16878,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    }
+  ]
+}

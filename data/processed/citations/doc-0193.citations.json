@@ -1,0 +1,388 @@
+{
+  "doc_id": "doc-0193",
+  "offset_basis": "Zero-based character offsets in cleaned text; end is exclusive.",
+  "summary": {
+    "total_mentions": 38,
+    "by_type": {
+      "statute": 3,
+      "rule": 28,
+      "case": 7
+    }
+  },
+  "citations": [
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.170",
+      "start": 294,
+      "end": 306,
+      "section": "25.24.170",
+      "subsection": ""
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(h)",
+      "start": 311,
+      "end": 329,
+      "number": "90.3",
+      "subsection": "(h)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(h)(1)",
+      "start": 1058,
+      "end": 1079,
+      "number": "90.3",
+      "subsection": "(h)(1)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.170(a)",
+      "start": 3355,
+      "end": 3370,
+      "section": "25.24.170",
+      "subsection": "(a)"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(h)(1)",
+      "start": 4100,
+      "end": 4121,
+      "number": "90.3",
+      "subsection": "(h)(1)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 921(a)",
+      "start": 4530,
+      "end": 4547,
+      "number": "921",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 909(a)(2)(B)",
+      "start": 4903,
+      "end": 4926,
+      "number": "909",
+      "subsection": "(a)(2)(B)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 983(a)(1)(E)",
+      "start": 5112,
+      "end": 5135,
+      "number": "983",
+      "subsection": "(a)(1)(E)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "case",
+      "raw_text": "Bunn v. House, 934 P.2d 753 (Alaska 1997)",
+      "start": 5301,
+      "end": 5342,
+      "case_name": "Bunn v. House",
+      "volume": "934",
+      "reporter": "P.2d",
+      "page": "753",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1997,
+      "reporter_cite": "934 P.2d 753"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3",
+      "start": 5552,
+      "end": 5567,
+      "number": "90.3",
+      "subsection": "",
+      "rule_family": "civil"
+    },
+    {
+      "type": "case",
+      "raw_text": "Bunn v. House, 934 P.2d 753 (Alaska 1997)",
+      "start": 6439,
+      "end": 6480,
+      "case_name": "Bunn v. House",
+      "volume": "934",
+      "reporter": "P.2d",
+      "page": "753",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1997,
+      "reporter_cite": "934 P.2d 753"
+    },
+    {
+      "type": "case",
+      "raw_text": "Shanigan v. Shanigan, 386 P.3d 1238 (Alaska 2017)",
+      "start": 6668,
+      "end": 6717,
+      "case_name": "Shanigan v. Shanigan",
+      "volume": "386",
+      "reporter": "P.3d",
+      "page": "1238",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2017,
+      "reporter_cite": "386 P.3d 1238"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)(2)(B)",
+      "start": 6865,
+      "end": 6889,
+      "number": "90.3",
+      "subsection": "(a)(2)(B)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(h)(1)",
+      "start": 6991,
+      "end": 7012,
+      "number": "90.3",
+      "subsection": "(h)(1)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)(1)",
+      "start": 7240,
+      "end": 7261,
+      "number": "90.3",
+      "subsection": "(a)(1)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)(2)(B)",
+      "start": 7364,
+      "end": 7388,
+      "number": "90.3",
+      "subsection": "(a)(2)(B)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)(1)(E)",
+      "start": 8389,
+      "end": 8413,
+      "number": "90.3",
+      "subsection": "(a)(1)(E)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "case",
+      "raw_text": "Bergstrom v. Lindback, 779 P.2d 1235 (Alaska 1989)",
+      "start": 8903,
+      "end": 8953,
+      "case_name": "Bergstrom v. Lindback",
+      "volume": "779",
+      "reporter": "P.2d",
+      "page": "1235",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1989,
+      "reporter_cite": "779 P.2d 1235"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3",
+      "start": 9087,
+      "end": 9102,
+      "number": "90.3",
+      "subsection": "",
+      "rule_family": "civil"
+    },
+    {
+      "type": "case",
+      "raw_text": "Tillmon v. Tillmon, 189 P.3d 1022 (Alaska 2008)",
+      "start": 9279,
+      "end": 9326,
+      "case_name": "Tillmon v. Tillmon",
+      "volume": "189",
+      "reporter": "P.3d",
+      "page": "1022",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2008,
+      "reporter_cite": "189 P.3d 1022"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3",
+      "start": 9374,
+      "end": 9389,
+      "number": "90.3",
+      "subsection": "",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "CIVIL RULE 90.3",
+      "start": 9948,
+      "end": 9963,
+      "number": "90.3",
+      "subsection": "",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 10249,
+      "end": 10267,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)(2)(B)",
+      "start": 10492,
+      "end": 10516,
+      "number": "90.3",
+      "subsection": "(a)(2)(B)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "case",
+      "raw_text": "Peter Chapman v. Julia Chapman, 563 P.3d 1155 (Alaska 2025)",
+      "start": 10531,
+      "end": 10590,
+      "case_name": "Peter Chapman v. Julia Chapman",
+      "volume": "563",
+      "reporter": "P.3d",
+      "page": "1155",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2025,
+      "reporter_cite": "563 P.3d 1155"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(h)(1)",
+      "start": 10803,
+      "end": 10824,
+      "number": "90.3",
+      "subsection": "(h)(1)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)(1)(A)",
+      "start": 11351,
+      "end": 11375,
+      "number": "90.3",
+      "subsection": "(a)(1)(A)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)(2)(B)",
+      "start": 11478,
+      "end": 11502,
+      "number": "90.3",
+      "subsection": "(a)(2)(B)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)(1)(E)",
+      "start": 11637,
+      "end": 11661,
+      "number": "90.3",
+      "subsection": "(a)(1)(E)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(h)(1)",
+      "start": 11917,
+      "end": 11938,
+      "number": "90.3",
+      "subsection": "(h)(1)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "case",
+      "raw_text": "Child Support Enforcement Division v. Bromley, 987 P.2d 183 (Alaska 1999)",
+      "start": 12040,
+      "end": 12113,
+      "case_name": "Child Support Enforcement Division v. Bromley",
+      "volume": "987",
+      "reporter": "P.2d",
+      "page": "183",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1999,
+      "reporter_cite": "987 P.2d 183"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(h)(2)",
+      "start": 12484,
+      "end": 12505,
+      "number": "90.3",
+      "subsection": "(h)(2)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(h)(1)",
+      "start": 13303,
+      "end": 13324,
+      "number": "90.3",
+      "subsection": "(h)(1)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.170",
+      "start": 13329,
+      "end": 13341,
+      "section": "25.24.170",
+      "subsection": ""
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 13555,
+      "end": 13573,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)(2)(B)",
+      "start": 13840,
+      "end": 13864,
+      "number": "90.3",
+      "subsection": "(a)(2)(B)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)(1)(E)",
+      "start": 13933,
+      "end": 13957,
+      "number": "90.3",
+      "subsection": "(a)(1)(E)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(h)(2)",
+      "start": 14061,
+      "end": 14082,
+      "number": "90.3",
+      "subsection": "(h)(2)",
+      "rule_family": "civil"
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "doc_id": "doc-0088",
+  "offset_basis": "Zero-based character offsets in cleaned text; end is exclusive.",
+  "summary": {
+    "total_mentions": 34,
+    "by_type": {
+      "statute": 19,
+      "case": 9,
+      "rule": 6
+    }
+  },
+  "citations": [
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.948(a)",
+      "start": 2867,
+      "end": 2882,
+      "section": "25.20.948",
+      "subsection": "(a)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Havel v. Hogan, 216 P.3d 1142 (Alaska 2009)",
+      "start": 3267,
+      "end": 3310,
+      "case_name": "Havel v. Hogan",
+      "volume": "216",
+      "reporter": "P.3d",
+      "page": "1142",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2009,
+      "reporter_cite": "216 P.3d 1142"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 3567,
+      "end": 3582,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(g)",
+      "start": 4223,
+      "end": 4238,
+      "section": "25.24.150",
+      "subsection": "(g)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.994",
+      "start": 4361,
+      "end": 4373,
+      "section": "25.24.994",
+      "subsection": ""
+    },
+    {
+      "type": "case",
+      "raw_text": "Kristina B. v. Edward B., 512 P.3d 294 (Alaska 2014)",
+      "start": 4712,
+      "end": 4764,
+      "case_name": "Kristina B. v. Edward B.",
+      "volume": "512",
+      "reporter": "P.3d",
+      "page": "294",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2014,
+      "reporter_cite": "512 P.3d 294"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.110(a)",
+      "start": 5010,
+      "end": 5025,
+      "section": "25.20.110",
+      "subsection": "(a)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Havel v. Hogan, 216 P.3d 1142 (Alaska 2009)",
+      "start": 5937,
+      "end": 5980,
+      "case_name": "Havel v. Hogan",
+      "volume": "216",
+      "reporter": "P.3d",
+      "page": "1142",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2009,
+      "reporter_cite": "216 P.3d 1142"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.110(c)",
+      "start": 6255,
+      "end": 6270,
+      "section": "25.20.110",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.110",
+      "start": 6597,
+      "end": 6609,
+      "section": "25.20.110",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 7205,
+      "end": 7220,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(1)",
+      "start": 7535,
+      "end": 7553,
+      "section": "25.24.150",
+      "subsection": "(c)(1)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Littleton v. Banks, 192 P.3d 154 (Alaska 2008)",
+      "start": 8192,
+      "end": 8238,
+      "case_name": "Littleton v. Banks",
+      "volume": "192",
+      "reporter": "P.3d",
+      "page": "154",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2008,
+      "reporter_cite": "192 P.3d 154"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(5)",
+      "start": 8472,
+      "end": 8490,
+      "section": "25.24.150",
+      "subsection": "(c)(5)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Rooney v. Rooney, 914 P.2d 212 (Alaska 1996)",
+      "start": 9145,
+      "end": 9189,
+      "case_name": "Rooney v. Rooney",
+      "volume": "914",
+      "reporter": "P.2d",
+      "page": "212",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1996,
+      "reporter_cite": "914 P.2d 212"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(8)",
+      "start": 9487,
+      "end": 9505,
+      "section": "25.24.150",
+      "subsection": "(c)(8)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Kristina B. v. Edward B., 329 P.3d 202 (Alaska 2014)",
+      "start": 9917,
+      "end": 9969,
+      "case_name": "Kristina B. v. Edward B.",
+      "volume": "329",
+      "reporter": "P.3d",
+      "page": "202",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2014,
+      "reporter_cite": "329 P.3d 202"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(8)",
+      "start": 10353,
+      "end": 10371,
+      "section": "25.24.150",
+      "subsection": "(c)(8)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(3)",
+      "start": 10462,
+      "end": 10480,
+      "section": "25.24.150",
+      "subsection": "(c)(3)"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Alaska R. Evid. 601",
+      "start": 10937,
+      "end": 10956,
+      "number": "601",
+      "subsection": "",
+      "rule_family": "evidence"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(6)",
+      "start": 11373,
+      "end": 11391,
+      "section": "25.24.150",
+      "subsection": "(c)(6)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.070",
+      "start": 11965,
+      "end": 11977,
+      "section": "25.20.070",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(j)",
+      "start": 12923,
+      "end": 12938,
+      "section": "25.24.150",
+      "subsection": "(j)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Jaymot v. Skillings-Donat, 216 P.3d 534 (Alaska 2009)",
+      "start": 13583,
+      "end": 13636,
+      "case_name": "Jaymot v. Skillings-Donat",
+      "volume": "216",
+      "reporter": "P.3d",
+      "page": "534",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2009,
+      "reporter_cite": "216 P.3d 534"
+    },
+    {
+      "type": "case",
+      "raw_text": "Wee v. Eggener, 225 P.3d 1120 (Alaska 2010)",
+      "start": 13809,
+      "end": 13852,
+      "case_name": "Wee v. Eggener",
+      "volume": "225",
+      "reporter": "P.3d",
+      "page": "1120",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2010,
+      "reporter_cite": "225 P.3d 1120"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 14438,
+      "end": 14453,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Kristina B. v. Edward B., 329 P.3d 202 (Alaska 2014)",
+      "start": 14526,
+      "end": 14578,
+      "case_name": "Kristina B. v. Edward B.",
+      "volume": "329",
+      "reporter": "P.3d",
+      "page": "202",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2014,
+      "reporter_cite": "329 P.3d 202"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.30.310(a)",
+      "start": 14744,
+      "end": 14759,
+      "section": "25.30.310",
+      "subsection": "(a)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.30.360",
+      "start": 15501,
+      "end": 15513,
+      "section": "25.30.360",
+      "subsection": ""
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 15775,
+      "end": 15793,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(b)",
+      "start": 16066,
+      "end": 16084,
+      "number": "90.3",
+      "subsection": "(b)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3",
+      "start": 16271,
+      "end": 16286,
+      "number": "90.3",
+      "subsection": "",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 17342,
+      "end": 17360,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(b)",
+      "start": 17364,
+      "end": 17382,
+      "number": "90.3",
+      "subsection": "(b)",
+      "rule_family": "civil"
+    }
+  ]
+}

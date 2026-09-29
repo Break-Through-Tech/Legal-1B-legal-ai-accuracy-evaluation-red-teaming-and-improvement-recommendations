@@ -1,0 +1,464 @@
+{
+  "doc_id": "doc-0145",
+  "offset_basis": "Zero-based character offsets in cleaned text; end is exclusive.",
+  "summary": {
+    "total_mentions": 49,
+    "by_type": {
+      "statute": 36,
+      "case": 9,
+      "rule": 4
+    }
+  },
+  "citations": [
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.990(5)(A)",
+      "start": 1501,
+      "end": 1519,
+      "section": "18.66.990",
+      "subsection": "(5)(A)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.990(3)(A)",
+      "start": 1873,
+      "end": 1891,
+      "section": "18.66.990",
+      "subsection": "(3)(A)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(a)",
+      "start": 2772,
+      "end": 2787,
+      "section": "18.66.100",
+      "subsection": "(a)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(b)",
+      "start": 3066,
+      "end": 3081,
+      "section": "18.66.100",
+      "subsection": "(b)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.964",
+      "start": 3278,
+      "end": 3290,
+      "section": "18.66.964",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.990(3)(A)",
+      "start": 3353,
+      "end": 3371,
+      "section": "18.66.990",
+      "subsection": "(3)(A)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.990(5)(A)",
+      "start": 3558,
+      "end": 3576,
+      "section": "18.66.990",
+      "subsection": "(5)(A)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100",
+      "start": 3749,
+      "end": 3761,
+      "section": "18.66.100",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.140(b)",
+      "start": 3763,
+      "end": 3778,
+      "section": "25.24.140",
+      "subsection": "(b)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Whalen v. Whalen, 425 P.3d 150 (Alaska 2018)",
+      "start": 4295,
+      "end": 4339,
+      "case_name": "Whalen v. Whalen",
+      "volume": "425",
+      "reporter": "P.3d",
+      "page": "150",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2018,
+      "reporter_cite": "425 P.3d 150"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100",
+      "start": 4476,
+      "end": 4488,
+      "section": "18.66.100",
+      "subsection": ""
+    },
+    {
+      "type": "case",
+      "raw_text": "Sarah D. v. John D., 352 P.3d 419 (Alaska 2015)",
+      "start": 4671,
+      "end": 4718,
+      "case_name": "Sarah D. v. John D.",
+      "volume": "352",
+      "reporter": "P.3d",
+      "page": "419",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2015,
+      "reporter_cite": "352 P.3d 419"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 933",
+      "start": 4726,
+      "end": 4740,
+      "number": "933",
+      "subsection": "",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100",
+      "start": 4831,
+      "end": 4843,
+      "section": "18.66.100",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.110",
+      "start": 4847,
+      "end": 4859,
+      "section": "18.66.110",
+      "subsection": ""
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 3(h)",
+      "start": 5093,
+      "end": 5108,
+      "number": "3",
+      "subsection": "(h)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.990(5)(A)",
+      "start": 5646,
+      "end": 5664,
+      "section": "18.66.990",
+      "subsection": "(5)(A)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.990(5)(B)",
+      "start": 5709,
+      "end": 5727,
+      "section": "18.66.990",
+      "subsection": "(5)(B)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(a)",
+      "start": 5828,
+      "end": 5843,
+      "section": "18.66.100",
+      "subsection": "(a)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.990(3)(A)",
+      "start": 6233,
+      "end": 6251,
+      "section": "18.66.990",
+      "subsection": "(3)(A)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Whalen v. Whalen, 425 P.3d 150 (Alaska 2018)",
+      "start": 6475,
+      "end": 6519,
+      "case_name": "Whalen v. Whalen",
+      "volume": "425",
+      "reporter": "P.3d",
+      "page": "150",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2018,
+      "reporter_cite": "425 P.3d 150"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.990(3)(A)",
+      "start": 7023,
+      "end": 7041,
+      "section": "18.66.990",
+      "subsection": "(3)(A)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Sarah D. v. John D., 352 P.3d 419 (Alaska 2015)",
+      "start": 7549,
+      "end": 7596,
+      "case_name": "Sarah D. v. John D.",
+      "volume": "352",
+      "reporter": "P.3d",
+      "page": "419",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2015,
+      "reporter_cite": "352 P.3d 419"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(e)",
+      "start": 7611,
+      "end": 7626,
+      "section": "18.66.100",
+      "subsection": "(e)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(3)",
+      "start": 7976,
+      "end": 7994,
+      "section": "18.66.100",
+      "subsection": "(c)(3)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.140(b)(3)",
+      "start": 8456,
+      "end": 8474,
+      "section": "25.24.140",
+      "subsection": "(b)(3)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Thomas E. Jordan v. Cheryl A. Jordan, 480 P.3d 626 (Alaska 2021)",
+      "start": 8993,
+      "end": 9057,
+      "case_name": "Thomas E. Jordan v. Cheryl A. Jordan",
+      "volume": "480",
+      "reporter": "P.3d",
+      "page": "626",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2021,
+      "reporter_cite": "480 P.3d 626"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(1)",
+      "start": 9371,
+      "end": 9389,
+      "section": "18.66.100",
+      "subsection": "(c)(1)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(2)",
+      "start": 9523,
+      "end": 9541,
+      "section": "18.66.100",
+      "subsection": "(c)(2)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(4)",
+      "start": 9691,
+      "end": 9709,
+      "section": "18.66.100",
+      "subsection": "(c)(4)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.130(a)",
+      "start": 10295,
+      "end": 10310,
+      "section": "18.66.130",
+      "subsection": "(a)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.140(b)(4)",
+      "start": 10735,
+      "end": 10753,
+      "section": "25.24.140",
+      "subsection": "(b)(4)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Whalen v. Whalen, 425 P.3d 150 (Alaska 2018)",
+      "start": 11182,
+      "end": 11226,
+      "case_name": "Whalen v. Whalen",
+      "volume": "425",
+      "reporter": "P.3d",
+      "page": "150",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2018,
+      "reporter_cite": "425 P.3d 150"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(10)",
+      "start": 11497,
+      "end": 11516,
+      "section": "18.66.100",
+      "subsection": "(c)(10)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.140(b)",
+      "start": 11932,
+      "end": 11947,
+      "section": "25.24.140",
+      "subsection": "(b)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Thomas E. Jordan v. Cheryl A. Jordan, 480 P.3d 626 (Alaska 2021)",
+      "start": 12528,
+      "end": 12592,
+      "case_name": "Thomas E. Jordan v. Cheryl A. Jordan",
+      "volume": "480",
+      "reporter": "P.3d",
+      "page": "626",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2021,
+      "reporter_cite": "480 P.3d 626"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.130(b)",
+      "start": 12812,
+      "end": 12827,
+      "section": "18.66.130",
+      "subsection": "(b)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Cooper v. Cooper, 144 P.3d 451 (Alaska 2006)",
+      "start": 12995,
+      "end": 13039,
+      "case_name": "Cooper v. Cooper",
+      "volume": "144",
+      "reporter": "P.3d",
+      "page": "451",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2006,
+      "reporter_cite": "144 P.3d 451"
+    },
+    {
+      "type": "case",
+      "raw_text": "Wee v. Eggener, 225 P.3d 1120 (Alaska 2010)",
+      "start": 13245,
+      "end": 13288,
+      "case_name": "Wee v. Eggener",
+      "volume": "225",
+      "reporter": "P.3d",
+      "page": "1120",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2010,
+      "reporter_cite": "225 P.3d 1120"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 3(h)",
+      "start": 13778,
+      "end": 13793,
+      "number": "3",
+      "subsection": "(h)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 65.1",
+      "start": 14053,
+      "end": 14068,
+      "number": "65.1",
+      "subsection": "",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.990(3)",
+      "start": 14834,
+      "end": 14849,
+      "section": "18.66.990",
+      "subsection": "(3)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100",
+      "start": 14854,
+      "end": 14866,
+      "section": "18.66.100",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(3)",
+      "start": 14970,
+      "end": 14988,
+      "section": "18.66.100",
+      "subsection": "(c)(3)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(1)",
+      "start": 15117,
+      "end": 15135,
+      "section": "18.66.100",
+      "subsection": "(c)(1)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(2)",
+      "start": 15140,
+      "end": 15158,
+      "section": "18.66.100",
+      "subsection": "(c)(2)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(4)",
+      "start": 15263,
+      "end": 15281,
+      "section": "18.66.100",
+      "subsection": "(c)(4)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(10)",
+      "start": 15400,
+      "end": 15419,
+      "section": "18.66.100",
+      "subsection": "(c)(10)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(16)",
+      "start": 15555,
+      "end": 15574,
+      "section": "18.66.100",
+      "subsection": "(c)(16)"
+    }
+  ]
+}

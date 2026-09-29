@@ -1,0 +1,319 @@
+{
+  "doc_id": "doc-0157",
+  "offset_basis": "Zero-based character offsets in cleaned text; end is exclusive.",
+  "summary": {
+    "total_mentions": 34,
+    "by_type": {
+      "statute": 26,
+      "rule": 3,
+      "case": 5
+    }
+  },
+  "citations": [
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100",
+      "start": 913,
+      "end": 925,
+      "section": "18.66.100",
+      "subsection": ""
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 3(h)",
+      "start": 3447,
+      "end": 3462,
+      "number": "3",
+      "subsection": "(h)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(b)",
+      "start": 3490,
+      "end": 3505,
+      "section": "18.66.100",
+      "subsection": "(b)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)",
+      "start": 3904,
+      "end": 3919,
+      "section": "18.66.100",
+      "subsection": "(c)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Thomas v. Thomas, 171 P.3d 98 (Alaska 2007)",
+      "start": 4380,
+      "end": 4423,
+      "case_name": "Thomas v. Thomas",
+      "volume": "171",
+      "reporter": "P.3d",
+      "page": "98",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2007,
+      "reporter_cite": "171 P.3d 98"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(e)(1)",
+      "start": 4594,
+      "end": 4612,
+      "section": "18.66.100",
+      "subsection": "(e)(1)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)",
+      "start": 4687,
+      "end": 4702,
+      "section": "18.66.100",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.901",
+      "start": 5099,
+      "end": 5111,
+      "section": "18.66.901",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.130(a)",
+      "start": 5548,
+      "end": 5563,
+      "section": "18.66.130",
+      "subsection": "(a)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(b)",
+      "start": 6411,
+      "end": 6426,
+      "section": "18.66.100",
+      "subsection": "(b)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Williams v. Barbee, 243 P.3d 995 (Alaska 2010)",
+      "start": 7254,
+      "end": 7300,
+      "case_name": "Williams v. Barbee",
+      "volume": "243",
+      "reporter": "P.3d",
+      "page": "995",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2010,
+      "reporter_cite": "243 P.3d 995"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(2)",
+      "start": 8197,
+      "end": 8215,
+      "section": "18.66.100",
+      "subsection": "(c)(2)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(4)",
+      "start": 9133,
+      "end": 9151,
+      "section": "18.66.100",
+      "subsection": "(c)(4)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Thomas v. Thomas, 171 P.3d 98 (Alaska 2007)",
+      "start": 9797,
+      "end": 9840,
+      "case_name": "Thomas v. Thomas",
+      "volume": "171",
+      "reporter": "P.3d",
+      "page": "98",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2007,
+      "reporter_cite": "171 P.3d 98"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(3)",
+      "start": 9946,
+      "end": 9964,
+      "section": "18.66.100",
+      "subsection": "(c)(3)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Thomas E. Jordan v. Cheryl A. Jordan, 867 P.3d 536 (Alaska 2021)",
+      "start": 11054,
+      "end": 11118,
+      "case_name": "Thomas E. Jordan v. Cheryl A. Jordan",
+      "volume": "867",
+      "reporter": "P.3d",
+      "page": "536",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2021,
+      "reporter_cite": "867 P.3d 536"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.140(b)(3)",
+      "start": 11371,
+      "end": 11389,
+      "section": "25.24.140",
+      "subsection": "(b)(3)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(10)",
+      "start": 11870,
+      "end": 11889,
+      "section": "18.66.100",
+      "subsection": "(c)(10)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(10)",
+      "start": 12813,
+      "end": 12832,
+      "section": "18.66.100",
+      "subsection": "(c)(10)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.130(c)",
+      "start": 13417,
+      "end": 13432,
+      "section": "18.66.130",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100",
+      "start": 13590,
+      "end": 13602,
+      "section": "18.66.100",
+      "subsection": ""
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 100(a)",
+      "start": 13604,
+      "end": 13621,
+      "number": "100",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100",
+      "start": 13716,
+      "end": 13728,
+      "section": "18.66.100",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.060(f)",
+      "start": 13758,
+      "end": 13773,
+      "section": "25.24.060",
+      "subsection": "(f)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100",
+      "start": 13910,
+      "end": 13922,
+      "section": "18.66.100",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(16)",
+      "start": 14337,
+      "end": 14356,
+      "section": "18.66.100",
+      "subsection": "(c)(16)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Reed v. Parrish, 868 P.3d 896 (Alaska 2012)",
+      "start": 14909,
+      "end": 14952,
+      "case_name": "Reed v. Parrish",
+      "volume": "868",
+      "reporter": "P.3d",
+      "page": "896",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2012,
+      "reporter_cite": "868 P.3d 896"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 65.1",
+      "start": 15222,
+      "end": 15237,
+      "number": "65.1",
+      "subsection": "",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100",
+      "start": 16336,
+      "end": 16348,
+      "section": "18.66.100",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(2)",
+      "start": 16507,
+      "end": 16525,
+      "section": "18.66.100",
+      "subsection": "(c)(2)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(4)",
+      "start": 16657,
+      "end": 16675,
+      "section": "18.66.100",
+      "subsection": "(c)(4)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(3)",
+      "start": 16780,
+      "end": 16798,
+      "section": "18.66.100",
+      "subsection": "(c)(3)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(10)",
+      "start": 16923,
+      "end": 16942,
+      "section": "18.66.100",
+      "subsection": "(c)(10)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(16)",
+      "start": 17075,
+      "end": 17094,
+      "section": "18.66.100",
+      "subsection": "(c)(16)"
+    }
+  ]
+}

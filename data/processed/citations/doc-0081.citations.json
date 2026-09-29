@@ -1,0 +1,351 @@
+{
+  "doc_id": "doc-0081",
+  "offset_basis": "Zero-based character offsets in cleaned text; end is exclusive.",
+  "summary": {
+    "total_mentions": 36,
+    "by_type": {
+      "statute": 22,
+      "case": 7,
+      "rule": 7
+    }
+  },
+  "citations": [
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.110(a)",
+      "start": 3165,
+      "end": 3180,
+      "section": "25.20.110",
+      "subsection": "(a)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 3492,
+      "end": 3507,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.070",
+      "start": 3999,
+      "end": 4011,
+      "section": "25.20.070",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(g)",
+      "start": 4104,
+      "end": 4119,
+      "section": "25.24.150",
+      "subsection": "(g)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Tompkins v. Tompkins, 961 P.2d 419 (Alaska 1998)",
+      "start": 4323,
+      "end": 4371,
+      "case_name": "Tompkins v. Tompkins",
+      "volume": "961",
+      "reporter": "P.2d",
+      "page": "419",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1998,
+      "reporter_cite": "961 P.2d 419"
+    },
+    {
+      "type": "case",
+      "raw_text": "Hayes v. Hayes, 922 P.2d 896 (Alaska 1996)",
+      "start": 4651,
+      "end": 4693,
+      "case_name": "Hayes v. Hayes",
+      "volume": "922",
+      "reporter": "P.2d",
+      "page": "896",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1996,
+      "reporter_cite": "922 P.2d 896"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.110(a)",
+      "start": 5037,
+      "end": 5052,
+      "section": "25.20.110",
+      "subsection": "(a)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Tompkins v. Tompkins, 961 P.2d 419 (Alaska 1998)",
+      "start": 5718,
+      "end": 5766,
+      "case_name": "Tompkins v. Tompkins",
+      "volume": "961",
+      "reporter": "P.2d",
+      "page": "419",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1998,
+      "reporter_cite": "961 P.2d 419"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.110(a)",
+      "start": 6553,
+      "end": 6568,
+      "section": "25.20.110",
+      "subsection": "(a)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 7287,
+      "end": 7302,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(1)",
+      "start": 7799,
+      "end": 7817,
+      "section": "25.24.150",
+      "subsection": "(c)(1)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(2)",
+      "start": 8513,
+      "end": 8531,
+      "section": "25.24.150",
+      "subsection": "(c)(2)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(4)",
+      "start": 9195,
+      "end": 9213,
+      "section": "25.24.150",
+      "subsection": "(c)(4)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Hayes v. Hayes, 922 P.2d 896 (Alaska 1996)",
+      "start": 9554,
+      "end": 9596,
+      "case_name": "Hayes v. Hayes",
+      "volume": "922",
+      "reporter": "P.2d",
+      "page": "896",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1996,
+      "reporter_cite": "922 P.2d 896"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(5)",
+      "start": 10018,
+      "end": 10036,
+      "section": "25.24.150",
+      "subsection": "(c)(5)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(6)",
+      "start": 10837,
+      "end": 10855,
+      "section": "25.24.150",
+      "subsection": "(c)(6)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.070",
+      "start": 11597,
+      "end": 11609,
+      "section": "25.20.070",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.070",
+      "start": 11638,
+      "end": 11650,
+      "section": "25.20.070",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 11761,
+      "end": 11776,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(g)",
+      "start": 11810,
+      "end": 11825,
+      "section": "25.24.150",
+      "subsection": "(g)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(g)",
+      "start": 12081,
+      "end": 12096,
+      "section": "25.24.150",
+      "subsection": "(g)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.070",
+      "start": 12484,
+      "end": 12496,
+      "section": "25.20.070",
+      "subsection": ""
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 12839,
+      "end": 12857,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(b)",
+      "start": 12862,
+      "end": 12880,
+      "number": "90.3",
+      "subsection": "(b)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 12888,
+      "end": 12906,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(b)",
+      "start": 13083,
+      "end": 13101,
+      "number": "90.3",
+      "subsection": "(b)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)(3)",
+      "start": 13272,
+      "end": 13293,
+      "number": "90.3",
+      "subsection": "(a)(3)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "case",
+      "raw_text": "Tompkins v. Tompkins, 961 P.2d 419 (Alaska 1998)",
+      "start": 14072,
+      "end": 14120,
+      "case_name": "Tompkins v. Tompkins",
+      "volume": "961",
+      "reporter": "P.2d",
+      "page": "419",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1998,
+      "reporter_cite": "961 P.2d 419"
+    },
+    {
+      "type": "case",
+      "raw_text": "Havel v. Hogan, 216 P.3d 1142 (Alaska 2009)",
+      "start": 14616,
+      "end": 14659,
+      "case_name": "Havel v. Hogan",
+      "volume": "216",
+      "reporter": "P.3d",
+      "page": "1142",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2009,
+      "reporter_cite": "216 P.3d 1142"
+    },
+    {
+      "type": "case",
+      "raw_text": "Sheffield v. Sheffield, 265 P.3d 332 (Alaska 2011)",
+      "start": 15360,
+      "end": 15410,
+      "case_name": "Sheffield v. Sheffield",
+      "volume": "265",
+      "reporter": "P.3d",
+      "page": "332",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2011,
+      "reporter_cite": "265 P.3d 332"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.110(a)",
+      "start": 15807,
+      "end": 15822,
+      "section": "25.20.110",
+      "subsection": "(a)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.110(a)",
+      "start": 16063,
+      "end": 16078,
+      "section": "25.20.110",
+      "subsection": "(a)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 16460,
+      "end": 16475,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.070",
+      "start": 16559,
+      "end": 16571,
+      "section": "25.20.070",
+      "subsection": ""
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 16786,
+      "end": 16804,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(b)",
+      "start": 16809,
+      "end": 16827,
+      "number": "90.3",
+      "subsection": "(b)",
+      "rule_family": "civil"
+    }
+  ]
+}

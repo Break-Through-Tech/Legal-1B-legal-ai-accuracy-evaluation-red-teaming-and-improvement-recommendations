@@ -1,0 +1,427 @@
+{
+  "doc_id": "doc-0160",
+  "offset_basis": "Zero-based character offsets in cleaned text; end is exclusive.",
+  "summary": {
+    "total_mentions": 46,
+    "by_type": {
+      "statute": 31,
+      "rule": 9,
+      "case": 6
+    }
+  },
+  "citations": [
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.946",
+      "start": 333,
+      "end": 345,
+      "section": "18.66.946",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(b)",
+      "start": 2794,
+      "end": 2809,
+      "section": "18.66.100",
+      "subsection": "(b)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)",
+      "start": 3142,
+      "end": 3157,
+      "section": "18.66.100",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.110",
+      "start": 3355,
+      "end": 3367,
+      "section": "18.66.110",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.110",
+      "start": 3624,
+      "end": 3636,
+      "section": "18.66.110",
+      "subsection": ""
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 65(b)",
+      "start": 3708,
+      "end": 3724,
+      "number": "65",
+      "subsection": "(b)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 923",
+      "start": 3996,
+      "end": 4010,
+      "number": "923",
+      "subsection": "",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100",
+      "start": 4104,
+      "end": 4116,
+      "section": "18.66.100",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.110",
+      "start": 4120,
+      "end": 4132,
+      "section": "18.66.110",
+      "subsection": ""
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 3(h)",
+      "start": 4543,
+      "end": 4558,
+      "number": "3",
+      "subsection": "(h)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "case",
+      "raw_text": "Thomas v. Thomas, 171 P.3d 98 (Alaska 2007)",
+      "start": 4880,
+      "end": 4923,
+      "case_name": "Thomas v. Thomas",
+      "volume": "171",
+      "reporter": "P.3d",
+      "page": "98",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2007,
+      "reporter_cite": "171 P.3d 98"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(e)(1)",
+      "start": 5074,
+      "end": 5092,
+      "section": "18.66.100",
+      "subsection": "(e)(1)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(b)",
+      "start": 5250,
+      "end": 5265,
+      "section": "18.66.100",
+      "subsection": "(b)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Thomas v. Thomas, 171 P.3d 98 (Alaska 2007)",
+      "start": 6135,
+      "end": 6178,
+      "case_name": "Thomas v. Thomas",
+      "volume": "171",
+      "reporter": "P.3d",
+      "page": "98",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2007,
+      "reporter_cite": "171 P.3d 98"
+    },
+    {
+      "type": "case",
+      "raw_text": "Sarah D. v. John D., 352 P.3d 419 (Alaska 2015)",
+      "start": 6842,
+      "end": 6889,
+      "case_name": "Sarah D. v. John D.",
+      "volume": "352",
+      "reporter": "P.3d",
+      "page": "419",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2015,
+      "reporter_cite": "352 P.3d 419"
+    },
+    {
+      "type": "case",
+      "raw_text": "Stephan P. v. Cecilia A., 464 P.3d 266 (Alaska 2020)",
+      "start": 7365,
+      "end": 7417,
+      "case_name": "Stephan P. v. Cecilia A.",
+      "volume": "464",
+      "reporter": "P.3d",
+      "page": "266",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2020,
+      "reporter_cite": "464 P.3d 266"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)",
+      "start": 7612,
+      "end": 7627,
+      "section": "18.66.100",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(2)",
+      "start": 7888,
+      "end": 7906,
+      "section": "18.66.100",
+      "subsection": "(c)(2)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(4)",
+      "start": 8237,
+      "end": 8255,
+      "section": "18.66.100",
+      "subsection": "(c)(4)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(16)",
+      "start": 8770,
+      "end": 8789,
+      "section": "18.66.100",
+      "subsection": "(c)(16)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.130(a)",
+      "start": 9159,
+      "end": 9174,
+      "section": "18.66.130",
+      "subsection": "(a)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(4)",
+      "start": 9543,
+      "end": 9561,
+      "section": "18.66.100",
+      "subsection": "(c)(4)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Ruerup v. Ruerup, 641 P.3d 783 (Alaska 2018)",
+      "start": 10489,
+      "end": 10533,
+      "case_name": "Ruerup v. Ruerup",
+      "volume": "641",
+      "reporter": "P.3d",
+      "page": "783",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2018,
+      "reporter_cite": "641 P.3d 783"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(9)",
+      "start": 10789,
+      "end": 10807,
+      "section": "18.66.100",
+      "subsection": "(c)(9)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Stephan P. v. Cecilia A., 464 P.3d 266 (Alaska 2020)",
+      "start": 11389,
+      "end": 11441,
+      "case_name": "Stephan P. v. Cecilia A.",
+      "volume": "464",
+      "reporter": "P.3d",
+      "page": "266",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2020,
+      "reporter_cite": "464 P.3d 266"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.140(b)",
+      "start": 11443,
+      "end": 11458,
+      "section": "25.24.140",
+      "subsection": "(b)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100",
+      "start": 11619,
+      "end": 11631,
+      "section": "18.66.100",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.140(b)(2)",
+      "start": 11726,
+      "end": 11744,
+      "section": "25.24.140",
+      "subsection": "(b)(2)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.110(a)",
+      "start": 12005,
+      "end": 12020,
+      "section": "18.66.110",
+      "subsection": "(a)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.110(a)",
+      "start": 12048,
+      "end": 12063,
+      "section": "18.66.110",
+      "subsection": "(a)"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 65(b)",
+      "start": 13117,
+      "end": 13133,
+      "number": "65",
+      "subsection": "(b)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.130(c)",
+      "start": 13515,
+      "end": 13530,
+      "section": "18.66.130",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100",
+      "start": 13707,
+      "end": 13719,
+      "section": "18.66.100",
+      "subsection": ""
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 100(a)",
+      "start": 13739,
+      "end": 13756,
+      "number": "100",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100",
+      "start": 13842,
+      "end": 13854,
+      "section": "18.66.100",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.140(d)",
+      "start": 13874,
+      "end": 13889,
+      "section": "25.24.140",
+      "subsection": "(d)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100",
+      "start": 14031,
+      "end": 14043,
+      "section": "18.66.100",
+      "subsection": ""
+    },
+    {
+      "type": "rule",
+      "raw_text": "Alaska R. Evid. 505(a)(2)(D)(v)",
+      "start": 14739,
+      "end": 14770,
+      "number": "505",
+      "subsection": "(a)(2)(D)(v)",
+      "rule_family": "evidence"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.990",
+      "start": 14900,
+      "end": 14912,
+      "section": "18.66.990",
+      "subsection": ""
+    },
+    {
+      "type": "rule",
+      "raw_text": "Alaska R. Evid. 505(a)(2)(E)",
+      "start": 14925,
+      "end": 14953,
+      "number": "505",
+      "subsection": "(a)(2)(E)",
+      "rule_family": "evidence"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Alaska R. Evid. 504(d)(1)",
+      "start": 15332,
+      "end": 15357,
+      "number": "504",
+      "subsection": "(d)(1)",
+      "rule_family": "evidence"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)",
+      "start": 16445,
+      "end": 16460,
+      "section": "18.66.100",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.110",
+      "start": 16707,
+      "end": 16719,
+      "section": "18.66.110",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(b)",
+      "start": 16995,
+      "end": 17010,
+      "section": "18.66.100",
+      "subsection": "(b)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(9)",
+      "start": 17216,
+      "end": 17234,
+      "section": "18.66.100",
+      "subsection": "(c)(9)"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 65.1",
+      "start": 17321,
+      "end": 17336,
+      "number": "65.1",
+      "subsection": "",
+      "rule_family": "civil"
+    }
+  ]
+}

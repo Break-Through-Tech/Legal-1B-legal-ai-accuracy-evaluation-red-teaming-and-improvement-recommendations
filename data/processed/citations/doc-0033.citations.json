@@ -1,0 +1,481 @@
+{
+  "doc_id": "doc-0033",
+  "offset_basis": "Zero-based character offsets in cleaned text; end is exclusive.",
+  "summary": {
+    "total_mentions": 49,
+    "by_type": {
+      "rule": 15,
+      "statute": 24,
+      "case": 10
+    }
+  },
+  "citations": [
+    {
+      "type": "rule",
+      "raw_text": "Alaska Civil Rule 90.3",
+      "start": 935,
+      "end": 957,
+      "number": "90.3",
+      "subsection": "",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 1433,
+      "end": 1451,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.160",
+      "start": 1609,
+      "end": 1621,
+      "section": "25.24.160",
+      "subsection": ""
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3",
+      "start": 3486,
+      "end": 3501,
+      "number": "90.3",
+      "subsection": "",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 3776,
+      "end": 3791,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.090",
+      "start": 4837,
+      "end": 4849,
+      "section": "25.20.090",
+      "subsection": ""
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3",
+      "start": 5389,
+      "end": 5404,
+      "number": "90.3",
+      "subsection": "",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 5488,
+      "end": 5506,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(b)",
+      "start": 5755,
+      "end": 5773,
+      "number": "90.3",
+      "subsection": "(b)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.160",
+      "start": 5941,
+      "end": 5953,
+      "section": "25.24.160",
+      "subsection": ""
+    },
+    {
+      "type": "case",
+      "raw_text": "Ruppe v. Ruppe, 358 P.3d 1284 (Alaska 2015)",
+      "start": 6593,
+      "end": 6636,
+      "case_name": "Ruppe v. Ruppe",
+      "volume": "358",
+      "reporter": "P.3d",
+      "page": "1284",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2015,
+      "reporter_cite": "358 P.3d 1284"
+    },
+    {
+      "type": "case",
+      "raw_text": "Sharon Thompson v. Everett Thompson, 454 P.3d 981 (Alaska 2019)",
+      "start": 6638,
+      "end": 6701,
+      "case_name": "Sharon Thompson v. Everett Thompson",
+      "volume": "454",
+      "reporter": "P.3d",
+      "page": "981",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2019,
+      "reporter_cite": "454 P.3d 981"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.200",
+      "start": 6749,
+      "end": 6761,
+      "section": "25.24.200",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.220",
+      "start": 6766,
+      "end": 6778,
+      "section": "25.24.220",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 7611,
+      "end": 7626,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.090",
+      "start": 8635,
+      "end": 8647,
+      "section": "25.20.090",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.090",
+      "start": 9475,
+      "end": 9487,
+      "section": "25.20.090",
+      "subsection": ""
+    },
+    {
+      "type": "case",
+      "raw_text": "Faulkner v. Goldfuss, 46 P.3d 993 (Alaska 2002)",
+      "start": 10230,
+      "end": 10277,
+      "case_name": "Faulkner v. Goldfuss",
+      "volume": "46",
+      "reporter": "P.3d",
+      "page": "993",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2002,
+      "reporter_cite": "46 P.3d 993"
+    },
+    {
+      "type": "case",
+      "raw_text": "Bergstrom v. Lindback, 779 P.2d 1235 (Alaska 1989)",
+      "start": 10279,
+      "end": 10329,
+      "case_name": "Bergstrom v. Lindback",
+      "volume": "779",
+      "reporter": "P.2d",
+      "page": "1235",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1989,
+      "reporter_cite": "779 P.2d 1235"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 10568,
+      "end": 10586,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 10754,
+      "end": 10772,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)(1)",
+      "start": 11053,
+      "end": 11074,
+      "number": "90.3",
+      "subsection": "(a)(1)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)(4)",
+      "start": 11811,
+      "end": 11832,
+      "number": "90.3",
+      "subsection": "(a)(4)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Rule 90.3",
+      "start": 12052,
+      "end": 12061,
+      "number": "90.3",
+      "subsection": "",
+      "rule_family": null
+    },
+    {
+      "type": "case",
+      "raw_text": "Ruppe v. Ruppe, 358 P.3d 1284 (Alaska 2015)",
+      "start": 12258,
+      "end": 12301,
+      "case_name": "Ruppe v. Ruppe",
+      "volume": "358",
+      "reporter": "P.3d",
+      "page": "1284",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2015,
+      "reporter_cite": "358 P.3d 1284"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Rule 90.3(a)",
+      "start": 12555,
+      "end": 12567,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": null
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(b)",
+      "start": 12801,
+      "end": 12819,
+      "number": "90.3",
+      "subsection": "(b)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "case",
+      "raw_text": "Gorton v. Mann, 281 P.3d 81 (Alaska 2012)",
+      "start": 12972,
+      "end": 13013,
+      "case_name": "Gorton v. Mann",
+      "volume": "281",
+      "reporter": "P.3d",
+      "page": "81",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2012,
+      "reporter_cite": "281 P.3d 81"
+    },
+    {
+      "type": "case",
+      "raw_text": "Rowen v. Rowen, 963 P.2d 249 (Alaska 1998)",
+      "start": 13015,
+      "end": 13057,
+      "case_name": "Rowen v. Rowen",
+      "volume": "963",
+      "reporter": "P.2d",
+      "page": "249",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1998,
+      "reporter_cite": "963 P.2d 249"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(b)",
+      "start": 13253,
+      "end": 13271,
+      "number": "90.3",
+      "subsection": "(b)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.160(a)(1)",
+      "start": 13596,
+      "end": 13614,
+      "section": "25.24.160",
+      "subsection": "(a)(1)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.160(a)(4)",
+      "start": 14010,
+      "end": 14028,
+      "section": "25.24.160",
+      "subsection": "(a)(4)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Sharon Thompson v. Everett Thompson, 454 P.3d 981 (Alaska 2019)",
+      "start": 14351,
+      "end": 14414,
+      "case_name": "Sharon Thompson v. Everett Thompson",
+      "volume": "454",
+      "reporter": "P.3d",
+      "page": "981",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2019,
+      "reporter_cite": "454 P.3d 981"
+    },
+    {
+      "type": "case",
+      "raw_text": "Ruppe v. Ruppe, 358 P.3d 1284 (Alaska 2015)",
+      "start": 14416,
+      "end": 14459,
+      "case_name": "Ruppe v. Ruppe",
+      "volume": "358",
+      "reporter": "P.3d",
+      "page": "1284",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2015,
+      "reporter_cite": "358 P.3d 1284"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.160(a)(4)",
+      "start": 14509,
+      "end": 14527,
+      "section": "25.24.160",
+      "subsection": "(a)(4)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.160(a)(4)",
+      "start": 15909,
+      "end": 15927,
+      "section": "25.24.160",
+      "subsection": "(a)(4)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.160(a)(4)",
+      "start": 16619,
+      "end": 16637,
+      "section": "25.24.160",
+      "subsection": "(a)(4)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.220(d)(3)",
+      "start": 16883,
+      "end": 16901,
+      "section": "25.24.220",
+      "subsection": "(d)(3)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.160(a)(2)",
+      "start": 17163,
+      "end": 17181,
+      "section": "25.24.160",
+      "subsection": "(a)(2)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.170",
+      "start": 17733,
+      "end": 17745,
+      "section": "25.24.170",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150",
+      "start": 17901,
+      "end": 17913,
+      "section": "25.24.150",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.170(b)",
+      "start": 18118,
+      "end": 18133,
+      "section": "25.24.170",
+      "subsection": "(b)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Bunn v. House, 934 P.2d 753 (Alaska 1997)",
+      "start": 18475,
+      "end": 18516,
+      "case_name": "Bunn v. House",
+      "volume": "934",
+      "reporter": "P.2d",
+      "page": "753",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1997,
+      "reporter_cite": "934 P.2d 753"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150",
+      "start": 19147,
+      "end": 19159,
+      "section": "25.24.150",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.090",
+      "start": 19164,
+      "end": 19176,
+      "section": "25.20.090",
+      "subsection": ""
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 19245,
+      "end": 19263,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.160(a)(4)",
+      "start": 19588,
+      "end": 19606,
+      "section": "25.24.160",
+      "subsection": "(a)(4)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.160(a)(4)",
+      "start": 19824,
+      "end": 19842,
+      "section": "25.24.160",
+      "subsection": "(a)(4)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.170",
+      "start": 19972,
+      "end": 19984,
+      "section": "25.24.170",
+      "subsection": ""
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "doc_id": "doc-0108",
+  "offset_basis": "Zero-based character offsets in cleaned text; end is exclusive.",
+  "summary": {
+    "total_mentions": 21,
+    "by_type": {
+      "statute": 11,
+      "case": 8,
+      "rule": 2
+    }
+  },
+  "citations": [
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.110(a)",
+      "start": 2920,
+      "end": 2935,
+      "section": "25.20.110",
+      "subsection": "(a)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 3413,
+      "end": 3428,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Nelson v. Nelson, 263 P.3d 49 (Alaska 2011)",
+      "start": 4383,
+      "end": 4426,
+      "case_name": "Nelson v. Nelson",
+      "volume": "263",
+      "reporter": "P.3d",
+      "page": "49",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2011,
+      "reporter_cite": "263 P.3d 49"
+    },
+    {
+      "type": "case",
+      "raw_text": "Barrett v. Alguire, 35 P.3d 1 (Alaska 2001)",
+      "start": 4428,
+      "end": 4471,
+      "case_name": "Barrett v. Alguire",
+      "volume": "35",
+      "reporter": "P.3d",
+      "page": "1",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2001,
+      "reporter_cite": "35 P.3d 1"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 4563,
+      "end": 4578,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.110(a)",
+      "start": 4692,
+      "end": 4707,
+      "section": "25.20.110",
+      "subsection": "(a)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.110(a)",
+      "start": 4859,
+      "end": 4874,
+      "section": "25.20.110",
+      "subsection": "(a)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Barrett v. Alguire, 35 P.3d 1 (Alaska 2001)",
+      "start": 5095,
+      "end": 5138,
+      "case_name": "Barrett v. Alguire",
+      "volume": "35",
+      "reporter": "P.3d",
+      "page": "1",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2001,
+      "reporter_cite": "35 P.3d 1"
+    },
+    {
+      "type": "case",
+      "raw_text": "Nelson v. Nelson, 263 P.3d 49 (Alaska 2011)",
+      "start": 5140,
+      "end": 5183,
+      "case_name": "Nelson v. Nelson",
+      "volume": "263",
+      "reporter": "P.3d",
+      "page": "49",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2011,
+      "reporter_cite": "263 P.3d 49"
+    },
+    {
+      "type": "case",
+      "raw_text": "Barrett v. Alguire, 35 P.3d 1 (Alaska 2001)",
+      "start": 5188,
+      "end": 5231,
+      "case_name": "Barrett v. Alguire",
+      "volume": "35",
+      "reporter": "P.3d",
+      "page": "1",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2001,
+      "reporter_cite": "35 P.3d 1"
+    },
+    {
+      "type": "case",
+      "raw_text": "Nelson v. Nelson, 263 P.3d 49 (Alaska 2011)",
+      "start": 5789,
+      "end": 5832,
+      "case_name": "Nelson v. Nelson",
+      "volume": "263",
+      "reporter": "P.3d",
+      "page": "49",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2011,
+      "reporter_cite": "263 P.3d 49"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.110(a)",
+      "start": 7004,
+      "end": 7019,
+      "section": "25.20.110",
+      "subsection": "(a)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 7302,
+      "end": 7317,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(6)",
+      "start": 8921,
+      "end": 8939,
+      "section": "25.24.150",
+      "subsection": "(c)(6)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Rego v. Rego, 259 P.3d 447 (Alaska 2011)",
+      "start": 9627,
+      "end": 9667,
+      "case_name": "Rego v. Rego",
+      "volume": "259",
+      "reporter": "P.3d",
+      "page": "447",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2011,
+      "reporter_cite": "259 P.3d 447"
+    },
+    {
+      "type": "case",
+      "raw_text": "Sheffield v. Sheffield, 265 P.3d 332 (Alaska 2011)",
+      "start": 10042,
+      "end": 10092,
+      "case_name": "Sheffield v. Sheffield",
+      "volume": "265",
+      "reporter": "P.3d",
+      "page": "332",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2011,
+      "reporter_cite": "265 P.3d 332"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.110(a)",
+      "start": 11292,
+      "end": 11307,
+      "section": "25.20.110",
+      "subsection": "(a)"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(b)",
+      "start": 12317,
+      "end": 12335,
+      "number": "90.3",
+      "subsection": "(b)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.110(a)",
+      "start": 12824,
+      "end": 12839,
+      "section": "25.20.110",
+      "subsection": "(a)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 12889,
+      "end": 12904,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(b)",
+      "start": 13289,
+      "end": 13307,
+      "number": "90.3",
+      "subsection": "(b)",
+      "rule_family": "civil"
+    }
+  ]
+}

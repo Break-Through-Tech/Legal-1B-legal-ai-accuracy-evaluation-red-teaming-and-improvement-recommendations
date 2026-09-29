@@ -1,0 +1,262 @@
+{
+  "doc_id": "doc-0110",
+  "offset_basis": "Zero-based character offsets in cleaned text; end is exclusive.",
+  "summary": {
+    "total_mentions": 24,
+    "by_type": {
+      "statute": 13,
+      "case": 9,
+      "rule": 2
+    }
+  },
+  "citations": [
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.110(a)",
+      "start": 3757,
+      "end": 3772,
+      "section": "25.20.110",
+      "subsection": "(a)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Bagby v. Bagby, 250 P.3d 1127 (Alaska 2011)",
+      "start": 4429,
+      "end": 4472,
+      "case_name": "Bagby v. Bagby",
+      "volume": "250",
+      "reporter": "P.3d",
+      "page": "1127",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2011,
+      "reporter_cite": "250 P.3d 1127"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.910",
+      "start": 5065,
+      "end": 5077,
+      "section": "25.24.910",
+      "subsection": ""
+    },
+    {
+      "type": "case",
+      "raw_text": "Teale v. Wysocki, 541 P.3d 636 (Alaska 2013)",
+      "start": 5829,
+      "end": 5873,
+      "case_name": "Teale v. Wysocki",
+      "volume": "541",
+      "reporter": "P.3d",
+      "page": "636",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2013,
+      "reporter_cite": "541 P.3d 636"
+    },
+    {
+      "type": "case",
+      "raw_text": "Iverson v. Griffith, 180 P.3d 943 (Alaska 2008)",
+      "start": 5875,
+      "end": 5922,
+      "case_name": "Iverson v. Griffith",
+      "volume": "180",
+      "reporter": "P.3d",
+      "page": "943",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2008,
+      "reporter_cite": "180 P.3d 943"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.110(a)",
+      "start": 6124,
+      "end": 6139,
+      "section": "25.20.110",
+      "subsection": "(a)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Bagby v. Bagby, 250 P.3d 1127 (Alaska 2011)",
+      "start": 6663,
+      "end": 6706,
+      "case_name": "Bagby v. Bagby",
+      "volume": "250",
+      "reporter": "P.3d",
+      "page": "1127",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2011,
+      "reporter_cite": "250 P.3d 1127"
+    },
+    {
+      "type": "case",
+      "raw_text": "McLane v. Paul, 189 P.3d 1039 (Alaska 2008)",
+      "start": 7975,
+      "end": 8018,
+      "case_name": "McLane v. Paul",
+      "volume": "189",
+      "reporter": "P.3d",
+      "page": "1039",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2008,
+      "reporter_cite": "189 P.3d 1039"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 8544,
+      "end": 8559,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(1)",
+      "start": 8866,
+      "end": 8884,
+      "section": "25.24.150",
+      "subsection": "(c)(1)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(5)",
+      "start": 9838,
+      "end": 9856,
+      "section": "25.24.150",
+      "subsection": "(c)(5)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Marden v. Colquhoun, 475 P.3d 336 (Alaska 2004)",
+      "start": 10492,
+      "end": 10539,
+      "case_name": "Marden v. Colquhoun",
+      "volume": "475",
+      "reporter": "P.3d",
+      "page": "336",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2004,
+      "reporter_cite": "475 P.3d 336"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(6)",
+      "start": 10632,
+      "end": 10650,
+      "section": "25.24.150",
+      "subsection": "(c)(6)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Blanton v. Yourkowski, 180 P.3d 948 (Alaska 2008)",
+      "start": 11539,
+      "end": 11588,
+      "case_name": "Blanton v. Yourkowski",
+      "volume": "180",
+      "reporter": "P.3d",
+      "page": "948",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2008,
+      "reporter_cite": "180 P.3d 948"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 99(a)",
+      "start": 11600,
+      "end": 11616,
+      "number": "99",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 99(a)",
+      "start": 11916,
+      "end": 11932,
+      "number": "99",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(d)",
+      "start": 12270,
+      "end": 12285,
+      "section": "25.24.150",
+      "subsection": "(d)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.110(a)",
+      "start": 13011,
+      "end": 13026,
+      "section": "25.20.110",
+      "subsection": "(a)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Iverson v. Griffith, 180 P.3d 943 (Alaska 2008)",
+      "start": 13378,
+      "end": 13425,
+      "case_name": "Iverson v. Griffith",
+      "volume": "180",
+      "reporter": "P.3d",
+      "page": "943",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2008,
+      "reporter_cite": "180 P.3d 943"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.110(e)(5)",
+      "start": 14439,
+      "end": 14457,
+      "section": "25.20.110",
+      "subsection": "(e)(5)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Harris v. Governale, 311 P.3d 1052 (Alaska 2013)",
+      "start": 14585,
+      "end": 14633,
+      "case_name": "Harris v. Governale",
+      "volume": "311",
+      "reporter": "P.3d",
+      "page": "1052",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2013,
+      "reporter_cite": "311 P.3d 1052"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(2)",
+      "start": 15555,
+      "end": 15573,
+      "section": "25.24.150",
+      "subsection": "(c)(2)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.110(a)",
+      "start": 16981,
+      "end": 16996,
+      "section": "25.20.110",
+      "subsection": "(a)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 16998,
+      "end": 17013,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    }
+  ]
+}

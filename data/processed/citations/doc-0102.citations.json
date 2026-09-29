@@ -1,0 +1,394 @@
+{
+  "doc_id": "doc-0102",
+  "offset_basis": "Zero-based character offsets in cleaned text; end is exclusive.",
+  "summary": {
+    "total_mentions": 40,
+    "by_type": {
+      "rule": 6,
+      "statute": 25,
+      "case": 9
+    }
+  },
+  "citations": [
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(f)",
+      "start": 1840,
+      "end": 1858,
+      "number": "90.3",
+      "subsection": "(f)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.110(a)",
+      "start": 3540,
+      "end": 3555,
+      "section": "25.20.110",
+      "subsection": "(a)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Laramie Rainer v. Ryan Poole, 510 P.3d 476 (Alaska 2022)",
+      "start": 3737,
+      "end": 3793,
+      "case_name": "Laramie Rainer v. Ryan Poole",
+      "volume": "510",
+      "reporter": "P.3d",
+      "page": "476",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2022,
+      "reporter_cite": "510 P.3d 476"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 4155,
+      "end": 4170,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 4596,
+      "end": 4611,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.070",
+      "start": 4703,
+      "end": 4715,
+      "section": "25.20.070",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.090",
+      "start": 4976,
+      "end": 4988,
+      "section": "25.20.090",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(d)",
+      "start": 5457,
+      "end": 5472,
+      "section": "25.24.150",
+      "subsection": "(d)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.110(a)",
+      "start": 5769,
+      "end": 5784,
+      "section": "25.20.110",
+      "subsection": "(a)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Laramie Rainer v. Ryan Poole, 510 P.3d 476 (Alaska 2022)",
+      "start": 5936,
+      "end": 5992,
+      "case_name": "Laramie Rainer v. Ryan Poole",
+      "volume": "510",
+      "reporter": "P.3d",
+      "page": "476",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2022,
+      "reporter_cite": "510 P.3d 476"
+    },
+    {
+      "type": "case",
+      "raw_text": "Laramie Rainer v. Ryan Poole, 510 P.3d 476 (Alaska 2022)",
+      "start": 6787,
+      "end": 6843,
+      "case_name": "Laramie Rainer v. Ryan Poole",
+      "volume": "510",
+      "reporter": "P.3d",
+      "page": "476",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2022,
+      "reporter_cite": "510 P.3d 476"
+    },
+    {
+      "type": "case",
+      "raw_text": "McLane v. Paul, 189 P.3d 1039 (Alaska 2008)",
+      "start": 7589,
+      "end": 7632,
+      "case_name": "McLane v. Paul",
+      "volume": "189",
+      "reporter": "P.3d",
+      "page": "1039",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2008,
+      "reporter_cite": "189 P.3d 1039"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 8389,
+      "end": 8404,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(8)",
+      "start": 8782,
+      "end": 8800,
+      "section": "25.24.150",
+      "subsection": "(c)(8)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.090(3)",
+      "start": 9724,
+      "end": 9739,
+      "section": "25.20.090",
+      "subsection": "(3)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Brett M. v. Amanda M., 445 P.3d 1005 (Alaska 2019)",
+      "start": 10222,
+      "end": 10272,
+      "case_name": "Brett M. v. Amanda M.",
+      "volume": "445",
+      "reporter": "P.3d",
+      "page": "1005",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2019,
+      "reporter_cite": "445 P.3d 1005"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.090",
+      "start": 10530,
+      "end": 10542,
+      "section": "25.20.090",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.090(6)(B)",
+      "start": 10726,
+      "end": 10744,
+      "section": "25.20.090",
+      "subsection": "(6)(B)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.070",
+      "start": 11580,
+      "end": 11592,
+      "section": "25.20.070",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.070",
+      "start": 11941,
+      "end": 11953,
+      "section": "25.20.070",
+      "subsection": ""
+    },
+    {
+      "type": "case",
+      "raw_text": "Weathers v. Weathers, 425 P.3d 131 (Alaska 2018)",
+      "start": 12195,
+      "end": 12243,
+      "case_name": "Weathers v. Weathers",
+      "volume": "425",
+      "reporter": "P.3d",
+      "page": "131",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2018,
+      "reporter_cite": "425 P.3d 131"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.070",
+      "start": 12386,
+      "end": 12398,
+      "section": "25.20.070",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(5)",
+      "start": 12791,
+      "end": 12809,
+      "section": "25.24.150",
+      "subsection": "(c)(5)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Weathers v. Weathers, 425 P.3d 131 (Alaska 2018)",
+      "start": 13090,
+      "end": 13138,
+      "case_name": "Weathers v. Weathers",
+      "volume": "425",
+      "reporter": "P.3d",
+      "page": "131",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2018,
+      "reporter_cite": "425 P.3d 131"
+    },
+    {
+      "type": "case",
+      "raw_text": "Siekawitch v. Siekawitch, 956 P.2d 447 (Alaska 1998)",
+      "start": 13596,
+      "end": 13648,
+      "case_name": "Siekawitch v. Siekawitch",
+      "volume": "956",
+      "reporter": "P.2d",
+      "page": "447",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1998,
+      "reporter_cite": "956 P.2d 447"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.090",
+      "start": 13896,
+      "end": 13908,
+      "section": "25.20.090",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.090",
+      "start": 14022,
+      "end": 14034,
+      "section": "25.20.090",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.090(2)",
+      "start": 14101,
+      "end": 14116,
+      "section": "25.20.090",
+      "subsection": "(2)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.090(3)",
+      "start": 14238,
+      "end": 14253,
+      "section": "25.20.090",
+      "subsection": "(3)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.090(6)(B)",
+      "start": 14375,
+      "end": 14393,
+      "section": "25.20.090",
+      "subsection": "(6)(B)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.090(6)(A)",
+      "start": 14536,
+      "end": 14554,
+      "section": "25.20.090",
+      "subsection": "(6)(A)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Co v. Matson, 313 P.3d 521 (Alaska 2013)",
+      "start": 14968,
+      "end": 15008,
+      "case_name": "Co v. Matson",
+      "volume": "313",
+      "reporter": "P.3d",
+      "page": "521",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2013,
+      "reporter_cite": "313 P.3d 521"
+    },
+    {
+      "type": "rule",
+      "raw_text": "CIVIL RULE 90.3(f)",
+      "start": 15178,
+      "end": 15196,
+      "number": "90.3",
+      "subsection": "(f)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(f)",
+      "start": 15204,
+      "end": 15222,
+      "number": "90.3",
+      "subsection": "(f)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(h)",
+      "start": 15711,
+      "end": 15729,
+      "number": "90.3",
+      "subsection": "(h)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(h)(1)",
+      "start": 16060,
+      "end": 16081,
+      "number": "90.3",
+      "subsection": "(h)(1)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 16684,
+      "end": 16699,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.090",
+      "start": 16737,
+      "end": 16749,
+      "section": "25.20.090",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.070",
+      "start": 16860,
+      "end": 16872,
+      "section": "25.20.070",
+      "subsection": ""
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(h)",
+      "start": 17316,
+      "end": 17334,
+      "number": "90.3",
+      "subsection": "(h)",
+      "rule_family": "civil"
+    }
+  ]
+}

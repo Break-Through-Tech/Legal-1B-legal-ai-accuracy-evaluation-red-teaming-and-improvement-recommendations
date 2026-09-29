@@ -1,0 +1,534 @@
+{
+  "doc_id": "doc-0027",
+  "offset_basis": "Zero-based character offsets in cleaned text; end is exclusive.",
+  "summary": {
+    "total_mentions": 54,
+    "by_type": {
+      "rule": 28,
+      "statute": 16,
+      "case": 10
+    }
+  },
+  "citations": [
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3",
+      "start": 825,
+      "end": 840,
+      "number": "90.3",
+      "subsection": "",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Alaska Civil Rule 90.3",
+      "start": 2300,
+      "end": 2322,
+      "number": "90.3",
+      "subsection": "",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 26.1(b)",
+      "start": 3178,
+      "end": 3196,
+      "number": "26.1",
+      "subsection": "(b)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.1(e)",
+      "start": 3242,
+      "end": 3260,
+      "number": "90.1",
+      "subsection": "(e)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.160",
+      "start": 3597,
+      "end": 3609,
+      "section": "25.24.160",
+      "subsection": ""
+    },
+    {
+      "type": "case",
+      "raw_text": "Hanlon v. Hanlon, 871 P.2d 229 (Alaska 1994)",
+      "start": 3856,
+      "end": 3900,
+      "case_name": "Hanlon v. Hanlon",
+      "volume": "871",
+      "reporter": "P.2d",
+      "page": "229",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1994,
+      "reporter_cite": "871 P.2d 229"
+    },
+    {
+      "type": "case",
+      "raw_text": "Odom v. Odom, 141 P.3d 324 (Alaska 2006)",
+      "start": 3902,
+      "end": 3942,
+      "case_name": "Odom v. Odom",
+      "volume": "141",
+      "reporter": "P.3d",
+      "page": "324",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2006,
+      "reporter_cite": "141 P.3d 324"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 3973,
+      "end": 3991,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3",
+      "start": 4127,
+      "end": 4142,
+      "number": "90.3",
+      "subsection": "",
+      "rule_family": "civil"
+    },
+    {
+      "type": "case",
+      "raw_text": "Sandberg v. Sandberg, 322 P.3d 879 (Alaska 2014)",
+      "start": 4281,
+      "end": 4329,
+      "case_name": "Sandberg v. Sandberg",
+      "volume": "322",
+      "reporter": "P.3d",
+      "page": "879",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2014,
+      "reporter_cite": "322 P.3d 879"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.160(a)(4)",
+      "start": 4465,
+      "end": 4483,
+      "section": "25.24.160",
+      "subsection": "(a)(4)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.160(a)(4)(F)",
+      "start": 4845,
+      "end": 4866,
+      "section": "25.24.160",
+      "subsection": "(a)(4)(F)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Hanlon v. Hanlon, 871 P.2d 229 (Alaska 1994)",
+      "start": 5679,
+      "end": 5723,
+      "case_name": "Hanlon v. Hanlon",
+      "volume": "871",
+      "reporter": "P.2d",
+      "page": "229",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1994,
+      "reporter_cite": "871 P.2d 229"
+    },
+    {
+      "type": "case",
+      "raw_text": "Odom v. Odom, 141 P.3d 324 (Alaska 2006)",
+      "start": 6379,
+      "end": 6419,
+      "case_name": "Odom v. Odom",
+      "volume": "141",
+      "reporter": "P.3d",
+      "page": "324",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2006,
+      "reporter_cite": "141 P.3d 324"
+    },
+    {
+      "type": "case",
+      "raw_text": "Silvan v. Alcina, 105 P.3d 117 (Alaska 2005)",
+      "start": 7026,
+      "end": 7070,
+      "case_name": "Silvan v. Alcina",
+      "volume": "105",
+      "reporter": "P.3d",
+      "page": "117",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2005,
+      "reporter_cite": "105 P.3d 117"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.160(a)(4)(F)",
+      "start": 7624,
+      "end": 7645,
+      "section": "25.24.160",
+      "subsection": "(a)(4)(F)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.160(a)(4)",
+      "start": 7721,
+      "end": 7739,
+      "section": "25.24.160",
+      "subsection": "(a)(4)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.160(a)(4)(G)",
+      "start": 8526,
+      "end": 8547,
+      "section": "25.24.160",
+      "subsection": "(a)(4)(G)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Hooper v. Hooper, 188 P.3d 681 (Alaska 2008)",
+      "start": 8631,
+      "end": 8675,
+      "case_name": "Hooper v. Hooper",
+      "volume": "188",
+      "reporter": "P.3d",
+      "page": "681",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2008,
+      "reporter_cite": "188 P.3d 681"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.160(a)(4)",
+      "start": 8808,
+      "end": 8826,
+      "section": "25.24.160",
+      "subsection": "(a)(4)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.160(a)(4)(F)",
+      "start": 8942,
+      "end": 8963,
+      "section": "25.24.160",
+      "subsection": "(a)(4)(F)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.160(a)(4)",
+      "start": 9546,
+      "end": 9564,
+      "section": "25.24.160",
+      "subsection": "(a)(4)"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 9628,
+      "end": 9646,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 9797,
+      "end": 9815,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 9963,
+      "end": 9981,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)(2)(B)",
+      "start": 10194,
+      "end": 10218,
+      "number": "90.3",
+      "subsection": "(a)(2)(B)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)(1)",
+      "start": 10265,
+      "end": 10286,
+      "number": "90.3",
+      "subsection": "(a)(1)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Rule 90.3(a)(1)",
+      "start": 10868,
+      "end": 10883,
+      "number": "90.3",
+      "subsection": "(a)(1)",
+      "rule_family": null
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 26.1(b)",
+      "start": 10977,
+      "end": 10995,
+      "number": "26.1",
+      "subsection": "(b)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 26.1(b)(1)(J)",
+      "start": 11039,
+      "end": 11063,
+      "number": "26.1",
+      "subsection": "(b)(1)(J)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 26.1(b)(1)(I)",
+      "start": 11163,
+      "end": 11187,
+      "number": "26.1",
+      "subsection": "(b)(1)(I)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 11390,
+      "end": 11408,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 26.1(b)",
+      "start": 11683,
+      "end": 11701,
+      "number": "26.1",
+      "subsection": "(b)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Rule 90.3(a)",
+      "start": 11762,
+      "end": 11774,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": null
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)(4)",
+      "start": 11920,
+      "end": 11941,
+      "number": "90.3",
+      "subsection": "(a)(4)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.1(e)",
+      "start": 12345,
+      "end": 12363,
+      "number": "90.1",
+      "subsection": "(e)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 26.1(b)",
+      "start": 12606,
+      "end": 12624,
+      "number": "26.1",
+      "subsection": "(b)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 26.1(b)(1)(F)",
+      "start": 13137,
+      "end": 13161,
+      "number": "26.1",
+      "subsection": "(b)(1)(F)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 26.1(b)(1)(A)",
+      "start": 13297,
+      "end": 13321,
+      "number": "26.1",
+      "subsection": "(b)(1)(A)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.160",
+      "start": 13408,
+      "end": 13420,
+      "section": "25.24.160",
+      "subsection": ""
+    },
+    {
+      "type": "case",
+      "raw_text": "Barnett v. Barnett, 238 P.3d 594 (Alaska 2010)",
+      "start": 13487,
+      "end": 13533,
+      "case_name": "Barnett v. Barnett",
+      "volume": "238",
+      "reporter": "P.3d",
+      "page": "594",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2010,
+      "reporter_cite": "238 P.3d 594"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 26.1(b)",
+      "start": 13751,
+      "end": 13769,
+      "number": "26.1",
+      "subsection": "(b)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.1(e)",
+      "start": 13774,
+      "end": 13792,
+      "number": "90.1",
+      "subsection": "(e)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.160(a)(1)",
+      "start": 14094,
+      "end": 14112,
+      "section": "25.24.160",
+      "subsection": "(a)(1)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Cox v. Floreske, 288 P.3d 1289 (Alaska 2012)",
+      "start": 15021,
+      "end": 15065,
+      "case_name": "Cox v. Floreske",
+      "volume": "288",
+      "reporter": "P.3d",
+      "page": "1289",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2012,
+      "reporter_cite": "288 P.3d 1289"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.155",
+      "start": 15969,
+      "end": 15981,
+      "section": "25.24.155",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.155(a)",
+      "start": 16085,
+      "end": 16100,
+      "section": "25.24.155",
+      "subsection": "(a)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.155(b)",
+      "start": 16801,
+      "end": 16816,
+      "section": "25.24.155",
+      "subsection": "(b)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Silvan v. Alcina, 105 P.3d 117 (Alaska 2005)",
+      "start": 17179,
+      "end": 17223,
+      "case_name": "Silvan v. Alcina",
+      "volume": "105",
+      "reporter": "P.3d",
+      "page": "117",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2005,
+      "reporter_cite": "105 P.3d 117"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.160(a)(4)(F)",
+      "start": 17753,
+      "end": 17774,
+      "section": "25.24.160",
+      "subsection": "(a)(4)(F)"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 26.1(b)",
+      "start": 18139,
+      "end": 18157,
+      "number": "26.1",
+      "subsection": "(b)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.1(e)",
+      "start": 18162,
+      "end": 18180,
+      "number": "90.1",
+      "subsection": "(e)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)(1)",
+      "start": 18324,
+      "end": 18345,
+      "number": "90.3",
+      "subsection": "(a)(1)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.160(a)(4)",
+      "start": 18783,
+      "end": 18801,
+      "section": "25.24.160",
+      "subsection": "(a)(4)"
+    }
+  ]
+}

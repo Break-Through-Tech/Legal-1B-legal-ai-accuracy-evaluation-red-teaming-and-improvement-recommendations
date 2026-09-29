@@ -1,0 +1,584 @@
+{
+  "doc_id": "doc-0040",
+  "offset_basis": "Zero-based character offsets in cleaned text; end is exclusive.",
+  "summary": {
+    "total_mentions": 62,
+    "by_type": {
+      "statute": 38,
+      "rule": 14,
+      "case": 10
+    }
+  },
+  "citations": [
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.200",
+      "start": 579,
+      "end": 591,
+      "section": "25.24.200",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.220",
+      "start": 596,
+      "end": 608,
+      "section": "25.24.220",
+      "subsection": ""
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3",
+      "start": 1314,
+      "end": 1329,
+      "number": "90.3",
+      "subsection": "",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.200(a)(1)",
+      "start": 2419,
+      "end": 2437,
+      "section": "25.24.200",
+      "subsection": "(a)(1)"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3",
+      "start": 3145,
+      "end": 3160,
+      "number": "90.3",
+      "subsection": "",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.200(a)",
+      "start": 4166,
+      "end": 4181,
+      "section": "25.24.200",
+      "subsection": "(a)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.964(2)",
+      "start": 4594,
+      "end": 4609,
+      "section": "25.24.964",
+      "subsection": "(2)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.983",
+      "start": 4720,
+      "end": 4732,
+      "section": "25.24.983",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.220(h)",
+      "start": 5208,
+      "end": 5223,
+      "section": "25.24.220",
+      "subsection": "(h)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.220(h)(3)",
+      "start": 5444,
+      "end": 5462,
+      "section": "25.24.220",
+      "subsection": "(h)(3)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.991",
+      "start": 5557,
+      "end": 5569,
+      "section": "25.24.991",
+      "subsection": ""
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3",
+      "start": 5623,
+      "end": 5638,
+      "number": "90.3",
+      "subsection": "",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 5646,
+      "end": 5664,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "case",
+      "raw_text": "Zimin v. Zimin, 837 P.2d 118 (Alaska 1992)",
+      "start": 6011,
+      "end": 6053,
+      "case_name": "Zimin v. Zimin",
+      "volume": "837",
+      "reporter": "P.2d",
+      "page": "118",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1992,
+      "reporter_cite": "837 P.2d 118"
+    },
+    {
+      "type": "case",
+      "raw_text": "Keturi v. Keturi, 84 P.3d 408 (Alaska 2004)",
+      "start": 6287,
+      "end": 6330,
+      "case_name": "Keturi v. Keturi",
+      "volume": "84",
+      "reporter": "P.3d",
+      "page": "408",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2004,
+      "reporter_cite": "84 P.3d 408"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.160(a)(4)",
+      "start": 6606,
+      "end": 6624,
+      "section": "25.24.160",
+      "subsection": "(a)(4)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.200(a)",
+      "start": 7111,
+      "end": 7126,
+      "section": "25.24.200",
+      "subsection": "(a)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.200(a)(1)",
+      "start": 7443,
+      "end": 7461,
+      "section": "25.24.200",
+      "subsection": "(a)(1)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.200(a)(2)",
+      "start": 7486,
+      "end": 7504,
+      "section": "25.24.200",
+      "subsection": "(a)(2)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.200(a)(3)",
+      "start": 7673,
+      "end": 7691,
+      "section": "25.24.200",
+      "subsection": "(a)(3)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.200(a)(4)",
+      "start": 7911,
+      "end": 7929,
+      "section": "25.24.200",
+      "subsection": "(a)(4)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.220(d)",
+      "start": 8234,
+      "end": 8249,
+      "section": "25.24.220",
+      "subsection": "(d)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.220(d)(2)",
+      "start": 8672,
+      "end": 8690,
+      "section": "25.24.220",
+      "subsection": "(d)(2)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Mahan v. Mahan, 347 P.3d 91 (Alaska 2015)",
+      "start": 9749,
+      "end": 9790,
+      "case_name": "Mahan v. Mahan",
+      "volume": "347",
+      "reporter": "P.3d",
+      "page": "91",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2015,
+      "reporter_cite": "347 P.3d 91"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.220(h)(3)",
+      "start": 10115,
+      "end": 10133,
+      "section": "25.24.220",
+      "subsection": "(h)(3)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.220(i)",
+      "start": 10138,
+      "end": 10153,
+      "section": "25.24.220",
+      "subsection": "(i)"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 10798,
+      "end": 10816,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)(1)",
+      "start": 10924,
+      "end": 10945,
+      "number": "90.3",
+      "subsection": "(a)(1)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3",
+      "start": 11222,
+      "end": 11237,
+      "number": "90.3",
+      "subsection": "",
+      "rule_family": "civil"
+    },
+    {
+      "type": "case",
+      "raw_text": "Zimin v. Zimin, 837 P.2d 118 (Alaska 1992)",
+      "start": 11242,
+      "end": 11284,
+      "case_name": "Zimin v. Zimin",
+      "volume": "837",
+      "reporter": "P.2d",
+      "page": "118",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1992,
+      "reporter_cite": "837 P.2d 118"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Rule 90.3",
+      "start": 11322,
+      "end": 11331,
+      "number": "90.3",
+      "subsection": "",
+      "rule_family": null
+    },
+    {
+      "type": "case",
+      "raw_text": "Keturi v. Keturi, 84 P.3d 408 (Alaska 2004)",
+      "start": 11641,
+      "end": 11684,
+      "case_name": "Keturi v. Keturi",
+      "volume": "84",
+      "reporter": "P.3d",
+      "page": "408",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2004,
+      "reporter_cite": "84 P.3d 408"
+    },
+    {
+      "type": "case",
+      "raw_text": "Sharon Thompson v. Everett Thompson, 454 P.3d 981 (Alaska 2019)",
+      "start": 11931,
+      "end": 11994,
+      "case_name": "Sharon Thompson v. Everett Thompson",
+      "volume": "454",
+      "reporter": "P.3d",
+      "page": "981",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2019,
+      "reporter_cite": "454 P.3d 981"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)(1)",
+      "start": 12353,
+      "end": 12374,
+      "number": "90.3",
+      "subsection": "(a)(1)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)(2)(B)",
+      "start": 12574,
+      "end": 12598,
+      "number": "90.3",
+      "subsection": "(a)(2)(B)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)(4)",
+      "start": 13194,
+      "end": 13215,
+      "number": "90.3",
+      "subsection": "(a)(4)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.160(a)(4)",
+      "start": 13784,
+      "end": 13802,
+      "section": "25.24.160",
+      "subsection": "(a)(4)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.220(d)(3)",
+      "start": 13884,
+      "end": 13902,
+      "section": "25.24.220",
+      "subsection": "(d)(3)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.160(a)(4)",
+      "start": 13961,
+      "end": 13979,
+      "section": "25.24.160",
+      "subsection": "(a)(4)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.160(a)(4)",
+      "start": 14304,
+      "end": 14322,
+      "section": "25.24.160",
+      "subsection": "(a)(4)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.160(a)(4)(F)",
+      "start": 14614,
+      "end": 14635,
+      "section": "25.24.160",
+      "subsection": "(a)(4)(F)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.160(a)(4)(I)",
+      "start": 15192,
+      "end": 15213,
+      "section": "25.24.160",
+      "subsection": "(a)(4)(I)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.160(a)(4)(H)",
+      "start": 15305,
+      "end": 15326,
+      "section": "25.24.160",
+      "subsection": "(a)(4)(H)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Sharon Thompson v. Everett Thompson, 454 P.3d 981 (Alaska 2019)",
+      "start": 15430,
+      "end": 15493,
+      "case_name": "Sharon Thompson v. Everett Thompson",
+      "volume": "454",
+      "reporter": "P.3d",
+      "page": "981",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2019,
+      "reporter_cite": "454 P.3d 981"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.200(a)(4)",
+      "start": 15832,
+      "end": 15850,
+      "section": "25.24.200",
+      "subsection": "(a)(4)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.160(a)(4)",
+      "start": 16498,
+      "end": 16516,
+      "section": "25.24.160",
+      "subsection": "(a)(4)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.200(e)",
+      "start": 16521,
+      "end": 16536,
+      "section": "25.24.200",
+      "subsection": "(e)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Fernau v. Rowdon, 42 P.3d 1047 (Alaska 2002)",
+      "start": 16577,
+      "end": 16621,
+      "case_name": "Fernau v. Rowdon",
+      "volume": "42",
+      "reporter": "P.3d",
+      "page": "1047",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2002,
+      "reporter_cite": "42 P.3d 1047"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.220(d)(4)",
+      "start": 16963,
+      "end": 16981,
+      "section": "25.24.220",
+      "subsection": "(d)(4)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.220(d)(4)",
+      "start": 16989,
+      "end": 17007,
+      "section": "25.24.220",
+      "subsection": "(d)(4)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.250",
+      "start": 17548,
+      "end": 17560,
+      "section": "25.24.250",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.220(h)(3)",
+      "start": 17887,
+      "end": 17905,
+      "section": "25.24.220",
+      "subsection": "(h)(3)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.220(i)",
+      "start": 17998,
+      "end": 18013,
+      "section": "25.24.220",
+      "subsection": "(i)"
+    },
+    {
+      "type": "case",
+      "raw_text": "The Gorton v. Mann, 281 P.3d 81 (Alaska 2012)",
+      "start": 18593,
+      "end": 18638,
+      "case_name": "The Gorton v. Mann",
+      "volume": "281",
+      "reporter": "P.3d",
+      "page": "81",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2012,
+      "reporter_cite": "281 P.3d 81"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3",
+      "start": 18755,
+      "end": 18770,
+      "number": "90.3",
+      "subsection": "",
+      "rule_family": "civil"
+    },
+    {
+      "type": "case",
+      "raw_text": "Faulkner v. Goldfuss, 46 P.3d 993 (Alaska 2002)",
+      "start": 18780,
+      "end": 18827,
+      "case_name": "Faulkner v. Goldfuss",
+      "volume": "46",
+      "reporter": "P.3d",
+      "page": "993",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2002,
+      "reporter_cite": "46 P.3d 993"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.200(a)",
+      "start": 19265,
+      "end": 19280,
+      "section": "25.24.200",
+      "subsection": "(a)"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 19789,
+      "end": 19807,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)(2)(B)",
+      "start": 20045,
+      "end": 20069,
+      "number": "90.3",
+      "subsection": "(a)(2)(B)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.160(a)(4)",
+      "start": 20385,
+      "end": 20403,
+      "section": "25.24.160",
+      "subsection": "(a)(4)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.200(e)",
+      "start": 20408,
+      "end": 20423,
+      "section": "25.24.200",
+      "subsection": "(e)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.220(d)(4)",
+      "start": 20525,
+      "end": 20543,
+      "section": "25.24.220",
+      "subsection": "(d)(4)"
+    }
+  ]
+}

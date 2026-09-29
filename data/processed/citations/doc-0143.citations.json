@@ -1,0 +1,270 @@
+{
+  "doc_id": "doc-0143",
+  "offset_basis": "Zero-based character offsets in cleaned text; end is exclusive.",
+  "summary": {
+    "total_mentions": 27,
+    "by_type": {
+      "statute": 17,
+      "case": 6,
+      "rule": 4
+    }
+  },
+  "citations": [
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.982",
+      "start": 297,
+      "end": 309,
+      "section": "18.66.982",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100",
+      "start": 2128,
+      "end": 2140,
+      "section": "18.66.100",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(b)",
+      "start": 2381,
+      "end": 2396,
+      "section": "18.66.100",
+      "subsection": "(b)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)",
+      "start": 2878,
+      "end": 2893,
+      "section": "18.66.100",
+      "subsection": "(c)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Thomas v. Thomas, 171 P.3d 98 (Alaska 2007)",
+      "start": 3158,
+      "end": 3201,
+      "case_name": "Thomas v. Thomas",
+      "volume": "171",
+      "reporter": "P.3d",
+      "page": "98",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2007,
+      "reporter_cite": "171 P.3d 98"
+    },
+    {
+      "type": "case",
+      "raw_text": "Ruerup v. Ruerup, 408 P.3d 1203 (Alaska 2018)",
+      "start": 3354,
+      "end": 3399,
+      "case_name": "Ruerup v. Ruerup",
+      "volume": "408",
+      "reporter": "P.3d",
+      "page": "1203",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2018,
+      "reporter_cite": "408 P.3d 1203"
+    },
+    {
+      "type": "case",
+      "raw_text": "Limeres v. Limeres, 320 P.3d 291 (Alaska 2014)",
+      "start": 3548,
+      "end": 3594,
+      "case_name": "Limeres v. Limeres",
+      "volume": "320",
+      "reporter": "P.3d",
+      "page": "291",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2014,
+      "reporter_cite": "320 P.3d 291"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(e)",
+      "start": 3610,
+      "end": 3625,
+      "section": "18.66.100",
+      "subsection": "(e)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100",
+      "start": 4184,
+      "end": 4196,
+      "section": "18.66.100",
+      "subsection": ""
+    },
+    {
+      "type": "case",
+      "raw_text": "Stephan P. v. Cecilia A., 464 P.3d 266 (Alaska 2020)",
+      "start": 4922,
+      "end": 4974,
+      "case_name": "Stephan P. v. Cecilia A.",
+      "volume": "464",
+      "reporter": "P.3d",
+      "page": "266",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2020,
+      "reporter_cite": "464 P.3d 266"
+    },
+    {
+      "type": "case",
+      "raw_text": "Sarah D. v. John D., 352 P.3d 419 (Alaska 2015)",
+      "start": 5695,
+      "end": 5742,
+      "case_name": "Sarah D. v. John D.",
+      "volume": "352",
+      "reporter": "P.3d",
+      "page": "419",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2015,
+      "reporter_cite": "352 P.3d 419"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Alaska R. Evid. 404(b)",
+      "start": 6038,
+      "end": 6060,
+      "number": "404",
+      "subsection": "(b)",
+      "rule_family": "evidence"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(2)",
+      "start": 7027,
+      "end": 7045,
+      "section": "18.66.100",
+      "subsection": "(c)(2)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.910",
+      "start": 7789,
+      "end": 7801,
+      "section": "18.66.910",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(3)",
+      "start": 8333,
+      "end": 8351,
+      "section": "18.66.100",
+      "subsection": "(c)(3)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(4)",
+      "start": 8876,
+      "end": 8894,
+      "section": "18.66.100",
+      "subsection": "(c)(4)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.140(b)",
+      "start": 9230,
+      "end": 9245,
+      "section": "25.24.140",
+      "subsection": "(b)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(9)",
+      "start": 9752,
+      "end": 9770,
+      "section": "18.66.100",
+      "subsection": "(c)(9)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Limeres v. Limeres, 320 P.3d 291 (Alaska 2014)",
+      "start": 10678,
+      "end": 10724,
+      "case_name": "Limeres v. Limeres",
+      "volume": "320",
+      "reporter": "P.3d",
+      "page": "291",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2014,
+      "reporter_cite": "320 P.3d 291"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.110(a)",
+      "start": 11076,
+      "end": 11091,
+      "section": "18.66.110",
+      "subsection": "(a)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.110(b)",
+      "start": 11868,
+      "end": 11883,
+      "section": "18.66.110",
+      "subsection": "(b)"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 970(h)",
+      "start": 12086,
+      "end": 12103,
+      "number": "970",
+      "subsection": "(h)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 65.1",
+      "start": 12474,
+      "end": 12489,
+      "number": "65.1",
+      "subsection": "",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100",
+      "start": 13264,
+      "end": 13276,
+      "section": "18.66.100",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.110",
+      "start": 13332,
+      "end": 13344,
+      "section": "18.66.110",
+      "subsection": ""
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 65.1",
+      "start": 13975,
+      "end": 13990,
+      "number": "65.1",
+      "subsection": "",
+      "rule_family": "civil"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 18.66.100(c)(16)",
+      "start": 14147,
+      "end": 14166,
+      "section": "18.66.100",
+      "subsection": "(c)(16)"
+    }
+  ]
+}

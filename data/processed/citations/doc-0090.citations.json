@@ -1,0 +1,344 @@
+{
+  "doc_id": "doc-0090",
+  "offset_basis": "Zero-based character offsets in cleaned text; end is exclusive.",
+  "summary": {
+    "total_mentions": 34,
+    "by_type": {
+      "statute": 21,
+      "case": 9,
+      "rule": 4
+    }
+  },
+  "citations": [
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.110",
+      "start": 4015,
+      "end": 4027,
+      "section": "25.20.110",
+      "subsection": ""
+    },
+    {
+      "type": "case",
+      "raw_text": "Judd v. Burns, 397 P.3d 331 (Alaska 2017)",
+      "start": 4303,
+      "end": 4344,
+      "case_name": "Judd v. Burns",
+      "volume": "397",
+      "reporter": "P.3d",
+      "page": "331",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2017,
+      "reporter_cite": "397 P.3d 331"
+    },
+    {
+      "type": "case",
+      "raw_text": "Judd v. Burns, 397 P.3d 331 (Alaska 2017)",
+      "start": 4706,
+      "end": 4747,
+      "case_name": "Judd v. Burns",
+      "volume": "397",
+      "reporter": "P.3d",
+      "page": "331",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2017,
+      "reporter_cite": "397 P.3d 331"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.933",
+      "start": 4827,
+      "end": 4839,
+      "section": "25.24.933",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 5392,
+      "end": 5407,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.070",
+      "start": 5533,
+      "end": 5545,
+      "section": "25.20.070",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.090",
+      "start": 5825,
+      "end": 5837,
+      "section": "25.20.090",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.110",
+      "start": 6399,
+      "end": 6411,
+      "section": "25.20.110",
+      "subsection": ""
+    },
+    {
+      "type": "case",
+      "raw_text": "Judd v. Burns, 397 P.3d 331 (Alaska 2017)",
+      "start": 6629,
+      "end": 6670,
+      "case_name": "Judd v. Burns",
+      "volume": "397",
+      "reporter": "P.3d",
+      "page": "331",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2017,
+      "reporter_cite": "397 P.3d 331"
+    },
+    {
+      "type": "case",
+      "raw_text": "West v. Lawson, 951 P.2d 1200 (Alaska 1998)",
+      "start": 7533,
+      "end": 7576,
+      "case_name": "West v. Lawson",
+      "volume": "951",
+      "reporter": "P.2d",
+      "page": "1200",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1998,
+      "reporter_cite": "951 P.2d 1200"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.110",
+      "start": 8658,
+      "end": 8670,
+      "section": "25.20.110",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.110",
+      "start": 8883,
+      "end": 8895,
+      "section": "25.20.110",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 8958,
+      "end": 8973,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(5)",
+      "start": 9348,
+      "end": 9366,
+      "section": "25.24.150",
+      "subsection": "(c)(5)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Rego v. Rego, 259 P.3d 447 (Alaska 2011)",
+      "start": 9831,
+      "end": 9871,
+      "case_name": "Rego v. Rego",
+      "volume": "259",
+      "reporter": "P.3d",
+      "page": "447",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2011,
+      "reporter_cite": "259 P.3d 447"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.090(5)",
+      "start": 10475,
+      "end": 10490,
+      "section": "25.20.090",
+      "subsection": "(5)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(1), (c)(2)",
+      "start": 10964,
+      "end": 10990,
+      "section": "25.24.150",
+      "subsection": "(c)(1), (c)(2)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.090(3)",
+      "start": 10992,
+      "end": 11007,
+      "section": "25.20.090",
+      "subsection": "(3)"
+    },
+    {
+      "type": "case",
+      "raw_text": "Weathers v. Weathers, 425 P.3d 131 (Alaska 2018)",
+      "start": 11962,
+      "end": 12010,
+      "case_name": "Weathers v. Weathers",
+      "volume": "425",
+      "reporter": "P.3d",
+      "page": "131",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2018,
+      "reporter_cite": "425 P.3d 131"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.070",
+      "start": 12234,
+      "end": 12246,
+      "section": "25.20.070",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.070",
+      "start": 13182,
+      "end": 13194,
+      "section": "25.20.070",
+      "subsection": ""
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)(6)",
+      "start": 13687,
+      "end": 13705,
+      "section": "25.24.150",
+      "subsection": "(c)(6)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.090(6)(E)",
+      "start": 13707,
+      "end": 13725,
+      "section": "25.20.090",
+      "subsection": "(6)(E)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.090(6)",
+      "start": 14536,
+      "end": 14551,
+      "section": "25.20.090",
+      "subsection": "(6)"
+    },
+    {
+      "type": "case",
+      "raw_text": "West v. Lawson, 951 P.2d 1200 (Alaska 1998)",
+      "start": 15367,
+      "end": 15410,
+      "case_name": "West v. Lawson",
+      "volume": "951",
+      "reporter": "P.2d",
+      "page": "1200",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1998,
+      "reporter_cite": "951 P.2d 1200"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 15418,
+      "end": 15436,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 15824,
+      "end": 15842,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 959(b)",
+      "start": 15901,
+      "end": 15918,
+      "number": "959",
+      "subsection": "(b)",
+      "rule_family": "civil"
+    },
+    {
+      "type": "case",
+      "raw_text": "West v. Lawson, 951 P.2d 1200 (Alaska 1998)",
+      "start": 16247,
+      "end": 16290,
+      "case_name": "West v. Lawson",
+      "volume": "951",
+      "reporter": "P.2d",
+      "page": "1200",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 1998,
+      "reporter_cite": "951 P.2d 1200"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.070",
+      "start": 16822,
+      "end": 16834,
+      "section": "25.20.070",
+      "subsection": ""
+    },
+    {
+      "type": "case",
+      "raw_text": "Iverson v. Griffith, 180 P.3d 943 (Alaska 2008)",
+      "start": 16836,
+      "end": 16883,
+      "case_name": "Iverson v. Griffith",
+      "volume": "180",
+      "reporter": "P.3d",
+      "page": "943",
+      "pinpoint": null,
+      "court": "Alaska",
+      "year": 2008,
+      "reporter_cite": "180 P.3d 943"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.24.150(c)",
+      "start": 17962,
+      "end": 17977,
+      "section": "25.24.150",
+      "subsection": "(c)"
+    },
+    {
+      "type": "statute",
+      "raw_text": "AS 25.20.110",
+      "start": 17982,
+      "end": 17994,
+      "section": "25.20.110",
+      "subsection": ""
+    },
+    {
+      "type": "rule",
+      "raw_text": "Civil Rule 90.3(a)",
+      "start": 18340,
+      "end": 18358,
+      "number": "90.3",
+      "subsection": "(a)",
+      "rule_family": "civil"
+    }
+  ]
+}
