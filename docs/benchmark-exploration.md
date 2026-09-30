@@ -4,7 +4,7 @@ Exploration of `data/benchmark/` — document structure, label schema, corruptio
 
 Note: this is distinct from `data/corpus/` (the four JSONL files of real Alaska legal authority, explored in [citation-corpus-exploration.md](citation-corpus-exploration.md)). The benchmark is the set of 200 synthetic client `.docx` documents that get *checked against* that corpus, plus the labels saying which of their citations and quotes were deliberately corrupted.
 
-Every count in this document was measured directly from the frozen files rather than taken from `DATA_DICTIONARY.md`; where a measurement disagrees with the data dictionary, that is called out explicitly. Where a question cannot be answered from the files alone, it is marked **[RESEARCH]**.
+Every count in this document was measured directly from the frozen files rather than taken from `DATA_DICTIONARY.md`; where a measurement disagrees with the data dictionary, that is called out explicitly. Where a question cannot be answered from the files alone, it is marked.
 
 ---
 
@@ -148,7 +148,7 @@ Counts of introductory phrases (the words that precede a citation in legal prose
 | `cf.` | 0 |
 | `supra` | 0 |
 
-The generator's register is plain and repetitive: it introduces authority with `under` / `pursuant to` / `in accordance with` rather than the formal signal apparatus of professional briefs. Notably, **`Id.` appears only 30 times and `supra` never**. These are the short-form citation conventions that make real legal citation parsing hard — `Id. at 65` means "the same source as the previous citation, page 65" and requires tracking state across the document to resolve. Their near-absence means **short-form citation resolution is largely not exercised by this benchmark**, even though the corpus's real opinions use it heavily (citation-corpus-exploration.md §3.1). A detector can score well here without handling `Id.` at all, and that capability gap would not show up in the metrics. **[RESEARCH]** — worth asking whether the production system emits `Id.`-style short forms; if it does, this benchmark under-tests the detector.
+The generator's register is plain and repetitive: it introduces authority with `under` / `pursuant to` / `in accordance with` rather than the formal signal apparatus of professional briefs. Notably, **`Id.` appears only 30 times and `supra` never**. These are the short-form citation conventions that make real legal citation parsing hard — `Id. at 65` means "the same source as the previous citation, page 65" and requires tracking state across the document to resolve. Their near-absence means **short-form citation resolution is largely not exercised by this benchmark**, even though the corpus's real opinions use it heavily (citation-corpus-exploration.md §3.1). A detector can score well here without handling `Id.` at all, and that capability gap would not show up in the metrics. Worth asking whether the production system emits `Id.`-style short forms; if it does, this benchmark under-tests the detector.
 
 `In re` never appears, so the benchmark contains no `In re`-style case citations at all — the form used for proceedings without two opposing parties, including the Child-in-Need-of-Aid cases that make up a visible share of the corpus. Every one of the 1,172 case citations is a two-party `X v. Y` form (§6.1).
 
@@ -284,7 +284,7 @@ A single object:
 
 **The hashes are well-formed but their recipe could not be reproduced.** All 200 are unique, 16 lowercase hex characters, consistent between manifest and answer key. DATA_DICTIONARY.md §4.1 describes the value as "SHA-256 (first 16 hex chars) of the final document text." Eight candidate reconstructions were tried against `doc-0001` (target `813d1c3810185235`): raw `.docx` bytes, `document.xml` bytes, and six whitespace-joining variants of the extracted paragraph text (newline-joined with and without empty paragraphs, double-newline, space-joined, unseparated, and with a trailing newline). **None matched.**
 
-The most likely explanation is that the hash was computed over the generator's internal text representation before `.docx` rendering, which cannot be recovered from the shipped files. **[RESEARCH]** — ask ProSe AI for the exact hashing recipe (input string construction, encoding, normalization). Until then the hashes work as stable per-document identifiers and as a check that the *JSON* files agree with each other, but **they cannot currently be used to verify that the `.docx` files are unmodified** — which is the integrity guarantee DATA_DICTIONARY.md §9.5 claims for them. This matters for the project's reusability criterion: re-running in January should be able to prove the benchmark didn't drift.
+The most likely explanation is that the hash was computed over the generator's internal text representation before `.docx` rendering, which cannot be recovered from the shipped files. Ask ProSe AI for the exact hashing recipe (input string construction, encoding, normalization). Until then the hashes work as stable per-document identifiers and as a check that the *JSON* files agree with each other, but **they cannot currently be used to verify that the `.docx` files are unmodified** — which is the integrity guarantee DATA_DICTIONARY.md §9.5 claims for them. This matters for the project's reusability criterion: re-running in January should be able to prove the benchmark didn't drift.
 
 ---
 
@@ -389,7 +389,7 @@ Cases (1,172 entries): **100%** contain a `P.2d`/`P.3d` reporter citation and an
 | `exists: false`, resolves nowhere (correct) | 135 |
 | `exists: false`, but exact-matches the corpus (see §7.3) | 17 |
 
-All 1,411 resolved statutes are `status: active` and `retrievable: true`, so the repealed/renumbered trap flagged in citation-corpus-exploration.md §5.2 is **not** exercised by this benchmark — no benchmark citation points at dead law. That's a coverage gap, not a convenience: the production system could cite a repealed statute and this benchmark would never reveal it. **[RESEARCH]** — worth confirming whether ProSe AI considers repealed-statute citation in scope for the detector.
+All 1,411 resolved statutes are `status: active` and `retrievable: true`, so the repealed/renumbered trap flagged in citation-corpus-exploration.md §5.2 is **not** exercised by this benchmark — no benchmark citation points at dead law. That's a coverage gap, not a convenience: the production system could cite a repealed statute and this benchmark would never reveal it. Worth confirming whether ProSe AI considers repealed-statute citation in scope for the detector.
 
 **Rules** — **0 of 772 rule citations match a corpus `citation` value verbatim.** The documents write `Civil Rule 90.3(a)`; the corpus writes `Alaska R. Civ. P. 90.3`. After normalizing to a bare rule number:
 
@@ -471,7 +471,7 @@ These 19 entries are **unwinnable false negatives**: a detector that correctly r
 
 Both exact-match the corpus, both are `injected: false`. `AS 18.66.990` is the definitions section for the domestic-violence chapter and `AS 18.66.180` is within the same chapter — both plainly real. `AS 18.66.990` is additionally labeled inconsistently: 7 entries say `false` and 2 say `true`.
 
-**[RESEARCH]** — the cause is not determinable from the files. Plausible explanations: these sections were not in the generator's retrieval list for those documents and "not retrieved" was conflated with "does not exist", or a lookup index was built over a subset of chapters. ProSe AI should be asked directly, since the answer determines whether these 12 entries are label noise to exclude or a real semantic distinction ("cited without being retrieved") the detector is meant to reproduce.
+The cause is not determinable from the files. Plausible explanations: these sections were not in the generator's retrieval list for those documents and "not retrieved" was conflated with "does not exist", or a lookup index was built over a subset of chapters. ProSe AI should be asked directly, since the answer determines whether these 12 entries are label noise to exclude or a real semantic distinction ("cited without being retrieved") the detector is meant to reproduce.
 
 ### 7.3 Five "fabricated" statutes that actually exist
 
@@ -483,7 +483,7 @@ Both exact-match the corpus, both are `injected: false`. `AS 18.66.990` is the d
 
 The fabrication strategy (§5.1) generates a fake section number in the 900-range of the real chapter — but **AS 25.24.900, .910, and .920 are real, active sections present in the corpus**, so the "fabrication" collided with genuine law. The generator recorded them as planted errors regardless.
 
-These 5 are the mirror image of §7.1: entries the key calls fabricated that a correct detector will resolve and pass. **[RESEARCH]** — confirm against the Alaska Legislature's published statutes that AS 25.24.900/.910/.920 are genuinely enacted sections (the corpus asserts it, but the corpus is ProSe AI's own build and this is exactly the point where an independent check is warranted). If confirmed, these 5 entries should be excluded from Stage-2 scoring and reported to ProSe AI as a generator defect, since the same collision will recur whenever the benchmark is regenerated.
+These 5 are the mirror image of §7.1: entries the key calls fabricated that a correct detector will resolve and pass. Confirm against the Alaska Legislature's published statutes that AS 25.24.900/.910/.920 are genuinely enacted sections (the corpus asserts it, but the corpus is ProSe AI's own build and this is exactly the point where an independent check is warranted). If confirmed, these 5 entries should be excluded from Stage-2 scoring and reported to ProSe AI as a generator defect, since the same collision will recur whenever the benchmark is regenerated.
 
 ### 7.4 One genuinely non-existent citation, correctly labeled
 
@@ -580,7 +580,7 @@ The benchmark is concentrated: it touches under a fifth of the case corpus, and 
 
 `rules.jsonl` contains only 23 distinct civil rule numbers: 12, 26.1, 40, 41, 52, 53, 58, 59, 60, 65, 65.1, 77, 78, 90, 90.1, 90.2, 90.3, 90.4, 90.5, 90.6, 90.7, 90.8, 100. Rules 3, 16.2, 86, and 99 are absent.
 
-These 50 entries are **the entire false-positive mass** of the §6.3 baseline. The answer key says they exist; the corpus cannot confirm it. **[RESEARCH]** — verify against the Alaska Court System's published Rules of Civil Procedure whether Rules 3 (commencement of action), 16.2, 86, and 99 exist as real rules. They almost certainly do, which would make this a **corpus completeness gap rather than a labeling error** — the opposite diagnosis from §7, and it calls for a different remedy: either ProSe AI extends `rules.jsonl`, or the detector must distinguish "not in corpus" from "not real" and report the former as unverifiable rather than fabricated.
+These 50 entries are **the entire false-positive mass** of the §6.3 baseline. The answer key says they exist; the corpus cannot confirm it. Verify against the Alaska Court System's published Rules of Civil Procedure whether Rules 3 (commencement of action), 16.2, 86, and 99 exist as real rules. They almost certainly do, which would make this a **corpus completeness gap rather than a labeling error** — the opposite diagnosis from §7, and it calls for a different remedy: either ProSe AI extends `rules.jsonl`, or the detector must distinguish "not in corpus" from "not real" and report the former as unverifiable rather than fabricated.
 
 That distinction is worth making regardless, because it is the honest engineering answer: a corpus-backed existence checker can only ever report "I could not verify this," and collapsing that into "this is fabricated" is what produces the 50 false positives.
 
@@ -618,7 +618,7 @@ Every figure above was computed from the frozen files with Python standard libra
 
 Reproduction scripts were written as throwaway analysis and are not checked in. The measurements to re-derive first, because everything else depends on them, are: the 11,355-vs-3,490 mention ratio (§3.4), the 0/772 rule match rate (§6.2), and the TP/FP/TN/FN decomposition (§6.3).
 
-**[RESEARCH] — open questions for ProSe AI, consolidated:**
+**open questions for ProSe AI, consolidated:**
 
 1. The exact `hash` recipe, so the freeze can be verified against the `.docx` files (§4).
 2. Why `AS 18.66.990` and `AS 18.66.180` are labeled non-existent, and why `AS 18.66.990` is labeled inconsistently across documents (§7.2).
