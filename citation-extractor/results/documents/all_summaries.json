@@ -1,0 +1,152 @@
+{
+  "alaska_regex": {
+    "mode": "documents",
+    "extractor": "alaska_regex",
+    "subsection_depth": 1,
+    "documents": 200,
+    "answer_key_entries": 3490,
+    "raw_mentions_extracted": 8321,
+    "unique_predictions_after_per_doc_dedupe": 3495,
+    "recall_strict": {
+      "n": 3490,
+      "recalled": 3465,
+      "recall": 0.9928
+    },
+    "recall_lenient_subsection": {
+      "n": 3490,
+      "recalled": 3490,
+      "recall": 1.0
+    },
+    "precision_after_dedupe": 0.9456,
+    "false_positive_predictions": 190,
+    "recall_by_type": {
+      "case": {
+        "n": 1172,
+        "recalled": 1172,
+        "recall": 1.0
+      },
+      "rule": {
+        "n": 772,
+        "recalled": 769,
+        "recall": 0.9961
+      },
+      "statute": {
+        "n": 1546,
+        "recalled": 1524,
+        "recall": 0.9858
+      }
+    },
+    "recall_by_injected": {
+      "fabricated_case": {
+        "n": 21,
+        "recalled": 21,
+        "recall": 1.0
+      },
+      "fabricated_rule": {
+        "n": 88,
+        "recalled": 85,
+        "recall": 0.9659
+      },
+      "fabricated_statute": {
+        "n": 139,
+        "recalled": 120,
+        "recall": 0.8633
+      },
+      "genuine": {
+        "n": 3212,
+        "recalled": 3209,
+        "recall": 0.9991
+      },
+      "wrong_reporter": {
+        "n": 30,
+        "recalled": 30,
+        "recall": 1.0
+      }
+    },
+    "recall_by_exists": {
+      "false": {
+        "n": 279,
+        "recalled": 257,
+        "recall": 0.9211
+      },
+      "true": {
+        "n": 3211,
+        "recalled": 3208,
+        "recall": 0.9991
+      }
+    },
+    "overcaptured_key_strings": {
+      "n": 247,
+      "recalled": 247,
+      "recall": 1.0
+    },
+    "miss_reasons": {},
+    "top_missed_strings": [],
+    "false_positive_kinds": {
+      "same section keyed with a different subsection": 143,
+      "authority not in key for this document": 47
+    },
+    "top_false_positives": [
+      [
+        "civ 90.3(a)",
+        21
+      ],
+      [
+        "AS 25.24.150(c)",
+        20
+      ],
+      [
+        "AS 18.66.100(c)",
+        9
+      ],
+      [
+        "AS 18.66.100",
+        9
+      ],
+      [
+        "civ 90.3(b)",
+        6
+      ],
+      [
+        "AS 25.24.160(a)",
+        6
+      ],
+      [
+        "civ 90.3(f)",
+        6
+      ],
+      [
+        "AS 25.20.110(a)",
+        6
+      ],
+      [
+        "civ 90.3",
+        4
+      ],
+      [
+        "AS 25.20.060(c)",
+        4
+      ],
+      [
+        "AS 25.20.060",
+        4
+      ],
+      [
+        "AS 25.20.070",
+        4
+      ],
+      [
+        "civ 65.1",
+        4
+      ],
+      [
+        "AS 25.24.200(a)",
+        3
+      ],
+      [
+        "AS 25.20.090(6)",
+        3
+      ]
+    ]
+  }
+}
