@@ -4,6 +4,10 @@
 /data/processed/citations/
 /data/processed/citations.jsonl
 /data/processed/citations-summary.json
+/data/processed/extraction-evaluation.json
 /data/processed/doc-*.citations.json
 __pycache__/
 *.pyc
+
+# Local Python environment
+.venv/
