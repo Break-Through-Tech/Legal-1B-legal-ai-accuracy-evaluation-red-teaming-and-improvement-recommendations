@@ -11,3 +11,6 @@ __pycache__/
 
 # Local Python environment
 .venv/
+
+# Personal working plans — local only, not shared
+plans/
