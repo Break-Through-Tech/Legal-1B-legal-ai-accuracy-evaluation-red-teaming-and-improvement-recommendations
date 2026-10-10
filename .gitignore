@@ -6,11 +6,12 @@
 /data/processed/citations-summary.json
 /data/processed/extraction-evaluation.json
 /data/processed/doc-*.citations.json
+/data/processed/verification.jsonl
 __pycache__/
 *.pyc
 
 # Local Python environment
 .venv/
 
-# Personal working plans — local only, not shared
+# Personal working plans
 plans/
