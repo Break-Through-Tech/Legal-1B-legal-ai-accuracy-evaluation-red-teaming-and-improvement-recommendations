@@ -7,6 +7,8 @@
 /data/processed/extraction-evaluation.json
 /data/processed/doc-*.citations.json
 /data/processed/verification.jsonl
+/data/processed/quote-fidelity.jsonl
+/data/processed/quote-evaluation.json
 __pycache__/
 *.pyc
 
