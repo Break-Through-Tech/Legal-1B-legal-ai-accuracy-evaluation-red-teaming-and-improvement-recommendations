@@ -18,14 +18,17 @@ for any particular planted phrase, so insertions, deletions and substitutions
 are all caught the same way.
 """
 import difflib
-import json
 import re
 from collections import Counter, defaultdict
-from pathlib import Path
 
 from src.citation_extractor import extract_citations
-
-CORPUS_DIR = Path(__file__).resolve().parent.parent / "data" / "corpus"
+from src.verifier import (
+    CorpusIndex,
+    canonical_citation,
+    corpus_source_text,
+    load_corpus,
+    matching_corpus_records,
+)
 
 # Quotes shorter than this are defined terms ("Father", "Petitioner") or
 # fragments too short to locate reliably.
@@ -142,64 +145,38 @@ class _Source:
         return self._trigrams
 
 
-def _read_jsonl(path: Path):
-    with path.open(encoding="utf-8") as f:
-        for line in f:
-            if line.strip():
-                yield json.loads(line)
-
-
 class QuoteSourceIndex:
-    """Corpus source text, keyed the same way src/verifier.py keys existence.
+    """Corpus source text for extracted citations.
 
-    statute -> 'AS 25.24.150'; civil/evidence rule -> rule number in separate
-    namespaces (one rule number maps to all its subrule records); case ->
-    reporter cite. Opinions are tokenized lazily, only when cited.
+    Citations resolve to corpus records through src/verifier.py, so a quote is
+    checked against exactly the records the existence check matched (rule
+    commentary excluded; a cited subrule narrows to that subrule's record).
+    Records are tokenized lazily, so opinions are only tokenized when cited.
     """
 
-    def __init__(self, corpus_dir: Path = CORPUS_DIR):
-        self.statutes: dict[str, list[_Source]] = defaultdict(list)
-        self.civil_rules: dict[str, list[_Source]] = defaultdict(list)
-        self.evidence_rules: dict[str, list[_Source]] = defaultdict(list)
-        self.cases: dict[str, list[_Source]] = {}
-        self._case_rows: dict[str, dict] = {}
-
-        for r in _read_jsonl(corpus_dir / "statutes.jsonl"):
-            if r.get("citation") and r.get("source_text"):
-                self.statutes[r["citation"].strip()].append(
-                    _Source(r["id"], r["citation"], r["source_text"]))
-        for r in _read_jsonl(corpus_dir / "rules.jsonl"):
-            numbers = re.findall(r"\d+(?:\.\d+)?", r.get("citation") or "")
-            if numbers and r.get("source_text"):
-                label = f"{r['citation']}({r['subrule']})" if r.get("subrule") else r["citation"]
-                self.civil_rules[numbers[-1]].append(_Source(r["id"], label, r["source_text"]))
-        for r in _read_jsonl(corpus_dir / "rules-evidence.jsonl"):
-            if r.get("ruleNumber") is not None and r.get("text") and r.get("type") != "rule_commentary":
-                label = f"Alaska R. Evid. {r['ruleNumber']}" + (f"({r['subrule']})" if r.get("subrule") else "")
-                self.evidence_rules[str(r["ruleNumber"]).strip()].append(_Source(r["id"], label, r["text"]))
-        for r in _read_jsonl(corpus_dir / "cases.jsonl"):
-            if r.get("reporter_cite") and r.get("source_text"):
-                self._case_rows[r["reporter_cite"].strip()] = r
-
-        self.global_pool = [s for group in (self.statutes, self.civil_rules, self.evidence_rules)
-                            for sources in group.values() for s in sources]
+    def __init__(self, corpus: CorpusIndex | None = None):
+        self.corpus = corpus if corpus is not None else load_corpus()
+        self._sources: dict[str, _Source | None] = {}
+        self.global_pool = [
+            source
+            for name in ("statutes", "civil_rules", "evidence_rules")
+            for records in self.corpus[name].values()
+            for record in records
+            if (source := self._source(record))
+        ]
         self._global_trigrams = None
+
+    def _source(self, record: dict) -> _Source | None:
+        if record["id"] not in self._sources:
+            text = corpus_source_text(record)
+            self._sources[record["id"]] = (
+                _Source(record["id"], canonical_citation(record), text) if text else None)
+        return self._sources[record["id"]]
 
     def sources_for(self, citation: dict) -> list[_Source]:
         """Source passages for one extracted citation; empty if none has text."""
-        kind = citation.get("type")
-        if kind == "statute":
-            return self.statutes.get(f"AS {citation.get('section')}", [])
-        if kind == "rule":
-            table = self.evidence_rules if citation.get("rule_family") == "evidence" else self.civil_rules
-            return table.get(str(citation.get("number")), [])
-        if kind == "case":
-            rc = citation.get("reporter_cite")
-            if rc not in self.cases:
-                row = self._case_rows.get(rc)
-                self.cases[rc] = [_Source(row["id"], row["citation"], row["source_text"])] if row else []
-            return self.cases[rc]
-        return []
+        return [source for record in matching_corpus_records(citation, self.corpus)
+                if (source := self._source(record))]
 
     def global_candidates(self, keys: list[str], limit: int = 5) -> list[_Source]:
         """Statute/rule passages sharing the most word trigrams with `keys`."""
