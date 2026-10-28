@@ -18,3 +18,4 @@ __pycache__/
 
 # Personal working plans
 plans/
+/data/processed/existence-evaluation.json
