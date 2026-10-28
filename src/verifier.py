@@ -9,6 +9,8 @@ Matching rules (DATA_DICTIONARY §3, §3.1, §3.2):
   rule     — match rule NUMBER only, never citation string; civil and evidence in separate namespaces
   case     — match reporter_cite (e.g. '358 P.3d 1284') against cases.jsonl 'reporter_cite'
 """
+from __future__ import annotations
+
 import json
 import re
 from pathlib import Path

@@ -17,6 +17,8 @@ The comparison is a generic word diff against the source. It does not search
 for any particular planted phrase, so insertions, deletions and substitutions
 are all caught the same way.
 """
+from __future__ import annotations
+
 import difflib
 import re
 from collections import Counter, defaultdict
