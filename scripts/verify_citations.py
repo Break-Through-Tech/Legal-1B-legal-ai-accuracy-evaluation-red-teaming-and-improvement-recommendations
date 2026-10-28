@@ -5,7 +5,12 @@ Writes data/processed/verification.jsonl — one record per document:
   {
     "doc_id": "doc-0001",
     "citations": [
-      { ...all original extractor fields..., "exists": "true" | "false" | "out_of_scope" }
+      {
+        ...all original extractor fields...,
+        "exists": "true" | "false" | "out_of_scope",
+        "corpus_ids": ["stable-corpus-id"],
+        "matched_citations": ["canonical citation"]
+      }
     ]
   }
 """
@@ -17,7 +22,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO_ROOT))
 
-from src.verifier import load_corpus, verify_citation
+from src.verifier import load_corpus, lookup_citation
 
 INPUT = REPO_ROOT / "data" / "processed" / "citations.jsonl"
 OUTPUT = REPO_ROOT / "data" / "processed" / "verification.jsonl"
@@ -46,9 +51,9 @@ def main() -> None:
                 raise SystemExit(f"Missing 'doc_id' in citations.jsonl at line {line_no}")
             verified = []
             for citation in record.get("citations", []):
-                exists = verify_citation(citation, corpus)
-                counts[exists] += 1
-                verified.append({**citation, "exists": exists})
+                result = lookup_citation(citation, corpus)
+                counts[result["exists"]] += 1
+                verified.append({**citation, **result})
             dst.write(json.dumps({"doc_id": doc_id, "citations": verified}, ensure_ascii=False) + "\n")
             n_docs += 1
 

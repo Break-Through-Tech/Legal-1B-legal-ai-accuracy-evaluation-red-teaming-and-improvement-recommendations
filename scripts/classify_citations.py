@@ -1,69 +1,82 @@
-import csv
+"""Classify verified citations: python scripts/classify_citations.py.
+
+Consumes the corpus-backed output from scripts/verify_citations.py and keeps
+the per-document JSONL structure for downstream fidelity and risk scoring.
+"""
+import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 
-INPUT_FILE = ROOT / "data" / "processed" / "existence-results.csv"
-OUTPUT_FILE = ROOT / "data" / "processed" / "task2-classified-citations.csv"
+INPUT_FILE = ROOT / "data" / "processed" / "verification.jsonl"
+OUTPUT_FILE = ROOT / "data" / "processed" / "classified-citations.jsonl"
 
 
-def parse_bool(value):
-    return str(value).strip().lower() == "true"
-
-
-def classify(row):
-    exists = parse_bool(row.get("exists_in_corpus", ""))
-    match_status = row.get("match_status", "").strip()
-
-    if match_status == "matched_answer_key" and exists:
+def classify(exists):
+    if exists == "true":
         return "Valid/Verified"
 
-    if match_status == "matched_answer_key" and not exists:
+    if exists == "false":
         return "Hallucinated"
 
     return "Mismatched Context/Format"
 
 
-def explain_reason(row, classification):
+def explain_reason(exists, classification):
     if classification == "Valid/Verified":
-        return "Citation matched the answer key and exists in the benchmark reference."
+        return "Citation matched an authority in the ground-truth corpus."
 
     if classification == "Hallucinated":
-        return "Citation matched the answer key, but the benchmark marks it as not existing."
+        return "Citation did not match an authority in the ground-truth corpus."
 
-    return "Citation was not found in the answer key, so it needs review for formatting, context, or extraction mismatch."
+    if exists == "out_of_scope":
+        return "Citation is known to be real law but is outside the benchmark corpus."
+
+    return "Citation could not be classified from the verifier output."
 
 
 def main():
-    rows = []
+    counts = {}
+    document_count = 0
 
-    with open(INPUT_FILE, "r", encoding="utf-8", newline="") as f:
-        reader = csv.DictReader(f)
+    if not INPUT_FILE.exists():
+        raise SystemExit(
+            f"Input file not found: {INPUT_FILE}\n"
+            "Run  python scripts/verify_citations.py  first."
+        )
 
-        for row in reader:
-            classification = classify(row)
-            row["classification"] = classification
-            row["reason"] = explain_reason(row, classification)
-            rows.append(row)
+    OUTPUT_FILE.parent.mkdir(parents=True, exist_ok=True)
+    with INPUT_FILE.open(encoding="utf-8") as src, OUTPUT_FILE.open("w", encoding="utf-8") as dst:
+        for line_no, line in enumerate(src, 1):
+            if not line.strip():
+                continue
+            record = json.loads(line)
+            if not record.get("doc_id"):
+                raise SystemExit(f"Missing 'doc_id' in verification.jsonl at line {line_no}")
 
-    fieldnames = list(rows[0].keys())
+            classified = []
+            for citation in record.get("citations", []):
+                exists = citation.get("exists")
+                label = classify(exists)
+                counts[label] = counts.get(label, 0) + 1
+                classified.append({
+                    **citation,
+                    "classification": label,
+                    "reason": explain_reason(exists, label),
+                })
 
-    with open(OUTPUT_FILE, "w", encoding="utf-8", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(rows)
+            dst.write(json.dumps(
+                {"doc_id": record["doc_id"], "citations": classified},
+                ensure_ascii=False,
+            ) + "\n")
+            document_count += 1
 
-    print("Task 2 complete.")
-    print(f"Rows written: {len(rows)}")
+    print(f"Documents written: {document_count}")
+    print(f"Citations classified: {sum(counts.values())}")
     print(f"Output file: {OUTPUT_FILE}")
 
-    counts = {}
-    for row in rows:
-        label = row["classification"]
-        counts[label] = counts.get(label, 0) + 1
-
     print("Classification summary:")
-    for label, count in counts.items():
+    for label, count in sorted(counts.items()):
         print(f"{label}: {count}")
 
 
