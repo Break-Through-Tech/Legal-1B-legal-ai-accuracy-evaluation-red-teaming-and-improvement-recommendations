@@ -134,7 +134,8 @@ def corpus_source_text(record: dict) -> str | None:
     return record.get("text") if record.get("ruleset") == "evidence" else record.get("source_text")
 
 
-def _canonical_citation(record: dict) -> str:
+def canonical_citation(record: dict) -> str:
+    """Return a record's citation label, including its subrule for court rules."""
     if record.get("citation"):
         citation = record["citation"]
     elif record.get("ruleset") == "evidence":
@@ -165,7 +166,7 @@ def lookup_citation(citation: dict, corpus: CorpusIndex) -> dict:
         "matched_citations": list(dict.fromkeys(
             citation_text
             for record in records
-            if (citation_text := _canonical_citation(record))
+            if (citation_text := canonical_citation(record))
         )),
     }
 
