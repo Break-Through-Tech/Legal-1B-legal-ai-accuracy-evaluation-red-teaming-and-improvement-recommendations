@@ -9,6 +9,7 @@
 /data/processed/verification.jsonl
 /data/processed/quote-fidelity.jsonl
 /data/processed/quote-evaluation.json
+/data/processed/classified-citations.jsonl
 __pycache__/
 *.pyc
 
