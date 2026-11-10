@@ -95,6 +95,32 @@ class DetectorTests(unittest.TestCase):
         self.assertTrue(any(f["stage"] == "quote_fidelity" for f in report["flags"]))
         self.assertTrue(report["risk"]["incomplete"])
 
+    def test_citation_extraction_failure_still_scores_the_document(self):
+        with mock.patch.object(detect, "extract_citations", side_effect=RuntimeError("regex blew up")):
+            report = self.detector.check(self.data, filename="sample.docx")
+        self.assertEqual([e["stage"] for e in report["errors"]], ["extract_citations"])
+        self.assertIsNotNone(report["risk"]["score"])
+        self.assertNotEqual(report["risk"]["level"], "unknown")
+        self.assertTrue(any(f["stage"] == "quote_fidelity" for f in report["flags"]))
+
+    def test_quote_flag_failure_is_reported_not_raised(self):
+        with mock.patch.object(Detector, "_quote_flags", side_effect=KeyError("kind")):
+            report = self.detector.check(self.data, filename="sample.docx")
+        self.assertEqual([e["stage"] for e in report["errors"]], ["quote_check"])
+        self.assertTrue(any(f["stage"] == "existence" for f in report["flags"]))
+
+    def test_real_reporter_cite_under_another_case_name_is_flagged(self):
+        data = make_docx(["See Hollister v. Brandt, 449 P.3d 700 (Alaska 2019).",
+                          "See Perry v. Perry, 449 P.3d 700 (Alaska 2019).",
+                          "See Kyoko Perry v. Adam Perry, 449 P.3d 700 (Alaska 2014)."])
+        flags = self.detector.check(data, filename="new.docx")["flags"]
+        by_status = [(f["status"], f["flagged"], f["severity"]) for f in flags]
+        self.assertEqual(by_status, [("Wrong Case Name", True, "high"),
+                                     ("Valid/Verified", False, None),   # short form of the real name
+                                     ("Wrong Year", True, "low")])
+        self.assertIn("Kyoko Perry v. Adam Perry", flags[0]["message"])
+        self.assertEqual(flags[0]["evidence"]["exists"], "true")       # existence rows unchanged
+
 
 class BatchTests(unittest.TestCase):
     def test_batch_run_writes_reports_and_run_log(self):
@@ -108,6 +134,50 @@ class BatchTests(unittest.TestCase):
         self.assertEqual([r["doc_id"] for r in reports], ["doc-0001", "doc-0136"])
         self.assertEqual(run_log["documents"], {"total": 2, "ok": 2, "failed": 0})
         self.assertIn("p95", run_log["runtime"]["per_doc_ms"])
+
+    def test_evaluate_on_a_subset_scores_only_those_documents(self):
+        import tempfile
+        with tempfile.TemporaryDirectory() as out:
+            with mock.patch.object(detect, "LOG_DIR", Path(out) / "logs"):
+                detect.main(["doc-0001", "doc-0136", "--out", out, "--evaluate"])
+            card = json.loads((Path(out) / "scorecard.json").read_text())
+        self.assertEqual(card["meta"]["documents"], 2)
+        self.assertFalse(card["meta"]["full_benchmark"])
+
+    def test_positional_docx_path_checks_a_new_document(self):
+        import tempfile
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "My new brief.docx"
+            path.write_bytes(make_docx())
+            with mock.patch.object(detect, "LOG_DIR", Path(tmp) / "logs"):
+                detect.main([str(path), "--out", str(Path(tmp) / "out"), "--show"])
+            report = json.loads((Path(tmp) / "out" / "reports.jsonl").read_text())
+        self.assertEqual(report["doc_id"], "My new brief")
+        self.assertEqual(report["risk"]["level"], "high")
+
+    def test_folder_of_other_documents_runs_and_skips_evaluation(self):
+        import shutil
+        import tempfile
+        with tempfile.TemporaryDirectory() as tmp:
+            folder, out = Path(tmp) / "in", Path(tmp) / "out"
+            folder.mkdir()
+            (folder / "notes.DOCX").write_bytes(make_docx(["Lunch at noon."]))
+            (folder / "doc-0001.docx").write_bytes(make_docx())   # benchmark name, different file
+            (folder / "broken.docx").write_bytes(b"not a word document")
+            (folder / "~$lock.docx").write_bytes(b"word lock file")
+            with mock.patch.object(detect, "LOG_DIR", Path(tmp) / "logs"):
+                detect.main(["--input", str(folder), "--out", str(out), "--evaluate"])
+            ids = [json.loads(line)["doc_id"] for line in (out / "reports.jsonl").read_text().splitlines()]
+            self.assertEqual(ids, ["broken", "doc-0001", "notes"])
+            self.assertFalse((out / "scorecard.json").exists())
+
+            # A renamed copy of a benchmark document is recognised by its hash and scored.
+            shutil.copy(ROOT / "data" / "benchmark" / "documents" / "doc-0002.docx", folder / "upload.docx")
+            with mock.patch.object(detect, "LOG_DIR", Path(tmp) / "logs"):
+                detect.main(["--input", str(folder), "--out", str(out), "--evaluate"])
+            card = json.loads((out / "scorecard.json").read_text())
+        self.assertEqual(card["meta"]["documents"], 1)
+        self.assertEqual(card["meta"]["unscored_documents"], ["broken", "doc-0001", "notes"])
 
 
 if __name__ == "__main__":

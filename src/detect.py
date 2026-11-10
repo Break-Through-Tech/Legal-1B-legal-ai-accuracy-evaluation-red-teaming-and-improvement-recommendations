@@ -36,11 +36,11 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from src.citation_extractor import extract_citations
-from src.classify import HALLUCINATED, classify, explain_reason
+from src.classify import HALLUCINATED, WRONG_CASE_NAME, WRONG_YEAR, classify, explain_reason
 from src.extraction import extract_document_text
 from src.quote_fidelity import QuoteSourceIndex, check_document
 from src.risk import score_document
-from src.verifier import load_corpus, lookup_citation
+from src.verifier import case_detail_mismatches, load_corpus, lookup_citation
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 BENCHMARK_DIR = REPO_ROOT / "data" / "benchmark"
@@ -131,7 +131,10 @@ class Detector:
         name = filename or (str(file) if isinstance(file, (str, Path)) else None)
         doc_id = doc_id or (Path(name).stem if name else "upload")
 
-        def run(stage, fn):
+        def run(stage, fn, timer=None):
+            # `timer` lets a sub-step report its own error stage while its time
+            # still counts toward a parent stage in `runtime`.
+            timer = timer or stage
             start = time.perf_counter()
             try:
                 return fn()
@@ -141,25 +144,29 @@ class Detector:
                 log.debug("%s failed at %s:\n%s", doc_id, stage, traceback.format_exc())
                 return None
             finally:
-                runtime[f"{stage}_ms"] = round(runtime.get(f"{stage}_ms", 0)
+                runtime[f"{timer}_ms"] = round(runtime.get(f"{timer}_ms", 0)
                                                + (time.perf_counter() - start) * 1000, 2)
 
         raw = run("extract", lambda: _read_bytes(file))
         sha = hashlib.sha256(raw).hexdigest() if raw is not None else None
         text = run("extract", lambda: extract_document_text(io.BytesIO(raw))) if raw is not None else None
-        citations = run("extract", lambda: extract_citations(text)) if text is not None else None
+        # Its own error stage: the text was read, so a failure here must not
+        # make the whole document "unknown" (src/risk.py keys that on "extract").
+        citations = (run("extract_citations", lambda: extract_citations(text), timer="extract")
+                     if text is not None else None)
 
         citation_flags: list[dict] = []
         if citations is not None:
             verified = run("verify", lambda: [{**c, **lookup_citation(c, self.corpus)} for c in citations])
             if verified is not None:
-                citation_flags = run("classify", lambda: self._citation_flags(verified, text)) or []
+                citation_flags = run("classify", lambda: self._citation_flags(verified, text, self.corpus)) or []
 
         quote_flags: list[dict] = []
         if text is not None:
             results = run("quote_check", lambda: check_document(text, self.quote_index, include_unquoted))
             if results is not None:
-                quote_flags = self._quote_flags(results, text, citation_flags)
+                quote_flags = run("quote_check",
+                                  lambda: self._quote_flags(results, text, citation_flags)) or []
 
         flags = sorted(citation_flags + quote_flags, key=lambda f: (f["start"], f["stage"]))
         report = {
@@ -178,11 +185,28 @@ class Detector:
         return report
 
     @staticmethod
-    def _citation_flags(verified: list[dict], text: str) -> list[dict]:
+    def _citation_flags(verified: list[dict], text: str, corpus=None) -> list[dict]:
         flags = []
         for n, c in enumerate(verified, 1):
             label = classify(c["exists"])
             flagged = label == HALLUCINATED
+            severity = "high" if flagged else None
+            message, reason = _citation_message(c, label), explain_reason(c["exists"], label)
+            # A real reporter cite under another case's name is still a fabrication.
+            records = [corpus["by_id"][i] for i in c["corpus_ids"] if i in corpus["by_id"]] if corpus else []
+            mismatches = case_detail_mismatches(c, records) if c["exists"] == "true" else []
+            fields_wrong = {m["field"]: m for m in mismatches}
+            if "case_name" in fields_wrong:
+                m = fields_wrong["case_name"]
+                label, flagged, severity = WRONG_CASE_NAME, True, "high"
+                message = (f"{c.get('reporter_cite')} is {m['corpus']}, not {m['cited']}. The case name may be "
+                           "fabricated or attached to the wrong citation; check it before relying on it.")
+                reason = "Reporter citation exists in the corpus but belongs to a differently named case."
+            elif "year" in fields_wrong:
+                m = fields_wrong["year"]
+                label, flagged, severity = WRONG_YEAR, True, "low"
+                message = f"This case was decided in {m['corpus']}, not {m['cited']}."
+                reason = "Case found in the corpus, but the cited year does not match."
             fields = {k: v for k, v in c.items() if k not in ("exists", "corpus_ids", "matched_citations")}
             flags.append({
                 "flag_id": f"c{n}",
@@ -195,13 +219,14 @@ class Detector:
                 "context": _context(text, c["start"], c["end"]),
                 "status": label,
                 "flagged": flagged,
-                "severity": "high" if flagged else None,
-                "message": _citation_message(c, label),
-                "reason": explain_reason(c["exists"], label),
+                "severity": severity,
+                "message": message,
+                "reason": reason,
                 "evidence": {
                     "exists": c["exists"],
                     "corpus_ids": c["corpus_ids"],
                     "matched_citations": c["matched_citations"],
+                    "mismatches": mismatches,
                     "authority": authority_key(c),
                     "citation": fields,
                 },
@@ -265,9 +290,24 @@ def _git_state() -> dict:
 
 
 def _documents(args) -> list[tuple[str, Path]]:
+    # Positional .docx paths: check those files directly (a brand-new document).
+    files = [Path(a) for a in args.doc_ids if a.lower().endswith(".docx")]
+    if files:
+        if len(files) != len(args.doc_ids) or args.input:
+            raise SystemExit("Give either .docx paths or benchmark document ids (with optional --input), not both.")
+        missing = [str(p) for p in files if not p.is_file()]
+        if missing:
+            raise SystemExit(f"File not found: {', '.join(missing)}")
+        return [(p.stem, p) for p in files]
     if args.input:
         folder = Path(args.input)
-        paths = sorted(folder.glob("*.docx"))
+        if not folder.is_dir():
+            raise SystemExit(f"Input folder not found: {folder}")
+        # Any capitalisation of .docx; skip Word's "~$" lock files.
+        paths = sorted(p for p in folder.iterdir()
+                       if p.is_file() and p.suffix.lower() == ".docx" and not p.name.startswith("~$"))
+        if not paths:
+            raise SystemExit(f"No .docx files in {folder}")
         docs = [(p.stem, p) for p in paths]
     else:
         manifest = json.loads((BENCHMARK_DIR / "manifest.json").read_text(encoding="utf-8"))
@@ -332,6 +372,10 @@ def run_batch(args) -> dict:
                      i, len(docs), doc_id, risk["level"], risk["score"], report["runtime"]["total_ms"],
                      s["citations_flagged"], s["citations"], s["quotes_flagged"], s["quotes"],
                      f" ERRORS: {[e['stage'] for e in report['errors']]}" if report["errors"] else "")
+            if args.show:
+                for flag in report["flags"]:
+                    if flag["flagged"]:
+                        log.info("    %-6s %s: %s", flag["severity"], flag["text"][:80], flag["message"])
     wall_s = time.perf_counter() - wall_start
 
     run_log = _run_log(run_id, started, args, detector, reports, wall_s, log_path)
@@ -341,7 +385,14 @@ def run_batch(args) -> dict:
 
     if args.evaluate:
         from src.evaluation.scorecard import write_scorecard
-        write_scorecard(reports, out, run_log=run_log)
+        card = write_scorecard(reports, out, run_log=run_log)
+        if card is None:
+            log.warning("--evaluate: no benchmark documents in this run (matched by file hash); "
+                        "no scorecard written.")
+        else:
+            skipped = card["meta"]["unscored_documents"]
+            log.info("scorecard: %d benchmark documents scored%s -> %s", card["meta"]["documents"],
+                     f", {len(skipped)} other documents not scored" if skipped else "", out / "scorecard.md")
     return run_log
 
 
@@ -377,7 +428,9 @@ def _run_log(run_id, started, args, detector, reports, wall_s, log_path) -> dict
 
 def main(argv=None) -> int:
     parser = argparse.ArgumentParser(description="Run the hallucination detector over many documents.")
-    parser.add_argument("doc_ids", nargs="*", help="only these document ids (default: all)")
+    parser.add_argument("doc_ids", nargs="*",
+                        help="benchmark document ids, or paths to any .docx files to check (default: all benchmark docs)")
+    parser.add_argument("--show", action="store_true", help="print every flagged item under its document")
     parser.add_argument("--input", help="folder of .docx files (default: the benchmark manifest)")
     parser.add_argument("--out", default=str(DEFAULT_OUT), help="output folder")
     parser.add_argument("--quoted-only", action="store_true", help="skip unquoted (copied) passage detection")

@@ -4,6 +4,7 @@ Examples:
     python scripts/detect.py --evaluate          # all 200 benchmark docs, then the accuracy scorecard
     python scripts/detect.py doc-0001 doc-0136   # a subset
     python scripts/detect.py --input path/to/docx/folder
+    python scripts/detect.py path/to/brief.docx --show   # a brand-new document
 
 Writes data/processed/detect/{reports.jsonl, flags.jsonl, run-log.json} and logs/detect-<run_id>.log.
 """

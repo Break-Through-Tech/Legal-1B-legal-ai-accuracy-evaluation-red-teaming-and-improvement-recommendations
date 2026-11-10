@@ -41,6 +41,11 @@ class RiskScoreTests(unittest.TestCase):
         risk = score_document([], errors=[{"stage": "extract"}])
         self.assertEqual((risk["score"], risk["level"], risk["incomplete"]), (None, "unknown", True))
 
+    def test_level_matches_the_rounded_score(self):
+        # Unrounded 0.59996 would be "medium" while the stored score 0.6 is "high".
+        risk = score_document([flag(1)], weights={"high": 0.59996, "medium": 0.3, "low": 0.1})
+        self.assertEqual((risk["score"], risk["level"]), (0.6, "high"))
+
     def test_levels(self):
         self.assertEqual([level_for(s) for s in (0, 0.1, 0.3, 0.6, 0.99)], ["none", "low", "medium", "high", "high"])
 

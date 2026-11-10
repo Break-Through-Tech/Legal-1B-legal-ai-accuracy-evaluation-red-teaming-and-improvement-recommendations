@@ -20,7 +20,8 @@ report = detector.check(uploaded_bytes, filename="motion.docx")
 
 - `check(file, filename=None, doc_id=None, include_text=True, include_unquoted=True)`
 - `file` can be a path, `bytes`, or a binary file-like object (an upload stream). Uploads never touch disk.
-- `check` **never raises for a bad document**. If a stage fails, the failure is recorded in `errors` and the remaining stages still run. Tracebacks go to the log, not the report, because reports may be shown to end users.
+- `check` **never raises for a bad document**. If a stage fails, the failure is recorded in `errors` and the remaining stages still run. Tracebacks go to the log, not the report, because reports may be shown to end users. Error stages are `extract` (the file could not be read; risk is `unknown`), `extract_citations`, `verify`, `classify` and `quote_check`.
+- The batch run works on any folder of `.docx` files (`--input DIR`, any capitalisation of `.docx`; Word `~$` lock files are skipped). `--evaluate` scores only benchmark documents, recognised by file SHA-256 against `manifest.json`, not by name: a renamed benchmark copy is scored, an unrelated file called `doc-0001.docx` is not. Other documents are still checked and reported, just not scored; `scorecard.json` meta lists them in `unscored_documents` and records `full_benchmark`. With no benchmark documents in the run, no scorecard is written.
 - Typical cost is about 20 ms per document (p95 about 55 ms). About 80% of that is the quote check.
 
 ## Report schema
@@ -55,18 +56,20 @@ report = detector.check(uploaded_bytes, filename="motion.docx")
 | `item_type` | `citation`, `quoted` (inside quotation marks), or `unquoted` (long run copied from a source without quotation marks) |
 | `citation_type` | `statute`, `rule`, or `case` (citations only) |
 | `text`, `start`, `end`, `context` | The flagged text, its character offsets in `report.text`, and the surrounding sentence, for highlighting |
-| `status` | Citations: `Valid/Verified`, `Hallucinated`, `Mismatched Context/Format`. Passages: the quote checker status (see below). |
+| `status` | Citations: `Valid/Verified`, `Hallucinated`, `Wrong Case Name`, `Wrong Year`, `Mismatched Context/Format`. Passages: the quote checker status (see below). |
 | `flagged` | `true` when a problem was detected. Clean items are still listed with `false`. |
 | `severity` | `high`, `medium`, `low`, or `null` when not flagged |
 | `message` | User-facing explanation in plain English |
 | `reason` | Short technical reason |
-| `evidence` | Corpus ids and matched citations, matched source text, word-level diffs, match score, normalized `authority` key |
+| `evidence` | Corpus ids and matched citations, case name/year `mismatches`, matched source text, word-level diffs, match score, normalized `authority` key |
 
 ### Severity
 
 | Stage | Status | Flagged | Severity |
 |---|---|---|---|
 | existence | `Hallucinated` (not in corpus) | yes | high |
+| existence | `Wrong Case Name` (the reporter cite is real but belongs to a differently named case, e.g. a made-up name on a real cite; short forms like "Perry v. Perry" still match) | yes | high |
+| existence | `Wrong Year` (case found, cited year differs from the corpus) | yes | low |
 | existence | `Valid/Verified` | no | none |
 | existence | `Mismatched Context/Format` (AS 11.56.807 / .810: real law outside the corpus) | no | none |
 | quote_fidelity | `material_difference` (words added, dropped or changed in a way that changes the law) | yes | from the diff: high when it touches a modal, negation, quantifier, conjunction or number (`shall`, `not`, `all`, `or`, …), otherwise medium |
@@ -96,6 +99,7 @@ source .venv/bin/activate
 python scripts/detect.py --evaluate              # all 200 benchmark docs + accuracy scorecard (~8 s)
 python scripts/detect.py doc-0001 doc-0136       # a subset
 python scripts/detect.py --input path/to/docx/   # any folder of .docx (e.g. a new generator version)
+python scripts/detect.py brief.docx --show       # any new document(s): print every flagged item
 python scripts/evaluate_all.py --compare old/scorecard.json   # re-score, with a before/after table
 ```
 

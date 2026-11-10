@@ -37,6 +37,8 @@ DOCUMENT_FLAG_LEVEL = "medium"
 # Plain-English label per (stage, status) for the drivers summary.
 _DRIVER_LABELS = {
     ("existence", "Hallucinated"): ("fabricated citation", "fabricated citations"),
+    ("existence", "Wrong Case Name"): ("citation under the wrong case name", "citations under the wrong case name"),
+    ("existence", "Wrong Year"): ("case cited with the wrong year", "cases cited with the wrong year"),
     ("quote_fidelity", "material_difference", "quoted"): ("altered quote", "altered quotes"),
     ("quote_fidelity", "material_difference", "unquoted"): ("altered copied passage", "altered copied passages"),
     ("quote_fidelity", "misattributed"): ("quote attributed to the wrong authority",
@@ -94,7 +96,9 @@ def score_document(flags: list[dict], errors: list[dict] | None = None,
         if current is None or weights[flag["severity"]] > weights[current["severity"]]:
             problems[key] = flag
 
-    score = 1 - math.prod(1 - weights[f["severity"]] for f in problems.values())
+    # Round before choosing the level, so the stored score and level always agree
+    # (the evaluation thresholds the rounded score).
+    score = round(1 - math.prod(1 - weights[f["severity"]] for f in problems.values()), 4)
 
     # Drivers: one line per kind of problem, most severe kind first.
     groups: dict[tuple[str, str], list[dict]] = {}
@@ -107,7 +111,7 @@ def score_document(flags: list[dict], errors: list[dict] | None = None,
         drivers.append("Some checks could not run; the score may be too low.")
 
     return {
-        "score": round(score, 4),
+        "score": score,
         "level": level_for(score, thresholds),
         "drivers": drivers,
         "problems": len(problems),

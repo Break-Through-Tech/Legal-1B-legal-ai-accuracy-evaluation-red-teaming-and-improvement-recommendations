@@ -8,6 +8,10 @@ scripts/classify_citations.py.
 VALID = "Valid/Verified"
 HALLUCINATED = "Hallucinated"
 MISMATCHED = "Mismatched Context/Format"
+# A case whose reporter cite exists but whose name or year does not match it
+# (set by src/detect.py from src.verifier.case_detail_mismatches).
+WRONG_CASE_NAME = "Wrong Case Name"
+WRONG_YEAR = "Wrong Year"
 
 
 def classify(exists):

@@ -26,6 +26,7 @@ from src.risk import DOCUMENT_FLAG_LEVEL
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 ANSWER_KEY = REPO_ROOT / "data" / "benchmark" / "answer-key.json"
+MANIFEST = REPO_ROOT / "data" / "benchmark" / "manifest.json"
 # SHA-256 of the frozen answer key (commit b3a8b73) with LF line endings.
 # docs/benchmark-freeze-and-label-schema.md records 8ce6f0bc..., the hash of
 # the same file checked out with CRLF line endings on Windows.
@@ -304,11 +305,43 @@ def load_answer_key(path: Path = ANSWER_KEY) -> tuple[list[dict], dict]:
     return json.loads(raw), {"answer_key_sha256": digest, "answer_key_frozen": digest == FROZEN_ANSWER_KEY_SHA256}
 
 
-def write_scorecard(reports, out: Path, run_log: dict | None = None, answer_key: Path = ANSWER_KEY) -> dict:
-    """Score reports and write scorecard.json, scorecard.md and per-evaluator detail files to `out`."""
+def match_benchmark_reports(reports, manifest: Path = MANIFEST) -> tuple[list[dict], list[str]]:
+    """Split reports into benchmark documents (by file hash) and everything else.
+
+    Matching on the .docx SHA-256 rather than the file name means an unrelated
+    file called doc-0001.docx is never scored against doc-0001's answer key,
+    and a renamed benchmark copy is still recognised. Matched reports are
+    returned under their benchmark doc_id; a document seen twice is scored once.
+    """
+    documents = json.loads(Path(manifest).read_text(encoding="utf-8"))["documents"]
+    by_hash = {d["docx_sha256"]: d["doc_id"] for d in documents}
+    matched, unscored, seen = [], [], set()
+    for report in reports:
+        doc_id = by_hash.get(report.get("source_sha256"))
+        if doc_id is None or doc_id in seen:
+            unscored.append(report["doc_id"])
+            continue
+        seen.add(doc_id)
+        matched.append(report if report["doc_id"] == doc_id else {**report, "doc_id": doc_id})
+    return matched, unscored
+
+
+def write_scorecard(reports, out: Path, run_log: dict | None = None, answer_key: Path = ANSWER_KEY,
+                    manifest: Path = MANIFEST) -> dict | None:
+    """Score reports and write scorecard.json, scorecard.md and per-evaluator detail files to `out`.
+
+    Only benchmark documents are scored (see match_benchmark_reports); returns
+    None and writes nothing when the run contains none.
+    """
     out = Path(out)
     key_rows, key_meta = load_answer_key(answer_key)
-    meta = {**key_meta}
+    reports, unscored = match_benchmark_reports(reports, manifest)
+    if not reports:
+        return None
+    report_ids = {r["doc_id"] for r in reports}
+    full = len(report_ids) == len(key_rows)
+    key_rows = [row for row in key_rows if row["doc_id"] in report_ids]
+    meta = {**key_meta, "full_benchmark": full, "unscored_documents": unscored}
     if run_log:
         meta.update({"run_id": run_log.get("run_id"), "git": run_log.get("git")})
     card = scorecard(key_rows, reports, meta=meta)
