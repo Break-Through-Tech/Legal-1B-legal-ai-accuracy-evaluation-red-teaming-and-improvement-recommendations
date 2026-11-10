@@ -54,6 +54,12 @@ class ExistenceEvaluationTests(unittest.TestCase):
         self.assertEqual(len(r['exclusions']), 1)
         self.assertEqual(r['coverage']['expected'], 0)
 
+    def test_both_out_of_corpus_statutes_are_excluded(self):
+        # DATA_DICTIONARY §3.2: AS 11.56.807 and AS 11.56.810 are real law outside the corpus.
+        r = self.run_eval([citation('AS 11.56.807'), citation('AS 11.56.810')], [], 'doc-0136')
+        self.assertEqual(len(r['exclusions']), 2)
+        self.assertEqual(r['missed_fabrications'], [])
+
     def test_conflicting_labels(self):
         with self.assertRaisesRegex(ValueError, 'Conflicting answer-key'):
             self.run_eval([citation(), citation(exists=True)], [])
