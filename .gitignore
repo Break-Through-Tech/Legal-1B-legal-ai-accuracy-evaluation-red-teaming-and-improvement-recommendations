@@ -19,3 +19,7 @@ __pycache__/
 # Personal working plans
 plans/
 /data/processed/existence-evaluation.json
+
+# Unified detector outputs and run logs
+/data/processed/detect/
+/logs/

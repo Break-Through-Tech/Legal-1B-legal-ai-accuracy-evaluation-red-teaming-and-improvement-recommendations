@@ -4,35 +4,16 @@ Consumes the corpus-backed output from scripts/verify_citations.py and keeps
 the per-document JSONL structure for downstream fidelity and risk scoring.
 """
 import json
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(ROOT))
+
+from src.classify import classify, explain_reason  # noqa: E402
 
 INPUT_FILE = ROOT / "data" / "processed" / "verification.jsonl"
 OUTPUT_FILE = ROOT / "data" / "processed" / "classified-citations.jsonl"
-
-
-def classify(exists):
-    if exists == "true":
-        return "Valid/Verified"
-
-    if exists == "false":
-        return "Hallucinated"
-
-    return "Mismatched Context/Format"
-
-
-def explain_reason(exists, classification):
-    if classification == "Valid/Verified":
-        return "Citation matched an authority in the ground-truth corpus."
-
-    if classification == "Hallucinated":
-        return "Citation did not match an authority in the ground-truth corpus."
-
-    if exists == "out_of_scope":
-        return "Citation is known to be real law but is outside the benchmark corpus."
-
-    return "Citation could not be classified from the verifier output."
 
 
 def main():

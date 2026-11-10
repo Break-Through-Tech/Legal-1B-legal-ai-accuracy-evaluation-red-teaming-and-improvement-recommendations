@@ -20,7 +20,7 @@ CORPUS_DIR = Path(__file__).resolve().parent.parent / "data" / "corpus"
 
 # Confirmed real Alaska law but outside corpus scope (Title 11, not Title 25/18).
 # DATA_DICTIONARY §3.2 says to exclude from scoring rather than count as fabricated.
-_OUT_OF_SCOPE = {"AS 11.56.807"}
+_OUT_OF_SCOPE = {"AS 11.56.807", "AS 11.56.810"}
 if not all(s.startswith("AS ") for s in _OUT_OF_SCOPE):
     raise ValueError("Bad entry in _OUT_OF_SCOPE — expected 'AS X.Y.Z' format")
 
@@ -42,6 +42,12 @@ def _remember(by_id: dict[str, dict], record: dict) -> None:
         by_id[record["id"]] = record
 
 
+def _read_jsonl(name: str) -> list[dict]:
+    """Parse one corpus JSONL file, closing it before returning."""
+    with (CORPUS_DIR / name).open(encoding="utf-8") as f:
+        return [json.loads(line) for line in f]
+
+
 def load_corpus() -> CorpusIndex:
     """Load matchable corpus records into citation and stable-ID indexes."""
     for name in ("statutes.jsonl", "rules.jsonl", "rules-evidence.jsonl", "cases.jsonl"):
@@ -50,15 +56,13 @@ def load_corpus() -> CorpusIndex:
 
     by_id: dict[str, dict] = {}
     statutes: dict[str, list[dict]] = {}
-    for line in (CORPUS_DIR / "statutes.jsonl").open(encoding="utf-8"):
-        r = json.loads(line)
+    for r in _read_jsonl("statutes.jsonl"):
         if r.get("citation"):
             _append(statutes, r["citation"].strip(), r)
             _remember(by_id, r)
 
     civil_rules: dict[str, list[dict]] = {}
-    for line in (CORPUS_DIR / "rules.jsonl").open(encoding="utf-8"):
-        r = json.loads(line)
+    for r in _read_jsonl("rules.jsonl"):
         if r.get("type") == "rule_commentary":
             continue
         # Take the last numeric token — avoids both leading digit prefixes and trailing suffixes like "(a)"
@@ -68,8 +72,7 @@ def load_corpus() -> CorpusIndex:
             _remember(by_id, r)
 
     evidence_rules: dict[str, list[dict]] = {}
-    for line in (CORPUS_DIR / "rules-evidence.jsonl").open(encoding="utf-8"):
-        r = json.loads(line)
+    for r in _read_jsonl("rules-evidence.jsonl"):
         if r.get("type") == "rule_commentary":
             continue
         if r.get("ruleNumber") is not None:
@@ -77,8 +80,7 @@ def load_corpus() -> CorpusIndex:
             _remember(by_id, r)
 
     cases: dict[str, list[dict]] = {}
-    for line in (CORPUS_DIR / "cases.jsonl").open(encoding="utf-8"):
-        r = json.loads(line)
+    for r in _read_jsonl("cases.jsonl"):
         if r.get("reporter_cite"):
             _append(cases, r["reporter_cite"].strip(), r)
             _remember(by_id, r)
@@ -124,6 +126,43 @@ def matching_corpus_records(citation: dict, corpus: CorpusIndex) -> list[dict]:
         return corpus["cases"].get(rc, [])
 
     return []
+
+
+# Words that appear in many case names and so say nothing about which case it is.
+_GENERIC_NAME_WORDS = {
+    "v", "vs", "in", "re", "of", "the", "and", "for", "ex", "rel", "matter", "marriage", "estate",
+    "state", "alaska", "city", "borough", "department", "dept", "division", "office", "agency",
+    "revenue", "services", "health", "social", "child", "support", "enforcement", "inc", "llc", "co", "corp",
+}
+
+
+def _name_words(name: str | None) -> set[str]:
+    words = re.findall(r"[a-z]+", (name or "").lower())
+    return {w for w in words if len(w) >= 2 and w not in _GENERIC_NAME_WORDS}
+
+
+def case_detail_mismatches(citation: dict, records: list[dict]) -> list[dict]:
+    """Compare a case citation's name and year with the corpus records its reporter cite matched.
+
+    lookup_citation() only checks the reporter cite, so "Smith v. Jones, 449 P.3d 700"
+    passes if 449 P.3d 700 is real even though it is a different case. A name
+    mismatch means no party word (ignoring generic words like "State") is
+    shared with any matched record; short forms such as "Perry v. Perry" for
+    "Kyoko Perry v. Adam Perry" still match. Returns [] when nothing can be compared.
+    """
+    if citation.get("type") != "case" or not records:
+        return []
+    mismatches = []
+    cited_words = _name_words(citation.get("case_name"))
+    if cited_words and not any(cited_words & _name_words(r.get("case_name")) for r in records):
+        mismatches.append({"field": "case_name", "cited": citation.get("case_name"),
+                           "corpus": records[0].get("case_name")})
+    year = citation.get("year")
+    if year and not any(str(year) == str(r.get("year")) for r in records if r.get("year")):
+        corpus_year = next((r.get("year") for r in records if r.get("year")), None)
+        if corpus_year:
+            mismatches.append({"field": "year", "cited": str(year), "corpus": str(corpus_year)})
+    return mismatches
 
 
 def corpus_record(corpus: CorpusIndex, record_id: str) -> dict | None:
