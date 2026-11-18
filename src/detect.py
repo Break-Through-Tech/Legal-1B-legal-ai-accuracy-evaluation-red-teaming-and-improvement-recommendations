@@ -393,6 +393,11 @@ def run_batch(args) -> dict:
             skipped = card["meta"]["unscored_documents"]
             log.info("scorecard: %d benchmark documents scored%s -> %s", card["meta"]["documents"],
                      f", {len(skipped)} other documents not scored" if skipped else "", out / "scorecard.md")
+            headline = {m["id"]: m for m in card["headline"]}
+            for metric_id in ("fabricated_citation_recall", "clean_doc_false_alarm_rate"):
+                m = headline[metric_id]
+                log.info("  %s: %s (n=%d)", m["label"],
+                         "n/a" if m["value"] is None else f"{m['value']:.1%}", m["n"])
     return run_log
 
 
