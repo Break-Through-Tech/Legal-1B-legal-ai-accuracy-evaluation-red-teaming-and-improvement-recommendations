@@ -158,6 +158,7 @@ python -m unittest discover -s tests
 - [Citation extraction results](docs/task-6-extraction-results.md)
 - [Benchmark freeze and label schema](docs/benchmark-freeze-and-label-schema.md)
 - [Benchmark and corpus caveats](docs/benchmark-corpus-connections-and-caveats.md)
+- [Red-team and failure analysis](docs/red-team-failure-analysis.md)
 
 ## Acknowledgements
 
