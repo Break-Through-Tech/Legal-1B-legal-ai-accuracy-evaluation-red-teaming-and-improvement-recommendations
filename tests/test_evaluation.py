@@ -69,8 +69,13 @@ class ScorecardTests(unittest.TestCase):
         json.dumps(self.card)
         ids = {m["id"] for m in self.card["headline"]}
         self.assertLessEqual({"fabricated_citation_recall", "altered_quote_recall", "document_f1_corrupt",
-                              "extraction_recall", "runtime_median_ms"}, ids)
-        self.assertIn("## Headline", render_markdown(self.card))
+                              "extraction_recall", "runtime_median_ms", "all_errors_f1",
+                              "clean_doc_false_alarm_rate", "error_free_doc_false_alarm_rate"}, ids)
+        self.assertEqual(self.card["headline"][0]["id"], "fabricated_citation_recall")
+        markdown = render_markdown(self.card)
+        self.assertIn("## Headline", markdown)
+        self.assertIn("## Matching rule", markdown)
+        self.assertIn("Recall by error type", markdown)
 
     def test_compare_reports_deltas(self):
         worse = json.loads(json.dumps(self.card))

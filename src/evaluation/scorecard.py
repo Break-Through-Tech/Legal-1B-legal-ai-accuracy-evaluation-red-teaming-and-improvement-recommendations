@@ -22,6 +22,7 @@ from src.evaluation.metrics import bootstrap_ci, counts_statistic, prf, roc_auc
 from src.evaluation.quotes import evaluate_quotes, quote_recall_by_origin
 from src.evaluation.risk import classify_at, document_labels, evaluate_risk, split_stability, sweep
 from src.evaluation.runtime import runtime_stats
+from src.evaluation.unified import CLASSES, MATCHING_RULE, evaluate_unified, false_alarm_rate
 from src.risk import DOCUMENT_FLAG_LEVEL
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
@@ -56,16 +57,6 @@ def _metric(id_, label, value, n, policy, ci=None):
     return {"id": id_, "label": label, "value": value, "ci95": ci, "n": n, "policy": policy}
 
 
-def _per_doc_quote_counts(key_rows, quote_rows) -> list[dict]:
-    """Quote TP/FP/FN/TN per document, so the quote metrics can be bootstrapped by document."""
-    rows = {r["doc_id"]: r for r in quote_rows}
-    counts = []
-    for doc in key_rows:
-        m = evaluate_quotes([doc], [rows[doc["doc_id"]]])["metrics"]
-        counts.append({k: m.get(k, 0) for k in ("tp", "fp", "fn", "tn")})
-    return counts
-
-
 def _slice(name, counts, metric="recall"):
     n = counts.get("tp", 0) + counts.get("fn", 0) if metric == "recall" else sum(
         counts.get(k, 0) for k in ("tp", "fp", "fn", "tn"))
@@ -83,18 +74,22 @@ def scorecard(key_rows, reports, meta: dict | None = None, bootstrap: int = BOOT
     quotes_origin = quote_recall_by_origin(key_rows, quote_rows)
     risk = evaluate_risk(key_rows, reports)
     runtime = runtime_stats(reports)
+    unified = evaluate_unified(key_rows, reports)
 
     # Per-document counts for bootstrap CIs.
     ext_docs = [{"tp": d["matched"], "fn": d["expected"] - d["matched"]} for d in extraction["documents"]]
-    exist_docs = [d["end_to_end"] for d in existence["documents"]]
-    quote_docs = _per_doc_quote_counts(key_rows, quote_rows)
+    error_docs = {name: [d[name] for d in unified["documents"]] for name in ("overall", *CLASSES)}
     labels = document_labels(key_rows)
     risk_units = [(r["risk"]["score"] if r["risk"]["score"] is not None else 1.0, labels[r["doc_id"]])
                   for r in reports]
 
-    e2e = existence["metrics"]["end_to_end"]["overall"]
+    # Fabricated-citation and quote headlines use the unified flag-to-error rule
+    # (src/evaluation/unified.py), so they measure the flags a user sees.
+    fab = unified["metrics"]["fabricated_citation"]
+    q = unified["metrics"]["altered_quote"]
+    every = unified["metrics"]["overall"]
+    alarms = unified["clean_false_alarms"]
     verifier = existence["metrics"]["verifier_only"]["overall"]
-    q = prf(quotes["metrics"])
     corrupt, any_error = risk["corrupt"], risk["any_error"]
     n_docs = len(reports)
 
@@ -112,16 +107,21 @@ def scorecard(key_rows, reports, meta: dict | None = None, bootstrap: int = BOOT
             return prf(c)[name]
         return stat
 
+    fab_docs, quote_docs, all_docs = (error_docs["fabricated_citation"], error_docs["altered_quote"],
+                                      error_docs["overall"])
     headline = [
         _metric("fabricated_citation_recall", "Fabricated citations caught (recall, end-to-end)",
-                e2e["recall"], e2e["tp"] + e2e["fn"],
-                "Unique fabricated authority per document; unextracted fabrications count as misses.",
-                ci(exist_docs, counts_statistic("recall"))),
+                fab["recall"], fab["tp"] + fab["fn"],
+                "Unique fabricated authority per document, caught by a Hallucinated or Wrong Case Name flag; "
+                "unextracted fabrications count as misses.",
+                ci(fab_docs, counts_statistic("recall"))),
         _metric("fabricated_citation_precision", "Fabricated-citation flags that were right (precision)",
-                e2e["precision"], e2e["tp"] + e2e["fp"], "Unique authority per document.",
-                ci(exist_docs, counts_statistic("precision"))),
-        _metric("fabricated_citation_f1", "Fabricated citations F1", e2e["f1"], e2e["tp"] + e2e["fp"] + e2e["fn"],
-                "Unique authority per document.", ci(exist_docs, counts_statistic("f1"))),
+                fab["precision"], fab["tp"] + fab["fp"],
+                "Unique flagged authority per document; flags on authorities labeled real or absent from the "
+                "answer key are false positives.",
+                ci(fab_docs, counts_statistic("precision"))),
+        _metric("fabricated_citation_f1", "Fabricated citations F1", fab["f1"], fab["tp"] + fab["fp"] + fab["fn"],
+                "Unique authority per document.", ci(fab_docs, counts_statistic("f1"))),
         _metric("verifier_only_recall", "Fabricated citations caught, given they were extracted",
                 verifier["recall"], verifier["tp"] + verifier["fn"],
                 "Isolates the existence check from extraction misses."),
@@ -132,6 +132,21 @@ def scorecard(key_rows, reports, meta: dict | None = None, bootstrap: int = BOOT
                 q["tp"] + q["fp"], quotes["policy"], ci(quote_docs, counts_statistic("precision"))),
         _metric("altered_quote_f1", "Altered quotes F1", q["f1"], q["tp"] + q["fp"] + q["fn"], quotes["policy"],
                 ci(quote_docs, counts_statistic("f1"))),
+        _metric("all_errors_recall", "All labeled errors caught (recall, citations + quotes)", every["recall"],
+                every["tp"] + every["fn"], MATCHING_RULE, ci(all_docs, counts_statistic("recall"))),
+        _metric("all_errors_precision", "All flags that matched a labeled error (precision)", every["precision"],
+                every["tp"] + every["fp"], MATCHING_RULE, ci(all_docs, counts_statistic("precision"))),
+        _metric("all_errors_f1", "All labeled errors F1", every["f1"], every["tp"] + every["fp"] + every["fn"],
+                MATCHING_RULE, ci(all_docs, counts_statistic("f1"))),
+        _metric("clean_doc_false_alarm_rate",
+                f"Clean documents flagged (false-alarm rate, risk >= {DOCUMENT_FLAG_LEVEL})",
+                alarms["clean"]["rate"], alarms["clean"]["documents"],
+                alarms["policy"] + " Clean = benchmark condition (nothing planted).",
+                ci(alarms["clean"]["units"], false_alarm_rate)),
+        _metric("error_free_doc_false_alarm_rate", "Error-free documents flagged (no labeled error at all)",
+                alarms["error_free"]["rate"], alarms["error_free"]["documents"],
+                alarms["policy"] + " Error-free = no fabricated citation and no labeled altered quote, planted "
+                "or natural.", ci(alarms["error_free"]["units"], false_alarm_rate)),
         _metric("document_recall_corrupt", f"Corrupt documents flagged (risk >= {DOCUMENT_FLAG_LEVEL})",
                 corrupt["operating_point"]["recall"], corrupt["positives"], risk["policy"],
                 ci(risk_units, risk_stat("corrupt", "recall"))),
@@ -157,6 +172,10 @@ def scorecard(key_rows, reports, meta: dict | None = None, bootstrap: int = BOOT
     ]
 
     slices = {
+        "errors_by_class": [{"slice": name, **unified["metrics"][name], "n": unified["metrics"][name]["tp"]
+                             + unified["metrics"][name]["fn"]} for name in (*CLASSES, "overall")],
+        "errors_by_type": [{"slice": f"{r['class']}: {r['error_type']}", **r, "low_n": r["n"] < LOW_N}
+                           for r in unified["by_error_type"]],
         "existence_by_type": [_slice(g.split(":", 1)[1], c) for g, c in sorted(existence["metrics"]["end_to_end"].items())
                               if g.startswith("type:")],
         "existence_by_fabrication": [_slice(g.split(":", 1)[1], c) for g, c in
@@ -175,6 +194,8 @@ def scorecard(key_rows, reports, meta: dict | None = None, bootstrap: int = BOOT
     }
 
     failures = {
+        "false_flags_by_kind": unified["false_positives_by_kind"],
+        "unscored_flags": dict(Counter(f["status"] for f in unified["unscored_flags"])),
         "missed_fabrications": dict(Counter(m["reason"] for m in existence["missed_fabrications"])),
         "false_fabrication_flags": dict(Counter(m["reason"] for m in existence["false_positives"])),
         "missed_altered_quotes": dict(Counter(m["reason"] for m in quotes["misses"])),
@@ -183,6 +204,7 @@ def scorecard(key_rows, reports, meta: dict | None = None, bootstrap: int = BOOT
         "extraction_misses": extraction["miss_reasons"],
         "missed_corrupt_documents": [d["doc_id"] for d in corrupt["missed"]],
         "false_alarm_documents": [d["doc_id"] for d in corrupt["false_alarms"]],
+        "false_alarm_error_free_documents": alarms["error_free"]["false_alarm_documents"],
     }
 
     return {
@@ -192,7 +214,8 @@ def scorecard(key_rows, reports, meta: dict | None = None, bootstrap: int = BOOT
         "headline": headline,
         "slices": slices,
         "failures": failures,
-        "details": {"extraction": extraction, "existence": existence, "quotes": quotes,
+        "matching_rule": MATCHING_RULE,
+        "details": {"unified": unified, "extraction": extraction, "existence": existence, "quotes": quotes,
                     "quotes_by_origin": quotes_origin, "risk": risk,
                     "risk_sweep": {t: sweep(key_rows, reports, t) for t in ("corrupt", "any_error")},
                     "runtime": runtime},
@@ -239,7 +262,15 @@ def render_markdown(card: dict) -> str:
         return out
 
     s = card["slices"]
+    if card.get("matching_rule"):
+        lines += ["", "## Matching rule", "", card["matching_rule"]]
     lines += ["", "## Slices"]
+    if "errors_by_class" in s:
+        lines += table("All labeled errors by class", s["errors_by_class"],
+                       [("Class", "slice"), ("Recall", "recall"), ("Precision", "precision"), ("F1", "f1"),
+                        ("Caught", "tp"), ("Missed", "fn"), ("False flags", "fp")])
+        lines += table("Recall by error type", s["errors_by_type"],
+                       [("Error type", "slice"), ("Recall", "recall"), ("Caught", "tp"), ("n", "n")])
     lines += table("Fabricated citations by citation type", s["existence_by_type"],
                    [("Type", "slice"), ("Recall", "recall"), ("Precision", "precision"), ("n fabricated", "n")])
     lines += table("Fabricated citations by injection type", s["existence_by_fabrication"],

@@ -19,9 +19,11 @@ This Break Through Tech AI Studio project, developed with ProSe AI, evaluates AI
 | Fabricated-citation precision | 100.0% |
 | Altered-quote recall | 61.3% |
 | Altered-quote precision | 67.1% |
+| All labeled errors, precision / recall / F1 | 93.1% / 91.2% / 92.1% |
+| Clean-document false-alarm rate | 20.6% (14.9% excluding natural misquotes) |
 | Document-level F1, clean vs. corrupt | 91.2% |
 | Citation extraction recall | 92.3% |
-| Median runtime per document | 20.3 ms |
+| Median runtime per document | 26.1 ms |
 | Pipeline errors on 200 documents | 0 |
 
 These results are measured on the same 200 documents used during development. There is currently no untouched held-out test set, so the results should be treated as in-sample benchmark performance rather than an estimate of performance on new legal documents.
