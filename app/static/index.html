@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Citation Check</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-mark" aria-hidden="true">§</span>
+    <span class="brand-name">Citation Check</span>
+    <span class="brand-sub">Alaska legal hallucination detector</span>
+  </div>
+  <button id="new-doc" class="btn ghost" hidden>New document</button>
+</header>
+
+<main id="intake" class="intake">
+  <section class="intake-card">
+    <h1>Check a legal document for hallucinations</h1>
+    <p class="lede">Upload a brief or motion. Every citation is checked against the Alaska law corpus, and every quoted passage against its source text.</p>
+
+    <label id="dropzone" class="dropzone" for="file-input">
+      <input id="file-input" type="file" accept=".docx,application/vnd.openxmlformats-officedocument.wordprocessingml.document">
+      <span class="dz-icon" aria-hidden="true">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M12 17v-6"/><path d="m9 14 3-3 3 3"/></svg>
+      </span>
+      <span class="dz-title">Drop a .docx file here</span>
+      <span class="dz-sub">or click to choose one</span>
+    </label>
+
+    <div class="divider"><span>or paste text</span></div>
+
+    <textarea id="paste" rows="7" placeholder="Paste the text of a brief, motion or memo…"></textarea>
+    <div class="paste-actions">
+      <button id="check-text" class="btn primary" disabled>Check text</button>
+    </div>
+    <p id="intake-error" class="error" role="alert" hidden></p>
+  </section>
+</main>
+
+<div id="loading" class="loading" hidden>
+  <div class="spinner" aria-hidden="true"></div>
+  <p>Checking citations and quotes…</p>
+</div>
+
+<main id="results" class="results" hidden>
+  <aside class="panel">
+    <section class="risk" id="risk"></section>
+
+    <section class="controls">
+      <div class="chip-row" id="severity-filters" role="group" aria-label="Filter by severity"></div>
+      <div class="chip-row" id="stage-filters" role="group" aria-label="Filter by check"></div>
+      <label class="toggle">
+        <input type="checkbox" id="show-clean">
+        <span>Show verified items</span>
+      </label>
+    </section>
+
+    <section class="flag-list" id="flag-list" aria-label="Flagged items"></section>
+  </aside>
+
+  <article class="doc-wrap">
+    <div class="doc-head">
+      <div>
+        <div class="doc-name" id="doc-name"></div>
+        <div class="doc-meta" id="doc-meta"></div>
+      </div>
+      <div class="legend">
+        <span><i class="sw high"></i>High</span>
+        <span><i class="sw medium"></i>Medium</span>
+        <span><i class="sw low"></i>Low</span>
+        <span><i class="sw clean"></i>Verified</span>
+      </div>
+    </div>
+    <div id="errors"></div>
+    <div class="doc" id="doc"></div>
+  </article>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
