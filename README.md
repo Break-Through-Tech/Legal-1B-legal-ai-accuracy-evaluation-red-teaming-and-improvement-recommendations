@@ -119,6 +119,17 @@ The detector also accepts uploaded bytes or binary file-like objects. Reuse one 
 python -m unittest discover -s tests
 ```
 
+Run the focused detector regression set:
+
+```bash
+python scripts/run_regression.py
+```
+
+The fixture in `tests/fixtures/regression_cases.json` contains one minimal case for each
+benchmark corruption category, every miss recorded in the pinned generated artifacts under
+`tests/fixtures/full-run/`, and the required benchmark caveats for real out-of-scope and
+corrected statute labels.
+
 ## Repository structure
 
 | Path | Purpose |
