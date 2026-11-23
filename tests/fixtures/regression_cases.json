@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "description": "Minimal cases for every planted corruption category and required benchmark caveats.",
+  "source_evaluation": {
+    "existence": "tests/fixtures/full-run/existence-evaluation.json",
+    "run_log": "tests/fixtures/full-run/run-log.json"
+  },
+  "benchmark_caveats": {
+    "out_of_scope_real_authorities": [
+      "AS 11.56.807",
+      "AS 11.56.810"
+    ],
+    "corrected_real_statutes": [
+      "AS 25.24.900",
+      "AS 25.24.910",
+      "AS 25.24.920"
+    ]
+  },
+  "cases": [
+    {
+      "id": "fabricated-statute",
+      "category": "fabricated_statute",
+      "text": "The court applies AS 25.24.999.",
+      "expected": {
+        "selector": {
+          "stage": "existence",
+          "citation_type": "statute"
+        },
+        "match_count": 1,
+        "values": {
+          "text": "AS 25.24.999",
+          "status": "Hallucinated",
+          "flagged": true,
+          "severity": "high"
+        }
+      }
+    },
+    {
+      "id": "fabricated-rule",
+      "category": "fabricated_rule",
+      "text": "The court applies Civil Rule 913(b).",
+      "expected": {
+        "selector": {
+          "stage": "existence",
+          "citation_type": "rule"
+        },
+        "match_count": 1,
+        "values": {
+          "text": "Civil Rule 913(b)",
+          "status": "Hallucinated",
+          "flagged": true,
+          "severity": "high"
+        }
+      }
+    },
+    {
+      "id": "fabricated-case",
+      "category": "fabricated_case",
+      "text": "See Restol v. Manshen, 512 P.3d 88 (Alaska 2011).",
+      "expected": {
+        "selector": {
+          "stage": "existence",
+          "citation_type": "case"
+        },
+        "match_count": 1,
+        "values": {
+          "text": "Restol v. Manshen, 512 P.3d 88 (Alaska 2011)",
+          "status": "Hallucinated",
+          "flagged": true,
+          "severity": "high"
+        }
+      }
+    },
+    {
+      "id": "wrong-reporter",
+      "category": "wrong_reporter",
+      "text": "See Hollister v. Brandt, 449 P.3d 701 (Alaska 2019).",
+      "expected": {
+        "selector": {
+          "stage": "existence",
+          "citation_type": "case"
+        },
+        "match_count": 1,
+        "values": {
+          "text": "Hollister v. Brandt, 449 P.3d 701 (Alaska 2019)",
+          "status": "Hallucinated",
+          "flagged": true,
+          "severity": "high"
+        }
+      }
+    },
+    {
+      "id": "altered-quote",
+      "category": "altered_quote",
+      "text": "Under AS 25.20.060(a), the court \"may award custody on the basis of the best interests of the child.\"",
+      "expected": {
+        "selector": {
+          "stage": "quote_fidelity",
+          "item_type": "quoted"
+        },
+        "match_count": 1,
+        "values": {
+          "text": "may award custody on the basis of the best interests of the child.",
+          "status": "material_difference",
+          "flagged": true,
+          "severity": "high"
+        }
+      }
+    },
+    {
+      "id": "out-of-scope-as-11-56-807",
+      "category": "benchmark_caveat_out_of_scope",
+      "text": "The order references AS 11.56.807.",
+      "expected": {
+        "selector": {
+          "stage": "existence",
+          "citation_type": "statute"
+        },
+        "match_count": 1,
+        "values": {
+          "text": "AS 11.56.807",
+          "status": "Mismatched Context/Format",
+          "flagged": false,
+          "severity": null
+        }
+      }
+    },
+    {
+      "id": "out-of-scope-as-11-56-810",
+      "category": "benchmark_caveat_out_of_scope",
+      "text": "The order references AS 11.56.810.",
+      "expected": {
+        "selector": {
+          "stage": "existence",
+          "citation_type": "statute"
+        },
+        "match_count": 1,
+        "values": {
+          "text": "AS 11.56.810",
+          "status": "Mismatched Context/Format",
+          "flagged": false,
+          "severity": null
+        }
+      }
+    },
+    {
+      "id": "corrected-real-statute-as-25-24-900",
+      "category": "benchmark_caveat_corrected_label",
+      "text": "The filing references AS 25.24.900.",
+      "note": "This section was generated as a fabrication but collided with real Alaska law.",
+      "expected": {
+        "selector": {
+          "stage": "existence",
+          "citation_type": "statute"
+        },
+        "match_count": 1,
+        "values": {
+          "text": "AS 25.24.900",
+          "status": "Valid/Verified",
+          "flagged": false,
+          "severity": null
+        }
+      }
+    },
+    {
+      "id": "corrected-real-statute-as-25-24-910",
+      "category": "benchmark_caveat_corrected_label",
+      "text": "The filing references AS 25.24.910.",
+      "note": "This section was generated as a fabrication but collided with real Alaska law.",
+      "expected": {
+        "selector": {
+          "stage": "existence",
+          "citation_type": "statute"
+        },
+        "match_count": 1,
+        "values": {
+          "text": "AS 25.24.910",
+          "status": "Valid/Verified",
+          "flagged": false,
+          "severity": null
+        }
+      }
+    },
+    {
+      "id": "corrected-real-statute-as-25-24-920",
+      "category": "benchmark_caveat_corrected_label",
+      "text": "The filing references AS 25.24.920.",
+      "note": "This section was generated as a fabrication but collided with real Alaska law.",
+      "expected": {
+        "selector": {
+          "stage": "existence",
+          "citation_type": "statute"
+        },
+        "match_count": 1,
+        "values": {
+          "text": "AS 25.24.920",
+          "status": "Valid/Verified",
+          "flagged": false,
+          "severity": null
+        }
+      }
+    }
+  ]
+}

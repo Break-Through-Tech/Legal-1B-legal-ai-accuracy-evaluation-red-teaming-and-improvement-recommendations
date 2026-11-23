@@ -23,3 +23,5 @@ plans/
 # Unified detector outputs and run logs
 /data/processed/detect/
 /logs/
+
+.DS_Store

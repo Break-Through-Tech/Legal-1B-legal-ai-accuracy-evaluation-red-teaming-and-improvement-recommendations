@@ -1,0 +1,59 @@
+{
+  "run_id": "20261121T053915Z",
+  "started_utc": "2026-11-21T05:39:15.556013+00:00",
+  "finished_utc": "2026-11-21T05:39:20.078435+00:00",
+  "git": {
+    "commit": "79805842d9a9069530835294276aa1b71f38587e",
+    "dirty": false
+  },
+  "python": "3.13.5",
+  "args": {
+    "doc_ids": [],
+    "show": false,
+    "input": null,
+    "out": "/Users/kami/.copilot/session-state/2a8c256a-8131-44af-9875-9e45ce4c0a83/files/origin-main-detector-run/data/processed/detect",
+    "quoted_only": false,
+    "evaluate": true,
+    "strict": false
+  },
+  "setup": {
+    "corpus_load_ms": 104.6,
+    "quote_index_ms": 111.9
+  },
+  "documents": {
+    "total": 200,
+    "ok": 200,
+    "failed": 0
+  },
+  "runtime": {
+    "wall_s": 4.3,
+    "per_doc_ms": {
+      "mean": 20.7,
+      "median": 15.7,
+      "p95": 45.75,
+      "max": 128.31
+    },
+    "stage_total_ms": {
+      "extract": 729.6,
+      "verify": 12.3,
+      "classify": 36.5,
+      "quote_check": 3355.4
+    }
+  },
+  "items": {
+    "citations": 8379,
+    "quotes": 4644
+  },
+  "flags": {
+    "existence:high": 273,
+    "quote_fidelity:high": 58,
+    "quote_fidelity:medium": 15
+  },
+  "risk_levels": {
+    "high": 115,
+    "none": 77,
+    "medium": 8
+  },
+  "errors": [],
+  "log_file": "/Users/kami/.copilot/session-state/2a8c256a-8131-44af-9875-9e45ce4c0a83/files/origin-main-detector-run/logs/detect-20261121T053915Z.log"
+}
